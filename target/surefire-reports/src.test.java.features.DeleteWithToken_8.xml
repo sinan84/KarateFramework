@@ -1,0 +1,27 @@
+<testsuite failures="1" name="src/test/java/features/DeleteWithToken_8.feature" skipped="0" tests="1" time="2.699509">
+  <testcase classname="src.test.java.features.DeleteWithToken_8" name="1" time="2.699509">
+    <failure message="DeleteWithToken_8.feature:42 - status code was: 418, expected: 200, response time: 1522, url: https://restful-booker.herokuapp.com/booking/5, response: I'm a teapot">* url 'https://restful-booker.herokuapp.com' .............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/auth" ........................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response.token .................................................. passed
+* def tokenReceived = response.token ...................................... passed
+* print token ............................................................. passed
+Given url "https://restful-booker.herokuapp.com/" ......................... passed
+And path "booking/" ....................................................... passed
+And path 5 ................................................................ passed
+And header Cookie = 'token=' + tokenReceived .............................. passed
+And request ............................................................... passed
+And method PUT ............................................................ passed
+And status 200 ............................................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: DeleteWithToken_8.feature:42 - status code was: 418, expected: 200, response time: 1522, url: https://restful-booker.herokuapp.com/booking/5, response: I'm a teapot
+	at ✽.And status 200 (DeleteWithToken_8.feature:42)
+
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>

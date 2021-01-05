@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.features.QueryParameter_4</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">0</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">1</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-01-05 11:37:47 am</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item failed">
+                        <a href="#[2:46]">[2:46] More than one Query parameter </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/QueryParameter_4.feature</span><span class="feature-description">API test</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:46]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:46]</span><span class="scenario-name">More than one Query parameter </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 2881</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[2:46]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:46]bg">
+                        <div class="step-container">
+                            <div class="step-ref bg-step"></div>
+                            <div class="step-cell comment">#    we can directly define URL</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:46]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* url 'https://gorest.co.in'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">11:37:44.843 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[2:46]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell passed">* header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">Given path '/public-api/users'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">And param name = 'Arya Dubashi'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">And param id = 16</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#    or</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#    And params {page = 1, id = 1}</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">When method GET</div>
+                        </div>
+                        <div class="time-cell passed">2845</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">11:37:45.360 request:
+1 &gt; GET https://gorest.co.in/public-api/users?name=Arya+Dubashi&amp;id=16
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: gorest.co.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+11:37:47.712 response time in milliseconds: 2347.78
+1 &lt; 200
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 05 Jan 2021 11:37:47 GMT
+1 &lt; ETag: W/"0a347bcd04936806951b2d5af2d9a44e"
+1 &lt; Expect-CT: enforce; max-age=3600
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Server: nginx
+1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: [Accept-Encoding, Origin]
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; X-Request-Id: fdc15a0e-05b7-4536-8d15-893918a6fc5b
+1 &lt; X-Runtime: 0.015029
+1 &lt; X-XSS-Protection: 1; mode=block
+{"code":200,"meta":{"pagination":{"total":0,"pages":0,"page":1,"limit":20}},"data":[]}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">And match header Content-Type == 'application/json; charset=utf-8'</div>
+                        </div>
+                        <div class="time-cell passed">12</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">And print response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="9">11:37:47.755 [print] {
+  "code": 200,
+  "data": [
+  ],
+  "meta": {
+    "pagination": {
+      "total": 0,
+      "pages": 0,
+      "limit": 20,
+      "page": 1
+    }
+  }
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref failed">10</div>
+                            <div class="step-cell failed">And match response.data[*].name contains 'Arya'</div>
+                        </div>
+                        <div class="time-cell failed">2</div>
+                    </div>
+                    <div class="preformatted" data-parent="10">11:37:47.758 assertion failed: path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
+QueryParameter_4.feature:56 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected</div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref skipped">11</div>
+                            <div class="step-cell skipped">And match response.data[*].email contains 'dubashi_arya@johns.biz'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref skipped">12</div>
+                            <div class="step-cell skipped">And match response.data[*].gender contains 'Male'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

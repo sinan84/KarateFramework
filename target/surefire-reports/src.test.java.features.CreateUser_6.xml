@@ -1,0 +1,25 @@
+<testsuite failures="1" name="src/test/java/features/CreateUser_6.feature" skipped="0" tests="1" time="3.506452">
+  <testcase classname="src.test.java.features.CreateUser_6" name="Update Body by PUT" time="3.506452">
+    <failure message="CreateUser_6.feature:83 - status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response: ">* def baseUrl = 'https://gorest.co.in'; ................................... passed
+* header Content-Type = 'application/json'; ............................... passed
+* header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0' . passed
+Given url baseUrl ......................................................... passed
+And path '/public-api/users/123' .......................................... passed
+And header Content-Type = 'application/json; charset=utf-8' ............... passed
+And header Accept = 'application/json' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+* def idNo = response.data.id ............................................. passed
+And print idNo ............................................................ passed
+Given url baseUrl ......................................................... passed
+And path '/public-api/users', idNo ........................................ passed
+And request ............................................................... passed
+And method PUT ............................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: CreateUser_6.feature:83 - status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response: 
+	at ✽.Then status 200 (CreateUser_6.feature:83)</failure>
+  </testcase>
+</testsuite>

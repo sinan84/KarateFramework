@@ -1,0 +1,23 @@
+<testsuite failures="0" name="src/test/java/features/UpdateUser_7.feature" skipped="0" tests="1" time="1.655596">
+  <testcase classname="src.test.java.features.UpdateUser_7" name="Post and PUT Author" time="1.655596">
+    <system-out>* def baseUrl = 'https://fakerestapi.azurewebsites.net'; .................. passed
+* header Content-Type = 'application/json; charset=utf-8; v=1.0'; ......... passed
+* header Accept = 'application/json' ...................................... passed
+Given url baseUrl ......................................................... passed
+And path '/api/v1/Authors' ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And print response.id ..................................................... passed
+* def idNum = response.id ................................................. passed
+Given url baseUrl ......................................................... passed
+And path '/api/v1/Authors', idNum ......................................... passed
+* def jData = Java.type('utilities.DataGenerator') ........................ passed
+* def newUser = jData.createName() ........................................ passed
+And request ............................................................... passed
+And method PUT ............................................................ passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+</testsuite>

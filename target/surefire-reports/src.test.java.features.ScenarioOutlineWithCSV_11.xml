@@ -1,0 +1,147 @@
+<testsuite failures="0" name="src/test/java/features/ScenarioOutlineWithCSV_11.feature" skipped="0" tests="5" time="2.621227">
+  <testcase classname="src.test.java.features.ScenarioOutlineWithCSV_11" name="1" time="1.035871">
+    <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutlineWithCSV_11" name="2" time="0.410394">
+    <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutlineWithCSV_11" name="3" time="0.424585">
+    <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutlineWithCSV_11" name="4" time="0.357016">
+    <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutlineWithCSV_11" name="5" time="0.393361">
+    <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,22 @@
+<testsuite failures="1" name="src/test/java/features/GenerateToken_52.feature" skipped="0" tests="1" time="0.013675">
+  <testcase classname="src.test.java.features.GenerateToken_52" name="1" time="0.013675">
+    <failure message="-unknown-:8 - java function call failed: java.io.FileNotFoundException:  features/GenerateToken_5.feature (No such file or directory)">* url 'https://restful-booker.herokuapp.com' .............................. passed
+* def generateToken = call read ('classpath: features/GenerateToken_5.feature') . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:8 - java function call failed: java.io.FileNotFoundException:  features/GenerateToken_5.feature (No such file or directory)
+	at ✽.* def generateToken = call read ('classpath: features/GenerateToken_5.feature') (-unknown-:8)
+
+* def accessToken = tokenFeature.token .................................... skipped
+* print accessToken ....................................................... skipped
+And path "booking/" ....................................................... skipped
+And path 5 ................................................................ skipped
+And header Content-Type = "application/json" .............................. skipped
+And header Accept = "application/json" .................................... skipped
+And header Cookie = "token=" + accessToken ................................ skipped
+And request ............................................................... skipped
+When method PUT ........................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>
