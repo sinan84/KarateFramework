@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 02:53:59 pm</div>
+                <div id="nav-date">2021-01-05 06:35:13 pm</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item failed">
-                        <a href="#[1:18]">[1:18] </a>
+                        <a href="#[1:22]">[1:22] </a>
                     </div>
                 </div>
             </div>
@@ -62,108 +62,103 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/GenerateToken_52.feature</span><span class="feature-description">Generate token inside one feature and call it by different feature</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:18]">
+                    <div class="scenario-heading" id="[1:22]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [1:18]</span><span class="scenario-name"></span>
+                            <span class="scenario-keyword">Scenario: [1:22]</span><span class="scenario-name"></span>
                         </div>
-                        <div class="scenario-time failed">ms: 14</div>
+                        <div class="scenario-time failed">ms: 19</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:18]bg">
+                        <div class="step-container" id="[1:22]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://restful-booker.herokuapp.com'</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">5</div>
                     </div>
-                    <div class="preformatted" data-parent="1">14:53:59.534 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="preformatted" data-parent="1">18:35:13.625 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#    * def generateToken = call read ('GenerateToken_5.feature')</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#    * def generateToken = call read ('features/GenerateToken_5.feature')</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#    * def generateToken = call read ('classpath: GenerateToken_5.feature')</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
-                        <div class="step-container" id="2">
-                            <div class="step-ref bg-step">2</div>
-                            <div class="step-cell failed">* def generateToken = call read ('classpath: features/GenerateToken_5.feature')</div>
-                        </div>
-                        <div class="time-cell failed">10</div>
-                    </div>
-                    <div class="preformatted" data-parent="2">14:53:59.569 java function call failed: java.io.FileNotFoundException:  features/GenerateToken_5.feature (No such file or directory)
--unknown-:8 - java function call failed: java.io.FileNotFoundException:  features/GenerateToken_5.feature (No such file or directory)</div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def accessToken = generateToken.token</div>
+                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: features/GenerateToken_5.feature')</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#    or</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell failed">* def generateToken = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                        </div>
+                        <div class="time-cell failed">14</div>
+                    </div>
+                    <div class="preformatted" data-parent="2">-unknown-:13 - evaluation (js) failed: ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {
+('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
+                            ^ in &lt;eval&gt; at line number 1 at column number 28
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)</div>
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def tokenFeature = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def tokenFeature = call read ('classpath: GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                            <div class="step-cell comment">#    * def generateToken = call read ('features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def tokenFeature = call read ('features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def tokenFeature = call read ('classpath: features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
-                            <div class="step-cell skipped">* def accessToken = tokenFeature.token</div>
+                            <div class="step-cell skipped">* def accessToken = generateToken.impT</div>
                         </div>
                         <div class="time-cell skipped">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:18]bg">
+                    <div class="step-row" data-parent="[1:22]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
                             <div class="step-cell skipped">* print accessToken</div>

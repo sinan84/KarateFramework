@@ -18,5 +18,5 @@ Feature: API test
       When method POST
       Then status 200
       And print response
-      * def token = response.token
+      * def impT = response.token
 #      Go to Target -> surefire-reports -> open .html on browser to get report
