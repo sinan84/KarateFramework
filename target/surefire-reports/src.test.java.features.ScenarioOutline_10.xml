@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/features/ScenarioOutline_10.feature" skipped="0" tests="3" time="1.922866">
-  <testcase classname="src.test.java.features.ScenarioOutline_10" name="1" time="1.091141">
+<testsuite failures="0" name="src/test/java/features/ScenarioOutline_10.feature" skipped="0" tests="3" time="1.757177">
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="1" time="0.93494">
     <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
 * header Content-Type = 'application/json' ................................ passed
 * header Accept = 'application/json' ...................................... passed
@@ -10,7 +10,7 @@ Then status 200 ........................................................... pass
 And print response ........................................................ passed
 Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.features.ScenarioOutline_10" name="2" time="0.424866">
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="2" time="0.39966">
     <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
 * header Content-Type = 'application/json' ................................ passed
 * header Accept = 'application/json' ...................................... passed
@@ -30,7 +30,7 @@ Then status 200 ........................................................... pass
 And print response ........................................................ passed
 Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . passed</system-out>
   </testcase>
-  <testcase classname="src.test.java.features.ScenarioOutline_10" name="3" time="0.406859">
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="3" time="0.422577">
     <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
 * header Content-Type = 'application/json' ................................ passed
 * header Accept = 'application/json' ...................................... passed

@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 10:36:10 am</div>
+                <div id="nav-date">2021-01-13 01:51:36 pm</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[2:8]">[2:8] Second Scenario </a>
+                        <a href="#[2:7]">[2:7] Second Scenario </a>
                     </div>
                 </div>
             </div>
@@ -59,17 +59,15 @@
             <div id="content">
                       
                 <div class="page-heading alert alert-primary">
-                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CallScenarioFromAnother_12.feature</span><span class="feature-description">API test</span>
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CallScenarioFromAnother_12.feature</span><span class="feature-description">Call output of one scenario by different scenario</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[2:8]">
+                    <div class="scenario-heading" id="[2:7]">
                         <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">tag2</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">Second Scenario </span>
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:7]</span><span class="scenario-name">Second Scenario </span>
                         </div>
-                        <div class="scenario-time passed">ms: 77</div>
+                        <div class="scenario-time passed">ms: 111</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
@@ -78,15 +76,23 @@
                         </div>
                         <div class="time-cell passed">10</div>
                     </div>
-                    <div class="preformatted" data-parent="1">10:36:10.253 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-10:36:10.283 [print]</div>
+                    <div class="preformatted" data-parent="1">13:51:36.310 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:51:36.341 [print]</div>
                     <div class="step-row">
                         <div class="step-container" id="2">
                             <div class="step-ref passed">2</div>
                             <div class="step-cell passed">* def firstSc = call read ('CallScenarioFromAnother_12.feature@tag1')</div>
                         </div>
-                        <div class="time-cell passed">68</div>
+                        <div class="time-cell passed">100</div>
                     </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">* print firstSc</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="3">13:51:36.445 [print] /Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallScenarioFromAnother_12.feature</div>
                 </div>
             </div>
                 

@@ -2,21 +2,14 @@ Feature: Generate token inside one feature and call it by different feature
 
   Background:
     * url 'https://restful-booker.herokuapp.com'
-#    * def generateToken = call read ('GenerateToken_5.feature')
-#    * def generateToken = call read ('features/GenerateToken_5.feature')
-#    * def generateToken = call read ('classpath: GenerateToken_5.feature')
 
-#    * def generateToken = call read ('classpath: features/GenerateToken_5.feature')
-
+    * def generateToken = call read('GenerateToken_5.feature')
 
 #    or
-    * def generateToken = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
-#    * def generateToken = call read ('classpath: GenerateToken_51.feature'){username : 'admin', password : 'password123'}
-#    * def generateToken = call read ('features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}
-#    * def generateToken = call read ('classpath: features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}
 
-    * def accessToken = generateToken.impT
+    * def generateToken = call read('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
 
+    * def accessToken = generateToken.token
     * print accessToken
 
   Scenario:

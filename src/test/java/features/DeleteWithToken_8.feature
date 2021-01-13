@@ -19,6 +19,7 @@ Feature: API test
     And print response.token
     * def tokenReceived = response.token
     * print token
+
 #    PUT or DELETE
     Given url "https://restful-booker.herokuapp.com/"
     And path "booking/"

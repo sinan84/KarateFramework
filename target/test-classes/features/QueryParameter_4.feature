@@ -14,10 +14,10 @@ Feature: API test
     And match header Content-Type == 'application/json; charset=utf-8'
     And print response
 #    After each running, the below match might be updated
-    And match response.data[*].name contains 'Gobinda Bandopadhyay'
-    And match response.data[*].email contains 'mahajan_drona@russel-schuster.name'
+    And match response.data[*].name contains 'Samsung'
+    And match response.data[*].email contains 'Samsung@gmail.com'
     And match response.data[*].gender contains 'Female'
-    And match response.data[0].name == 'Gobinda Bandopadhyay'
+    And match response.data[0].name == 'Samsung'
     And match each response.data[*].id == '#number'
 
 #    {

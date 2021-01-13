@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 11:37:47 am</div>
+                <div id="nav-date">2021-01-12 02:58:34 pm</div>
                         
       
                 <div class="nav-container">
@@ -67,7 +67,7 @@
                             <div class="scenario-tags"></div>
                             <span class="scenario-keyword">Scenario: [2:46]</span><span class="scenario-name">More than one Query parameter </span>
                         </div>
-                        <div class="scenario-time failed">ms: 2881</div>
+                        <div class="scenario-time failed">ms: 8614</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[2:46]bg">
@@ -88,15 +88,15 @@
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://gorest.co.in'</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">4</div>
                     </div>
-                    <div class="preformatted" data-parent="1">11:37:44.843 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">14:58:25.756 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row" data-parent="[2:46]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0'</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="3">
@@ -104,6 +104,13 @@
                             <div class="step-cell passed">Given path '/public-api/users'</div>
                         </div>
                         <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#    After each running, the below match might be updated</div>
+                        </div>
+                        <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
@@ -117,7 +124,7 @@
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">And param id = 16</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell passed">4</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container">
@@ -129,7 +136,7 @@
                     <div class="step-row">
                         <div class="step-container">
                             <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    And params {page = 1, id = 1}</div>
+                            <div class="step-cell comment">#    And params {name = 'Arya Dubashi', id = 1}</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
@@ -138,9 +145,9 @@
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">When method GET</div>
                         </div>
-                        <div class="time-cell passed">2845</div>
+                        <div class="time-cell passed">8557</div>
                     </div>
-                    <div class="preformatted" data-parent="6">11:37:45.360 request:
+                    <div class="preformatted" data-parent="6">14:58:26.102 request:
 1 &gt; GET https://gorest.co.in/public-api/users?name=Arya+Dubashi&amp;id=16
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
@@ -148,12 +155,12 @@
 1 &gt; Host: gorest.co.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
 
-11:37:47.712 response time in milliseconds: 2347.78
+14:58:34.302 response time in milliseconds: 8193.50
 1 &lt; 200
 1 &lt; Cache-Control: max-age=0, private, must-revalidate
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 05 Jan 2021 11:37:47 GMT
+1 &lt; Date: Tue, 12 Jan 2021 14:58:32 GMT
 1 &lt; ETag: W/"0a347bcd04936806951b2d5af2d9a44e"
 1 &lt; Expect-CT: enforce; max-age=3600
 1 &lt; Referrer-Policy: strict-origin-when-cross-origin
@@ -165,8 +172,8 @@
 1 &lt; X-Download-Options: noopen
 1 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
 1 &lt; X-Permitted-Cross-Domain-Policies: none
-1 &lt; X-Request-Id: fdc15a0e-05b7-4536-8d15-893918a6fc5b
-1 &lt; X-Runtime: 0.015029
+1 &lt; X-Request-Id: 701e4b3a-affd-4a7b-9b20-5e8349eb618c
+1 &lt; X-Runtime: 0.015694
 1 &lt; X-XSS-Protection: 1; mode=block
 {"code":200,"meta":{"pagination":{"total":0,"pages":0,"page":1,"limit":20}},"data":[]}</div>
                     <div class="step-row">
@@ -181,16 +188,16 @@
                             <div class="step-ref passed">8</div>
                             <div class="step-cell passed">And match header Content-Type == 'application/json; charset=utf-8'</div>
                         </div>
-                        <div class="time-cell passed">12</div>
+                        <div class="time-cell passed">27</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="9">
                             <div class="step-ref passed">9</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
-                        <div class="time-cell passed">0</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="preformatted" data-parent="9">11:37:47.755 [print] {
+                    <div class="preformatted" data-parent="9">14:58:34.386 [print] {
   "code": 200,
   "data": [
   ],
@@ -204,14 +211,21 @@
   }
 }</div>
                     <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref failed"></div>
+                            <div class="step-cell comment">#    After each running, the below match might be updated</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
                         <div class="step-container" id="10">
                             <div class="step-ref failed">10</div>
                             <div class="step-cell failed">And match response.data[*].name contains 'Arya'</div>
                         </div>
-                        <div class="time-cell failed">2</div>
+                        <div class="time-cell failed">8</div>
                     </div>
-                    <div class="preformatted" data-parent="10">11:37:47.758 assertion failed: path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
-QueryParameter_4.feature:56 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected</div>
+                    <div class="preformatted" data-parent="10">14:58:34.394 assertion failed: path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
+QueryParameter_4.feature:58 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected</div>
                     <div class="step-row">
                         <div class="step-container" id="11">
                             <div class="step-ref skipped">11</div>

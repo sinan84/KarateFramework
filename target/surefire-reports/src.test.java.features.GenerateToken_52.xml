@@ -1,25 +1,17 @@
-<testsuite failures="1" name="src/test/java/features/GenerateToken_52.feature" skipped="0" tests="1" time="0.019499">
-  <testcase classname="src.test.java.features.GenerateToken_52" name="1" time="0.019499">
-    <failure message="-unknown-:13 - evaluation (js) failed: ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {&#10;('GenerateToken_51.feature'){username : 'admin', password : 'password123'}&#10;                            ^ in &lt;eval&gt; at line number 1 at column number 28&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">* url 'https://restful-booker.herokuapp.com' .............................. passed
-* def generateToken = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'} . failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: -unknown-:13 - evaluation (js) failed: ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {
-('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
-                            ^ in &lt;eval&gt; at line number 1 at column number 28
-stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)
-	at ✽.* def generateToken = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'} (-unknown-:13)
-
-* def accessToken = generateToken.impT .................................... skipped
-* print accessToken ....................................................... skipped
-And path "booking/" ....................................................... skipped
-And path 5 ................................................................ skipped
-And header Content-Type = "application/json" .............................. skipped
-And header Accept = "application/json" .................................... skipped
-And header Cookie = "token=" + accessToken ................................ skipped
-And request ............................................................... skipped
-When method PUT ........................................................... skipped
-Then status 200 ........................................................... skipped
-And print response ........................................................ skipped</failure>
+<testsuite failures="0" name="src/test/java/features/GenerateToken_52.feature" skipped="0" tests="1" time="2.010037">
+  <testcase classname="src.test.java.features.GenerateToken_52" name="1" time="2.010037">
+    <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
+* def generateToken = call read('GenerateToken_51.feature') {username : 'admin', password : 'password123'} . passed
+* def accessToken = generateToken.token ................................... passed
+* print accessToken ....................................................... passed
+And path "booking/" ....................................................... passed
+And path 5 ................................................................ passed
+And header Content-Type = "application/json" .............................. passed
+And header Accept = "application/json" .................................... passed
+And header Cookie = "token=" + accessToken ................................ passed
+And request ............................................................... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed</system-out>
   </testcase>
 </testsuite>

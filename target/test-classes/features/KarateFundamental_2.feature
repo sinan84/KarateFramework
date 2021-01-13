@@ -15,6 +15,7 @@ Feature: Assertion by using match word
     }
     """
     * def emp_name = employee.first_name
+    * match employee.first_name == 'TJ'
     * match emp_name == 'TJ'
     * match employee.salary == 24001
 
@@ -45,7 +46,7 @@ Feature: Assertion by using match word
     * match employee.first_name == '#string'
     * match employee.salary == '#number'
     * match employee.active == '#boolean'
-    * match employee.last_name == '#notpresent'
+    * match employee.last_name == '#present'
 
   Scenario: Match "contains"
     * def employees =
@@ -65,7 +66,7 @@ Feature: Assertion by using match word
     * def length = employees.length
     * print length
     * match length == 2
-    * match employees contains any {"firstName" : "EB", "salary" : 2000, "active" : true}
+    * match employees contains a ny {"firstName" : "EB", "salary" : 2000, "active" : true}
     * match employees !contains {"firstName" : "ST", "salary" : 2000, "active" : true}
 
   Scenario: contains matching
@@ -93,7 +94,7 @@ Feature: Assertion by using match word
     * def data = { foo: [{ bar: 1, baz: 'a' }, { bar: 2, baz: 'b' }, { bar: 3, baz: 'c' }]}
     * match each data.foo == { bar: '#number', baz: '#string' }
     * match each data.foo contains { bar: '#number' }
-    * match each data.foo contains { bar: '#? _ != 4' }
+    * match any data.foo contains { bar: '#? _ == 3' }
 
 
 

@@ -1,6 +1,6 @@
-<testsuite failures="1" name="src/test/java/features/QueryParameter_4.feature" skipped="0" tests="1" time="2.880651">
-  <testcase classname="src.test.java.features.QueryParameter_4" name="More than one Query parameter" time="2.880651">
-    <failure message="QueryParameter_4.feature:56 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected">* url 'https://gorest.co.in' .............................................. passed
+<testsuite failures="1" name="src/test/java/features/QueryParameter_4.feature" skipped="0" tests="1" time="8.614115">
+  <testcase classname="src.test.java.features.QueryParameter_4" name="More than one Query parameter" time="8.614115">
+    <failure message="QueryParameter_4.feature:58 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected">* url 'https://gorest.co.in' .............................................. passed
 * header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0' . passed
 Given path '/public-api/users' ............................................ passed
 And param name = 'Arya Dubashi' ........................................... passed
@@ -12,8 +12,8 @@ And print response ........................................................ pass
 And match response.data[*].name contains 'Arya' ........................... failed
 
 Stack Trace:
-com.intuit.karate.exception.KarateException: QueryParameter_4.feature:56 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
-	at ✽.And match response.data[*].name contains 'Arya' (QueryParameter_4.feature:56)
+com.intuit.karate.exception.KarateException: QueryParameter_4.feature:58 - path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
+	at ✽.And match response.data[*].name contains 'Arya' (QueryParameter_4.feature:58)
 
 And match response.data[*].email contains 'dubashi_arya@johns.biz' ........ skipped
 And match response.data[*].gender contains 'Male' ......................... skipped</failure>

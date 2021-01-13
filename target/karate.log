@@ -1,0 +1,3328 @@
+14:07:07.248 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:07:07.282 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:07:07.480 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:07:07.522 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:07:07.557 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:07:07.578 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:07:07.899 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:08:27.787 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:08:27.842 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:08:28.055 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:08:28.096 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:08:28.119 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:08:28.133 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:08:28.349 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:08:54.673 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:08:54.704 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:08:54.867 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:08:54.893 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:08:54.905 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name isKarate Kid
+14:08:54.910 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:08:55.167 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:09:07.688 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:09:07.718 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:09:07.845 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:09:07.874 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:09:07.881 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:09:07.886 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:09:08.092 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:09:35.924 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:09:35.960 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:09:36.121 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:09:36.151 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:09:36.161 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:09:36.165 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:09:36.330 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:10:53.177 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:10:53.216 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:10:53.485 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:10:53.525 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:10:53.538 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:10:53.547 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:10:53.800 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:11:25.767 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:11:25.794 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^Variables$
+14:11:25.966 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:11:26.027 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Emrah
+14:11:26.054 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Emrah is 20 years old
+14:11:26.487 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:18:44.221 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:18:44.247 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:18:44.381 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:18:44.402 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:18:44.411 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Karate Kid
+14:18:44.419 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:18:44.620 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:19:00.453 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:19:00.486 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Printing$
+14:19:00.600 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:19:00.621 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Some words
+14:19:00.634 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name isKarate Kid
+14:19:00.642 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 4
+14:19:00.838 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:19:58.065 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:19:58.088 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^Variables$
+14:19:58.243 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:19:58.291 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My name is Emrah
+14:19:58.324 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Emrah is 20 years old
+14:19:58.563 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:20:51.690 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:20:51.724 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 14 - ^Difficult parameters\: json object$
+14:20:51.864 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:20:51.974 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "name": "Emrah",
+  "age": 40
+}
+
+14:20:51.989 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Emrah
+14:20:51.994 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 40
+14:20:52.110 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:22:22.040 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:22:22.103 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Json Object 2$
+14:22:22.315 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:22:22.592 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:22:29.781 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:22:29.813 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Json Object 2$
+14:22:29.948 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:22:30.158 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:23:25.161 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:23:25.183 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Json Object 2$
+14:23:25.288 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:23:25.518 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:25:00.634 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:25:00.661 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Json Object 2$
+14:25:00.777 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:25:00.974 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:26:08.295 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:26:08.321 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 30 - ^Array Object$
+14:26:08.454 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:26:08.548 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Erdem",
+    "payment": false
+  },
+  {
+    "name": "Ozlem",
+    "payment": true
+  }
+]
+
+14:26:08.609 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Erdem
+14:26:08.621 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] true
+14:26:08.834 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:27:56.914 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:27:56.939 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Json Object 2$
+14:27:57.063 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:27:57.126 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "A",
+  "lastName": "B",
+  "age": 20
+}
+
+14:27:57.138 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] A
+14:27:57.262 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_1.feature
+14:28:36.233 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:28:36.270 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Examples for match$
+14:28:36.399 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:28:36.616 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_2.feature
+14:29:47.770 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:29:47.812 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^more matching example$
+14:29:47.970 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:29:48.193 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_2.feature
+14:32:37.037 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:32:37.077 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 37 - ^fuzzy matching$
+14:32:37.210 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:32:37.385 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/KarateFundamental_2.feature
+14:32:48.294 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:32:48.341 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 37 - ^fuzzy matching$
+14:32:48.475 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:32:48.625 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.last_name, actual: null, expected: '#present', reason: actual json-path does not exist
+14:32:48.882 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/KarateFundamental_2.feature
+14:34:52.484 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:35:12.343 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:39:30.528 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:40:07.319 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:40:51.174 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:43:41.934 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:44:00.486 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:47:30.537 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:47:30.557 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 16 - ^Get Method and Verify Header$
+14:47:30.688 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:47:31.077 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Activities/10
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:47:31.835 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 753.48
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 12 Jan 2021 14:47:31 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":10,"title":"Activity 10","dueDate":"2021-01-13T00:47:31.8226389+00:00","completed":true}
+
+14:47:31.889 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "dueDate": "2021-01-13T00:47:31.8226389+00:00",
+  "id": 10,
+  "completed": true,
+  "title": "Activity 10"
+}
+
+14:47:31.899 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Activity 10
+14:47:32.025 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GetWithMatch_3.feature
+14:49:50.168 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:49:50.185 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 36 - ^Assert Json Body$
+14:49:50.330 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:49:50.704 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Users/10
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:49:51.532 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 821.29
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 12 Jan 2021 14:49:50 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":10,"userName":"User 10","password":"Password10"}
+
+14:49:51.664 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "Password10",
+  "id": 10,
+  "userName": "User 10"
+}
+
+14:49:51.816 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GetWithMatch_3.feature
+14:55:44.788 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:55:44.807 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^Query parameter$
+14:55:45.060 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:55:45.464 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public-api/users?page=1
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:55:48.290 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2821.47
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 14:55:47 GMT
+1 < ETag: W/"332a884bc4ce736a239ba1ce557f5994"
+1 < Expect-CT: enforce; max-age=3600
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 2bec6ea2-8058-4539-977c-2c8d1db2d5d3
+1 < X-Runtime: 0.017033
+1 < X-XSS-Protection: 1; mode=block
+{"code":200,"meta":{"pagination":{"total":2023,"pages":102,"page":1,"limit":20}},"data":[{"id":19,"name":"Samsung","email":"Samsung@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.385+05:30","updated_at":"2021-01-12T17:33:29.982+05:30"},{"id":23,"name":"Aadrika Chattopadhyay DO","email":"do_aadrika_chattopadhyay@fay.com","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.470+05:30","updated_at":"2021-01-12T03:50:04.470+05:30"},{"id":24,"name":"Vasundhara Jain","email":"vasundhara_jain@boyle.co","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.493+05:30","updated_at":"2021-01-12T03:50:04.493+05:30"},{"id":25,"name":"Mandakini Bandopadhyay","email":"mandakini_bandopadhyay@kihn.org","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.526+05:30","updated_at":"2021-01-12T03:50:04.526+05:30"},{"id":26,"name":"Washington Luis Cabral da Silva","email":"wluissilva@live.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.542+05:30","updated_at":"2021-01-12T08:36:02.774+05:30"},{"id":27,"name":"Alex Rocha 1","email":"teste.teste@teste.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.558+05:30","updated_at":"2021-01-12T18:30:13.917+05:30"},{"id":30,"name":"Shiv Shah MD","email":"shiv_shah_md@lind.co","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.604+05:30","updated_at":"2021-01-12T03:50:04.604+05:30"},{"id":31,"name":"Ivan Horvat","email":"ivan.horvat@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.610+05:30","updated_at":"2021-01-12T13:16:47.045+05:30"},{"id":32,"name":"Suma Reddy","email":"reddy_suma@marvin.org","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.639+05:30","updated_at":"2021-01-12T03:50:04.639+05:30"},{"id":34,"name":"Chandra Bhat","email":"bhat_chandra@brown.name","gender":"Female","status":"Inactive","created_at":"2021-01-12T03:50:04.679+05:30","updated_at":"2021-01-12T03:50:04.679+05:30"},{"id":36,"name":"Anaadi Pothuvaal","email":"anaadi_pothuvaal@mcdermott.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.750+05:30","updated_at":"2021-01-12T03:50:04.750+05:30"},{"id":37,"name":"Amb. Aagam Agarwal","email":"aagam_agarwal_amb@mayert.info","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.760+05:30","updated_at":"2021-01-12T03:50:04.760+05:30"},{"id":38,"name":"Shankar Arora","email":"arora_shankar@ankunding.net","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.785+05:30","updated_at":"2021-01-12T03:50:04.785+05:30"},{"id":39,"name":"Atmanand Ahuja","email":"atmanand_ahuja@okeefe.co","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.801+05:30","updated_at":"2021-01-12T03:50:04.801+05:30"},{"id":40,"name":"Adah Rice","email":"Ivy_Waelchi29@yahoo.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.820+05:30","updated_at":"2021-01-12T08:36:02.603+05:30"},{"id":41,"name":"Fr. Acharyanandana Pilla","email":"fr_acharyanandana_pilla@rolfson.io","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.847+05:30","updated_at":"2021-01-12T03:50:04.847+05:30"},{"id":42,"name":"Msgr. Aaratrika Butt","email":"msgr_butt_aaratrika@hackett.net","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.850+05:30","updated_at":"2021-01-12T03:50:04.850+05:30"},{"id":43,"name":"Baladitya Dubashi III","email":"dubashi_iii_baladitya@howe.name","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.858+05:30","updated_at":"2021-01-12T03:50:04.858+05:30"},{"id":44,"name":"Mangalya Kocchar","email":"mangalya_kocchar@heathcote-macejkovic.info","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.867+05:30","updated_at":"2021-01-12T03:50:04.867+05:30"},{"id":45,"name":"Kashyap Marar","email":"kashyap_marar@wilderman-collier.org","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.883+05:30","updated_at":"2021-01-12T03:50:04.883+05:30"}]}
+
+14:55:48.337 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "data": [
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T17:33:29.982+05:30",
+      "name": "Samsung",
+      "created_at": "2021-01-12T03:50:04.385+05:30",
+      "id": 19,
+      "email": "Samsung@gmail.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.470+05:30",
+      "name": "Aadrika Chattopadhyay DO",
+      "created_at": "2021-01-12T03:50:04.470+05:30",
+      "id": 23,
+      "email": "do_aadrika_chattopadhyay@fay.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.493+05:30",
+      "name": "Vasundhara Jain",
+      "created_at": "2021-01-12T03:50:04.493+05:30",
+      "id": 24,
+      "email": "vasundhara_jain@boyle.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.526+05:30",
+      "name": "Mandakini Bandopadhyay",
+      "created_at": "2021-01-12T03:50:04.526+05:30",
+      "id": 25,
+      "email": "mandakini_bandopadhyay@kihn.org",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T08:36:02.774+05:30",
+      "name": "Washington Luis Cabral da Silva",
+      "created_at": "2021-01-12T03:50:04.542+05:30",
+      "id": 26,
+      "email": "wluissilva@live.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T18:30:13.917+05:30",
+      "name": "Alex Rocha 1",
+      "created_at": "2021-01-12T03:50:04.558+05:30",
+      "id": 27,
+      "email": "teste.teste@teste.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.604+05:30",
+      "name": "Shiv Shah MD",
+      "created_at": "2021-01-12T03:50:04.604+05:30",
+      "id": 30,
+      "email": "shiv_shah_md@lind.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T13:16:47.045+05:30",
+      "name": "Ivan Horvat",
+      "created_at": "2021-01-12T03:50:04.610+05:30",
+      "id": 31,
+      "email": "ivan.horvat@gmail.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.639+05:30",
+      "name": "Suma Reddy",
+      "created_at": "2021-01-12T03:50:04.639+05:30",
+      "id": 32,
+      "email": "reddy_suma@marvin.org",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.679+05:30",
+      "name": "Chandra Bhat",
+      "created_at": "2021-01-12T03:50:04.679+05:30",
+      "id": 34,
+      "email": "bhat_chandra@brown.name",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.750+05:30",
+      "name": "Anaadi Pothuvaal",
+      "created_at": "2021-01-12T03:50:04.750+05:30",
+      "id": 36,
+      "email": "anaadi_pothuvaal@mcdermott.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.760+05:30",
+      "name": "Amb. Aagam Agarwal",
+      "created_at": "2021-01-12T03:50:04.760+05:30",
+      "id": 37,
+      "email": "aagam_agarwal_amb@mayert.info",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.785+05:30",
+      "name": "Shankar Arora",
+      "created_at": "2021-01-12T03:50:04.785+05:30",
+      "id": 38,
+      "email": "arora_shankar@ankunding.net",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.801+05:30",
+      "name": "Atmanand Ahuja",
+      "created_at": "2021-01-12T03:50:04.801+05:30",
+      "id": 39,
+      "email": "atmanand_ahuja@okeefe.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T08:36:02.603+05:30",
+      "name": "Adah Rice",
+      "created_at": "2021-01-12T03:50:04.820+05:30",
+      "id": 40,
+      "email": "Ivy_Waelchi29@yahoo.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.847+05:30",
+      "name": "Fr. Acharyanandana Pilla",
+      "created_at": "2021-01-12T03:50:04.847+05:30",
+      "id": 41,
+      "email": "fr_acharyanandana_pilla@rolfson.io",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.850+05:30",
+      "name": "Msgr. Aaratrika Butt",
+      "created_at": "2021-01-12T03:50:04.850+05:30",
+      "id": 42,
+      "email": "msgr_butt_aaratrika@hackett.net",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.858+05:30",
+      "name": "Baladitya Dubashi III",
+      "created_at": "2021-01-12T03:50:04.858+05:30",
+      "id": 43,
+      "email": "dubashi_iii_baladitya@howe.name",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.867+05:30",
+      "name": "Mangalya Kocchar",
+      "created_at": "2021-01-12T03:50:04.867+05:30",
+      "id": 44,
+      "email": "mangalya_kocchar@heathcote-macejkovic.info",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.883+05:30",
+      "name": "Kashyap Marar",
+      "created_at": "2021-01-12T03:50:04.883+05:30",
+      "id": 45,
+      "email": "kashyap_marar@wilderman-collier.org",
+      "status": "Active"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 2023,
+      "pages": 102,
+      "limit": 20,
+      "page": 1
+    }
+  }
+}
+
+14:55:48.342 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.data[*].name[*], actual: ["Samsung","Aadrika Chattopadhyay DO","Vasundhara Jain","Mandakini Bandopadhyay","Washington Luis Cabral da Silva","Alex Rocha 1","Shiv Shah MD","Ivan Horvat","Suma Reddy","Chandra Bhat","Anaadi Pothuvaal","Amb. Aagam Agarwal","Shankar Arora","Atmanand Ahuja","Adah Rice","Fr. Acharyanandana Pilla","Msgr. Aaratrika Butt","Baladitya Dubashi III","Mangalya Kocchar","Kashyap Marar"], expected: 'Gobinda Bandopadhyay', reason: actual value does not contain expected
+14:55:48.436 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/QueryParameter_4.feature
+14:57:08.699 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:57:08.719 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^Query parameter$
+14:57:08.856 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:57:09.141 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public-api/users?page=1
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:57:10.940 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1794.84
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 14:57:10 GMT
+1 < ETag: W/"332a884bc4ce736a239ba1ce557f5994"
+1 < Expect-CT: enforce; max-age=3600
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 8381db7d-957a-4327-b398-c807ee817a25
+1 < X-Runtime: 0.018224
+1 < X-XSS-Protection: 1; mode=block
+{"code":200,"meta":{"pagination":{"total":2023,"pages":102,"page":1,"limit":20}},"data":[{"id":19,"name":"Samsung","email":"Samsung@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.385+05:30","updated_at":"2021-01-12T17:33:29.982+05:30"},{"id":23,"name":"Aadrika Chattopadhyay DO","email":"do_aadrika_chattopadhyay@fay.com","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.470+05:30","updated_at":"2021-01-12T03:50:04.470+05:30"},{"id":24,"name":"Vasundhara Jain","email":"vasundhara_jain@boyle.co","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.493+05:30","updated_at":"2021-01-12T03:50:04.493+05:30"},{"id":25,"name":"Mandakini Bandopadhyay","email":"mandakini_bandopadhyay@kihn.org","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.526+05:30","updated_at":"2021-01-12T03:50:04.526+05:30"},{"id":26,"name":"Washington Luis Cabral da Silva","email":"wluissilva@live.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.542+05:30","updated_at":"2021-01-12T08:36:02.774+05:30"},{"id":27,"name":"Alex Rocha 1","email":"teste.teste@teste.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.558+05:30","updated_at":"2021-01-12T18:30:13.917+05:30"},{"id":30,"name":"Shiv Shah MD","email":"shiv_shah_md@lind.co","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.604+05:30","updated_at":"2021-01-12T03:50:04.604+05:30"},{"id":31,"name":"Ivan Horvat","email":"ivan.horvat@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.610+05:30","updated_at":"2021-01-12T13:16:47.045+05:30"},{"id":32,"name":"Suma Reddy","email":"reddy_suma@marvin.org","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.639+05:30","updated_at":"2021-01-12T03:50:04.639+05:30"},{"id":34,"name":"Chandra Bhat","email":"bhat_chandra@brown.name","gender":"Female","status":"Inactive","created_at":"2021-01-12T03:50:04.679+05:30","updated_at":"2021-01-12T03:50:04.679+05:30"},{"id":36,"name":"Anaadi Pothuvaal","email":"anaadi_pothuvaal@mcdermott.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.750+05:30","updated_at":"2021-01-12T03:50:04.750+05:30"},{"id":37,"name":"Amb. Aagam Agarwal","email":"aagam_agarwal_amb@mayert.info","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.760+05:30","updated_at":"2021-01-12T03:50:04.760+05:30"},{"id":38,"name":"Shankar Arora","email":"arora_shankar@ankunding.net","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.785+05:30","updated_at":"2021-01-12T03:50:04.785+05:30"},{"id":39,"name":"Atmanand Ahuja","email":"atmanand_ahuja@okeefe.co","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.801+05:30","updated_at":"2021-01-12T03:50:04.801+05:30"},{"id":40,"name":"Adah Rice","email":"Ivy_Waelchi29@yahoo.com","gender":"Male","status":"Active","created_at":"2021-01-12T03:50:04.820+05:30","updated_at":"2021-01-12T08:36:02.603+05:30"},{"id":41,"name":"Fr. Acharyanandana Pilla","email":"fr_acharyanandana_pilla@rolfson.io","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.847+05:30","updated_at":"2021-01-12T03:50:04.847+05:30"},{"id":42,"name":"Msgr. Aaratrika Butt","email":"msgr_butt_aaratrika@hackett.net","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.850+05:30","updated_at":"2021-01-12T03:50:04.850+05:30"},{"id":43,"name":"Baladitya Dubashi III","email":"dubashi_iii_baladitya@howe.name","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.858+05:30","updated_at":"2021-01-12T03:50:04.858+05:30"},{"id":44,"name":"Mangalya Kocchar","email":"mangalya_kocchar@heathcote-macejkovic.info","gender":"Male","status":"Inactive","created_at":"2021-01-12T03:50:04.867+05:30","updated_at":"2021-01-12T03:50:04.867+05:30"},{"id":45,"name":"Kashyap Marar","email":"kashyap_marar@wilderman-collier.org","gender":"Female","status":"Active","created_at":"2021-01-12T03:50:04.883+05:30","updated_at":"2021-01-12T03:50:04.883+05:30"}]}
+
+14:57:10.988 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "data": [
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T17:33:29.982+05:30",
+      "name": "Samsung",
+      "created_at": "2021-01-12T03:50:04.385+05:30",
+      "id": 19,
+      "email": "Samsung@gmail.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.470+05:30",
+      "name": "Aadrika Chattopadhyay DO",
+      "created_at": "2021-01-12T03:50:04.470+05:30",
+      "id": 23,
+      "email": "do_aadrika_chattopadhyay@fay.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.493+05:30",
+      "name": "Vasundhara Jain",
+      "created_at": "2021-01-12T03:50:04.493+05:30",
+      "id": 24,
+      "email": "vasundhara_jain@boyle.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.526+05:30",
+      "name": "Mandakini Bandopadhyay",
+      "created_at": "2021-01-12T03:50:04.526+05:30",
+      "id": 25,
+      "email": "mandakini_bandopadhyay@kihn.org",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T08:36:02.774+05:30",
+      "name": "Washington Luis Cabral da Silva",
+      "created_at": "2021-01-12T03:50:04.542+05:30",
+      "id": 26,
+      "email": "wluissilva@live.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T18:30:13.917+05:30",
+      "name": "Alex Rocha 1",
+      "created_at": "2021-01-12T03:50:04.558+05:30",
+      "id": 27,
+      "email": "teste.teste@teste.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.604+05:30",
+      "name": "Shiv Shah MD",
+      "created_at": "2021-01-12T03:50:04.604+05:30",
+      "id": 30,
+      "email": "shiv_shah_md@lind.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T13:16:47.045+05:30",
+      "name": "Ivan Horvat",
+      "created_at": "2021-01-12T03:50:04.610+05:30",
+      "id": 31,
+      "email": "ivan.horvat@gmail.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.639+05:30",
+      "name": "Suma Reddy",
+      "created_at": "2021-01-12T03:50:04.639+05:30",
+      "id": 32,
+      "email": "reddy_suma@marvin.org",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.679+05:30",
+      "name": "Chandra Bhat",
+      "created_at": "2021-01-12T03:50:04.679+05:30",
+      "id": 34,
+      "email": "bhat_chandra@brown.name",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.750+05:30",
+      "name": "Anaadi Pothuvaal",
+      "created_at": "2021-01-12T03:50:04.750+05:30",
+      "id": 36,
+      "email": "anaadi_pothuvaal@mcdermott.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.760+05:30",
+      "name": "Amb. Aagam Agarwal",
+      "created_at": "2021-01-12T03:50:04.760+05:30",
+      "id": 37,
+      "email": "aagam_agarwal_amb@mayert.info",
+      "status": "Active"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.785+05:30",
+      "name": "Shankar Arora",
+      "created_at": "2021-01-12T03:50:04.785+05:30",
+      "id": 38,
+      "email": "arora_shankar@ankunding.net",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.801+05:30",
+      "name": "Atmanand Ahuja",
+      "created_at": "2021-01-12T03:50:04.801+05:30",
+      "id": 39,
+      "email": "atmanand_ahuja@okeefe.co",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T08:36:02.603+05:30",
+      "name": "Adah Rice",
+      "created_at": "2021-01-12T03:50:04.820+05:30",
+      "id": 40,
+      "email": "Ivy_Waelchi29@yahoo.com",
+      "status": "Active"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.847+05:30",
+      "name": "Fr. Acharyanandana Pilla",
+      "created_at": "2021-01-12T03:50:04.847+05:30",
+      "id": 41,
+      "email": "fr_acharyanandana_pilla@rolfson.io",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.850+05:30",
+      "name": "Msgr. Aaratrika Butt",
+      "created_at": "2021-01-12T03:50:04.850+05:30",
+      "id": 42,
+      "email": "msgr_butt_aaratrika@hackett.net",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.858+05:30",
+      "name": "Baladitya Dubashi III",
+      "created_at": "2021-01-12T03:50:04.858+05:30",
+      "id": 43,
+      "email": "dubashi_iii_baladitya@howe.name",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Male",
+      "updated_at": "2021-01-12T03:50:04.867+05:30",
+      "name": "Mangalya Kocchar",
+      "created_at": "2021-01-12T03:50:04.867+05:30",
+      "id": 44,
+      "email": "mangalya_kocchar@heathcote-macejkovic.info",
+      "status": "Inactive"
+    },
+    {
+      "gender": "Female",
+      "updated_at": "2021-01-12T03:50:04.883+05:30",
+      "name": "Kashyap Marar",
+      "created_at": "2021-01-12T03:50:04.883+05:30",
+      "id": 45,
+      "email": "kashyap_marar@wilderman-collier.org",
+      "status": "Active"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 2023,
+      "pages": 102,
+      "limit": 20,
+      "page": 1
+    }
+  }
+}
+
+14:57:11.118 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/QueryParameter_4.feature
+14:58:25.536 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:58:25.576 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 46 - ^More than one Query parameter$
+14:58:25.756 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:58:26.101 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public-api/users?name=Arya+Dubashi&id=16
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:58:34.301 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 8193.50
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 14:58:32 GMT
+1 < ETag: W/"0a347bcd04936806951b2d5af2d9a44e"
+1 < Expect-CT: enforce; max-age=3600
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 701e4b3a-affd-4a7b-9b20-5e8349eb618c
+1 < X-Runtime: 0.015694
+1 < X-XSS-Protection: 1; mode=block
+{"code":200,"meta":{"pagination":{"total":0,"pages":0,"page":1,"limit":20}},"data":[]}
+
+14:58:34.385 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "data": [
+  ],
+  "meta": {
+    "pagination": {
+      "total": 0,
+      "pages": 0,
+      "limit": 20,
+      "page": 1
+    }
+  }
+}
+
+14:58:34.394 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.data[*].name[*], actual: [], expected: 'Arya', reason: actual value does not contain expected
+14:58:34.578 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/QueryParameter_4.feature
+15:00:10.750 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:00:10.768 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+15:00:10.919 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:00:11.238 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+15:00:12.151 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 910.74
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:00:12 GMT
+1 < Etag: W/"1b-ccRW/KziPaCyKe0ek6KRvF6dEmc"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"d3b5f25929da501"}
+
+15:00:12.153 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "d3b5f25929da501"
+}
+
+15:00:12.256 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_5.feature
+15:12:44.686 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:12:44.719 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^Create User$
+15:12:44.926 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:12:45.547 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 87
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"Mehtap Gok","gender":"Female","email":"mehtapgok@gmail.com","status":"Active"}
+
+15:12:47.362 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1807.10
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:12:47 GMT
+1 < ETag: W/"33e34c22490ea59348500fb80334d122"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2910
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 3b4c3a5a-5474-4018-98fd-de62f254902c
+1 < X-Runtime: 0.017186
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2910,"name":"Mehtap Gok","email":"mehtapgok@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-12T20:42:47.162+05:30","updated_at":"2021-01-12T20:42:47.162+05:30"}}
+
+15:12:47.364 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Female",
+    "updated_at": "2021-01-12T20:42:47.162+05:30",
+    "name": "Mehtap Gok",
+    "created_at": "2021-01-12T20:42:47.162+05:30",
+    "id": 2910,
+    "email": "mehtapgok@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:12:47.453 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+15:20:39.788 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:20:39.808 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+15:20:40.010 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:20:40.450 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Female",
+  "name": "Garnet",
+  "email": "cherie.mccullough@gmail.com",
+  "status": "Active"
+}
+
+15:20:40.737 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 91
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Female","name":"Garnet","email":"cherie.mccullough@gmail.com","status":"Active"}
+
+15:20:42.744 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2002.79
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:20:42 GMT
+1 < ETag: W/"81502d28373a66986a4b7e3311aa5b96"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2912
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: c6b277f2-ab48-403e-962e-a141a45ecc50
+1 < X-Runtime: 0.019495
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2912,"name":"Garnet","email":"cherie.mccullough@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-12T20:50:42.486+05:30","updated_at":"2021-01-12T20:50:42.486+05:30"}}
+
+15:20:42.747 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Female",
+    "updated_at": "2021-01-12T20:50:42.486+05:30",
+    "name": "Garnet",
+    "created_at": "2021-01-12T20:50:42.486+05:30",
+    "id": 2912,
+    "email": "cherie.mccullough@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:20:42.809 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Shari
+15:20:42.810 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2912
+15:20:42.812 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/2912
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 21
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"nameUpdate"}
+
+15:20:44.418 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1605.87
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 12 Jan 2021 15:20:44 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: 395846bb-37cf-4609-8004-92411172a026
+2 < X-Runtime: 0.002584
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+15:20:44.423 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:20:44.520 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+15:25:29.715 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:25:29.731 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+15:25:29.967 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:25:30.302 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Shirleen",
+  "email": "shelby.grimes@gmail.com",
+  "status": "Active"
+}
+
+15:25:30.515 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 87
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Shirleen","email":"shelby.grimes@gmail.com","status":"Active"}
+
+15:25:32.366 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1846.43
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:25:32 GMT
+1 < ETag: W/"8f3340f973990cd162bc962cbdfa20f5"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2914
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 5e945a64-8121-4ac8-ba9a-2ab692534070
+1 < X-Runtime: 0.016901
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2914,"name":"Shirleen","email":"shelby.grimes@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-12T20:55:32.060+05:30","updated_at":"2021-01-12T20:55:32.060+05:30"}}
+
+15:25:32.370 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-12T20:55:32.060+05:30",
+    "name": "Shirleen",
+    "created_at": "2021-01-12T20:55:32.060+05:30",
+    "id": 2914,
+    "email": "shelby.grimes@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:25:32.466 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:25:32.467 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2914
+15:25:32.471 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/2914
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+15:25:35.431 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2958.66
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 12 Jan 2021 15:25:35 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: 1e3acafa-37cb-40fc-a6e5-788490e80ada
+2 < X-Runtime: 0.003244
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+15:25:35.438 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:25:35.535 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+15:28:11.616 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:28:11.650 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+15:28:11.797 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:28:12.043 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Female",
+  "name": "Cira",
+  "email": "palmer.bogan@gmail.com",
+  "status": "Active"
+}
+
+15:28:12.254 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 84
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Female","name":"Cira","email":"palmer.bogan@gmail.com","status":"Active"}
+
+15:28:14.079 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1820.30
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:28:13 GMT
+1 < ETag: W/"c9c5454022f7c157878871fc5fc1bed6"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2915
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: e32bc94e-def1-440d-9e1b-36095e3e6e15
+1 < X-Runtime: 0.017921
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2915,"name":"Cira","email":"palmer.bogan@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-12T20:58:13.859+05:30","updated_at":"2021-01-12T20:58:13.859+05:30"}}
+
+15:28:14.083 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Female",
+    "updated_at": "2021-01-12T20:58:13.859+05:30",
+    "name": "Cira",
+    "created_at": "2021-01-12T20:58:13.859+05:30",
+    "id": 2915,
+    "email": "palmer.bogan@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:28:14.093 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:28:14.128 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:28:14.129 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2915
+15:28:14.130 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/2915
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+15:28:16.770 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2638.74
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 12 Jan 2021 15:28:16 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: 9fe4a550-a698-455e-aadb-b1ec5b2131ae
+2 < X-Runtime: 0.002700
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+15:28:16.775 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:28:16.875 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+15:28:59.172 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:28:59.194 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+15:28:59.300 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:28:59.534 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Edmond",
+  "email": "tracey.ziemann@gmail.com",
+  "status": "Active"
+}
+
+15:28:59.719 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 86
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Edmond","email":"tracey.ziemann@gmail.com","status":"Active"}
+
+15:29:02.441 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2718.28
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:29:02 GMT
+1 < ETag: W/"0e40ae0e167d194e1cfabbce00062997"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2916
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: bf6e507c-478c-471e-852a-98ff890d1bf6
+1 < X-Runtime: 0.018823
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2916,"name":"Edmond","email":"tracey.ziemann@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-12T20:59:02.030+05:30","updated_at":"2021-01-12T20:59:02.030+05:30"}}
+
+15:29:02.443 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-12T20:59:02.030+05:30",
+    "name": "Edmond",
+    "created_at": "2021-01-12T20:59:02.030+05:30",
+    "id": 2916,
+    "email": "tracey.ziemann@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:29:02.451 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+15:29:02.496 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:29:02.497 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2916
+15:29:02.498 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/2916
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+15:29:03.704 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1205.20
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 12 Jan 2021 15:29:03 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: 914c31a0-b221-4e9d-9e45-d706510fc84d
+2 < X-Runtime: 0.002506
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+15:29:03.708 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:29:03.827 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+15:29:20.952 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:29:20.975 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+15:29:21.124 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:29:21.395 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Irish",
+  "email": "erin.roberts@gmail.com",
+  "status": "Active"
+}
+
+15:29:21.617 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 83
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Irish","email":"erin.roberts@gmail.com","status":"Active"}
+
+15:29:24.336 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2715.80
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 12 Jan 2021 15:29:23 GMT
+1 < ETag: W/"335bdc8bdbe2e10d9594adeaedf9feab"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/2917
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 15110c8d-3f0b-41d9-8223-36bc26d069ab
+1 < X-Runtime: 0.041290
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":2917,"name":"Irish","email":"erin.roberts@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-12T20:59:23.906+05:30","updated_at":"2021-01-12T20:59:23.906+05:30"}}
+
+15:29:24.340 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-12T20:59:23.906+05:30",
+    "name": "Irish",
+    "created_at": "2021-01-12T20:59:23.906+05:30",
+    "id": 2917,
+    "email": "erin.roberts@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+15:29:24.367 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+15:29:24.411 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:29:24.411 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2917
+15:29:24.412 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/2917
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+15:29:27.080 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2667.19
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Tue, 12 Jan 2021 15:29:26 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: 4c129053-5fa2-4c7a-bb92-c6b04855820d
+2 < X-Runtime: 0.002506
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+15:29:27.085 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:29:27.181 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+09:40:13.262 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:40:13.277 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+09:40:13.426 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:40:13.731 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+09:40:14.796 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1062.91
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 09:40:14 GMT
+1 < Etag: W/"1b-qTjMzdHHO3G5udBeZ+VcErW/LZQ"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"87bdb016cb151e0"}
+
+09:40:14.797 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "87bdb016cb151e0"
+}
+
+09:40:14.957 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_5.feature
+09:41:32.278 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:41:32.296 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+09:41:32.406 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:41:32.494 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:41:32.691 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=null
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+09:41:35.494 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2801.29
+1 < 403
+1 < Connection: keep-alive
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 09:41:35 GMT
+1 < Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+Forbidden
+
+09:41:35.495 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 403, expected: 200, response time: 2801, url: https://restful-booker.herokuapp.com/booking/5, response: Forbidden
+09:41:35.580 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+09:42:08.607 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:42:08.619 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+09:42:08.714 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:42:08.849 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - java function call failed: java.io.FileNotFoundException: /Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/features/GenerateToken_5.feature (No such file or directory)
+09:42:08.969 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:23:11.905 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:23:11.915 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:23:12.051 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:23:12.397 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:23:13.808 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1408.49
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:23:13 GMT
+1 < Etag: W/"1b-dU7V8CIwo4Es7jDI1tsqv6ctbhY"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"2901039458b72ae"}
+
+12:23:13.809 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "2901039458b72ae"
+}
+
+12:23:13.825 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2901039458b72ae
+12:23:13.837 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=2901039458b72ae
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:23:15.017 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1179.63
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:23:14 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:23:15.018 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:23:15.104 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:26:09.418 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:26:09.429 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:26:09.551 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:26:09.858 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:26:12.457 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2596.55
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:26:12 GMT
+1 < Etag: W/"1b-/TNHApd9u9Pig7nrXUs4q/ambvU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"dafc3ef44194fa3"}
+
+12:26:12.458 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "dafc3ef44194fa3"
+}
+
+12:26:12.486 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=dafc3ef44194fa3
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:26:13.212 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 725.84
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:26:13 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:26:13.213 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:26:13.294 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:27:23.137 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:27:23.146 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:27:23.261 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:27:23.642 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:27:24.588 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 943.20
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:27:24 GMT
+1 < Etag: W/"1b-J4Mq32r8oJlYq9Fe6agMtir59fc"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"65fb7d068f733d1"}
+
+12:27:24.589 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "65fb7d068f733d1"
+}
+
+12:27:24.604 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 65fb7d068f733d1
+12:27:24.616 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=65fb7d068f733d1
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:27:25.363 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 746.01
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:27:25 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:27:25.364 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:27:25.464 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:29:12.258 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:29:12.268 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:29:12.368 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:29:12.689 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:29:13.696 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1004.38
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:29:13 GMT
+1 < Etag: W/"1b-NyNUGQkJCiCOhxC/PTRRpxZKqUg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ea1fad9ad6899b5"}
+
+12:29:13.697 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ea1fad9ad6899b5"
+}
+
+12:29:13.712 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ea1fad9ad6899b5
+12:29:13.724 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=ea1fad9ad6899b5
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:29:14.653 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 928.86
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:29:14 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:29:14.655 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:29:14.736 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:30:56.903 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:30:56.912 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:30:57.023 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:30:57.292 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:31:23.621 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:31:23.632 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 21 - ^$
+12:31:23.745 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:31:23.960 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:31:40.813 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:31:40.821 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^$
+12:31:40.904 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:31:41.137 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:31:55.213 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:31:55.221 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 19 - ^$
+12:31:55.308 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:31:55.733 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:31:56.526 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 790.93
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:31:56 GMT
+1 < Etag: W/"1b-lAZzGkjoNDQwyKH1RyFQSQnfTVM"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"630e361a53a0d52"}
+
+12:31:56.528 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "630e361a53a0d52"
+}
+
+12:31:56.544 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 630e361a53a0d52
+12:31:56.556 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=630e361a53a0d52
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:31:57.115 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 559.05
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:31:57 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:31:57.116 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:31:57.197 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:32:28.839 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:32:28.847 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 19 - ^$
+12:32:28.928 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:32:29.294 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:32:29.987 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 691.14
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:32:29 GMT
+1 < Etag: W/"1b-kXHDcwo7ywCWLcIS3qdMDPW5qfI"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"25b23e8cb1d3ef8"}
+
+12:32:29.989 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "25b23e8cb1d3ef8"
+}
+
+12:32:30.011 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+12:32:30.028 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=null
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:32:30.694 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 665.07
+1 < 403
+1 < Connection: keep-alive
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:32:30 GMT
+1 < Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+Forbidden
+
+12:32:30.694 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 403, expected: 200, response time: 665, url: https://restful-booker.herokuapp.com/booking/5, response: Forbidden
+12:32:30.784 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:32:58.050 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:32:58.058 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 19 - ^$
+12:32:58.131 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:32:58.482 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:33:03.446 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 4961.30
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:33:01 GMT
+1 < Etag: W/"1b-z2XYPREx91Dlfom5bq4OsZN8nqc"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"3d22ca283ed487c"}
+
+12:33:03.447 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "3d22ca283ed487c"
+}
+
+12:33:03.462 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+12:33:03.473 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=null
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:33:08.057 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 4582.91
+1 < 403
+1 < Connection: keep-alive
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:33:07 GMT
+1 < Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+Forbidden
+
+12:33:08.058 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 403, expected: 200, response time: 4583, url: https://restful-booker.herokuapp.com/booking/5, response: Forbidden
+12:33:08.146 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:33:56.087 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:33:56.097 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:33:56.186 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:33:56.559 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:33:57.747 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1185.24
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:33:57 GMT
+1 < Etag: W/"1b-VGMDNegZHvlBu6bvhaAmgluB9VE"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"61a6c75b3652bf8"}
+
+12:33:57.748 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "61a6c75b3652bf8"
+}
+
+12:33:57.764 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+12:33:57.776 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=null
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:33:58.769 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 992.16
+1 < 403
+1 < Connection: keep-alive
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:33:58 GMT
+1 < Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+Forbidden
+
+12:33:58.769 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 403, expected: 200, response time: 992, url: https://restful-booker.herokuapp.com/booking/5, response: Forbidden
+12:33:58.863 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:35:17.364 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:35:17.373 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:35:17.461 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:35:17.849 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:35:18.808 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 957.47
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:35:18 GMT
+1 < Etag: W/"1b-ux1f/rnqF7AcFeecb9GdX7ztZ/Y"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"2f80e296223883c"}
+
+12:35:18.810 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "2f80e296223883c"
+}
+
+12:35:18.826 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2f80e296223883c
+12:35:18.838 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=2f80e296223883c
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:35:19.601 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 761.84
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:35:19 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:35:19.602 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:35:19.679 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:35:39.008 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:35:39.016 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 22 - ^$
+12:35:39.101 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:35:39.466 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+12:35:40.264 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 794.97
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:35:40 GMT
+1 < Etag: W/"1b-j3QhndSN63NNt0kp6eXIME43Exg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ef5831a2be9eb37"}
+
+12:35:40.265 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ef5831a2be9eb37"
+}
+
+12:35:40.281 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ef5831a2be9eb37
+12:35:40.293 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=ef5831a2be9eb37
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:35:40.947 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 653.33
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 12:35:40 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+12:35:40.948 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+12:35:41.030 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+12:50:59.650 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:50:59.658 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+12:50:59.759 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:51:00.097 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Users/1
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+12:51:00.691 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 591.39
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 12:51:00 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"User 1","password":"Password1"}
+
+12:51:00.741 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "Password1",
+  "id": 1,
+  "userName": "User 1"
+}
+
+12:51:00.748 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "id": "#number",
+  "userName": "#string",
+  "password": "#string"
+}
+
+12:51:00.837 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/VerificationJsonFile_9.feature
+12:51:12.362 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:51:12.377 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+12:51:12.498 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:51:12.729 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Users/1
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+12:51:13.201 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 468.80
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 12:51:12 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"User 1","password":"Password1"}
+
+12:51:13.249 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "Password1",
+  "id": 1,
+  "userName": "User 1"
+}
+
+12:51:13.256 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "id": "#number",
+  "userName": "#string",
+  "password": "#string"
+}
+
+12:51:13.341 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/VerificationJsonFile_9.feature
+12:58:14.326 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:58:14.339 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+12:58:14.451 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:58:14.728 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Users/1
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+12:58:15.259 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 527.71
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 12:58:14 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"User 1","password":"Password1"}
+
+12:58:15.290 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "Password1",
+  "id": 1,
+  "userName": "User 1"
+}
+
+12:58:15.296 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "id": "#number",
+  "userName": "#string",
+  "password": "#string"
+}
+
+12:58:15.372 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/VerificationJsonFile_9.feature
+13:11:57.846 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:11:57.862 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+13:11:58.007 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:11:58.328 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:11:59.271 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 941.27
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:11:59 GMT
+1 < Etag: W/"1b-zLCjJ8zWvpJi4xbmVMfnmaWVSyk"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ce5273cfe0c6291"}
+
+13:11:59.273 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ce5273cfe0c6291"
+}
+
+13:11:59.393 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_5.feature
+13:13:32.925 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:13:32.939 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 15 - ^$
+13:13:33.065 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:13:33.461 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:13:34.371 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 908.25
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:13:34 GMT
+1 < Etag: W/"1b-AhWmK/h7qATVQmk1666FjlI+wng"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"c13e127fc932995"}
+
+13:13:34.373 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "c13e127fc932995"
+}
+
+13:13:34.397 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] c13e127fc932995
+13:13:34.419 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=c13e127fc932995
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:13:35.108 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 687.27
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:13:35 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:13:35.108 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+13:13:35.246 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+13:17:30.531 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:17:30.550 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 15 - ^$
+13:17:30.687 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:17:31.164 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:17:32.053 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 887.34
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:17:31 GMT
+1 < Etag: W/"1b-lkR3hrwm7JvIf3RU2ohLPGpUkeE"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ac9d7b83720bf29"}
+
+13:17:32.055 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ac9d7b83720bf29"
+}
+
+13:17:32.071 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ac9d7b83720bf29
+13:17:32.083 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=ac9d7b83720bf29
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:17:32.765 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 681.36
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:17:32 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:17:32.767 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+13:17:32.858 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+13:18:48.065 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:18:48.076 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+13:18:48.205 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:18:48.632 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 51
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"#(username)","password":"#(password)"}
+
+13:18:49.581 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 946.20
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:18:49 GMT
+1 < Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"reason":"Bad credentials"}
+
+13:18:49.583 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "reason": "Bad credentials"
+}
+
+13:18:49.742 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_51.feature
+13:19:23.530 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:19:23.544 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+13:19:23.728 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:19:24.174 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:19:25.470 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1294.02
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:19:25 GMT
+1 < Etag: W/"1b-5aVdraZRyQwTuVz/9eDj7JznJBw"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ba721b456c86a0f"}
+
+13:19:25.472 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ba721b456c86a0f"
+}
+
+13:19:25.636 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_5.feature
+13:20:36.284 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:20:36.301 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 15 - ^$
+13:20:36.492 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:20:36.912 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:20:37.767 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 852.74
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:20:37 GMT
+1 < Etag: W/"1b-jYxzPtNOh2fxUUQU9NtJoNFafos"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"ae5f287b4194151"}
+
+13:20:37.768 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "ae5f287b4194151"
+}
+
+13:20:37.784 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] ae5f287b4194151
+13:20:37.797 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 170
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: token=ae5f287b4194151
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:20:38.533 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 735.09
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:20:38 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:20:38.533 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}
+
+13:20:38.615 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_52.feature
+13:27:47.485 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:27:47.505 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 9 - ^Generate a Token$
+13:27:47.663 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:27:48.010 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:27:48.873 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 860.28
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:27:48 GMT
+1 < Etag: W/"1b-qBpFAwwQXhDqbB6DI4isOC5YZ+g"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"d7e5095f50aaf54"}
+
+13:27:48.882 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "d7e5095f50aaf54"
+}
+
+13:27:49.015 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/GenerateToken_5.feature
+13:31:26.909 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:31:26.928 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+13:31:27.093 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:31:27.456 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Adella",
+  "email": "milan.cummings@gmail.com",
+  "status": "Active"
+}
+
+13:31:27.700 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 86
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Adella","email":"milan.cummings@gmail.com","status":"Active"}
+
+13:31:29.615 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1911.46
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:31:29 GMT
+1 < ETag: W/"0061b3adc32d7bb9a3ff85a7baae77d3"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/5274
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: d2fef354-d09e-47ff-98d6-a5ac82b0f5f5
+1 < X-Runtime: 0.017288
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":5274,"name":"Adella","email":"milan.cummings@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-13T19:01:29.409+05:30","updated_at":"2021-01-13T19:01:29.409+05:30"}}
+
+13:31:29.618 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-13T19:01:29.409+05:30",
+    "name": "Adella",
+    "created_at": "2021-01-13T19:01:29.409+05:30",
+    "id": 5274,
+    "email": "milan.cummings@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+13:31:29.644 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:31:29.687 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:31:29.687 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 5274
+13:31:29.688 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/5274
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+13:31:31.542 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1852.90
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Wed, 13 Jan 2021 13:31:31 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: c057b6ef-2162-48be-b301-6deb125f7abe
+2 < X-Runtime: 0.002489
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+13:31:31.547 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:31:31.680 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+13:32:36.328 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:32:36.399 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+13:32:36.731 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:32:37.165 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Female",
+  "name": "Gaston",
+  "email": "jinny.botsford@gmail.com",
+  "status": "Active"
+}
+
+13:32:37.381 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 88
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Female","name":"Gaston","email":"jinny.botsford@gmail.com","status":"Active"}
+
+13:32:39.075 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1690.22
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:32:38 GMT
+1 < ETag: W/"4cdcd290fc040881157f45d44ae6ec38"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/5275
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: a7d58574-e85a-466a-9f3e-ed4961c25eca
+1 < X-Runtime: 0.016606
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":5275,"name":"Gaston","email":"jinny.botsford@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-13T19:02:38.871+05:30","updated_at":"2021-01-13T19:02:38.871+05:30"}}
+
+13:32:39.078 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Female",
+    "updated_at": "2021-01-13T19:02:38.871+05:30",
+    "name": "Gaston",
+    "created_at": "2021-01-13T19:02:38.871+05:30",
+    "id": 5275,
+    "email": "jinny.botsford@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+13:32:39.127 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:32:39.170 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Roberta
+13:32:39.178 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:32:39.178 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 5275
+13:32:39.180 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/5275
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+13:32:40.650 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1469.41
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Wed, 13 Jan 2021 13:32:40 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: b14591f1-5a92-465f-933a-dfc64f8295cc
+2 < X-Runtime: 0.003135
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+13:32:40.654 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:32:40.758 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+13:34:29.077 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:34:29.106 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+13:34:29.286 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:34:29.560 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Female",
+  "name": "Jenniffer",
+  "email": "travis.baumbach@gmail.com",
+  "status": "Active"
+}
+
+13:34:29.779 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 92
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Female","name":"Jenniffer","email":"travis.baumbach@gmail.com","status":"Active"}
+
+13:34:31.920 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2135.27
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:34:31 GMT
+1 < ETag: W/"cde97f2ddc2122ac6b81a9aaf22aa010"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/5276
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 776560cb-d2ea-486c-b22e-6a6165759b31
+1 < X-Runtime: 0.016307
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":5276,"name":"Jenniffer","email":"travis.baumbach@gmail.com","gender":"Female","status":"Active","created_at":"2021-01-13T19:04:31.618+05:30","updated_at":"2021-01-13T19:04:31.618+05:30"}}
+
+13:34:31.924 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Female",
+    "updated_at": "2021-01-13T19:04:31.618+05:30",
+    "name": "Jenniffer",
+    "created_at": "2021-01-13T19:04:31.618+05:30",
+    "id": 5276,
+    "email": "travis.baumbach@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+13:34:31.958 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:34:32.134 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+13:36:27.689 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:36:27.721 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+13:36:27.861 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:36:28.067 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Wilford",
+  "email": "hershel.casper@gmail.com",
+  "status": "Active"
+}
+
+13:36:28.287 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 87
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Wilford","email":"hershel.casper@gmail.com","status":"Active"}
+
+13:36:30.034 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1742.70
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:36:29 GMT
+1 < ETag: W/"f565bdd6f826187fc7c544233272d096"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/5277
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 65868576-3aa6-4be6-990b-63c044478466
+1 < X-Runtime: 0.017776
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":5277,"name":"Wilford","email":"hershel.casper@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-13T19:06:29.832+05:30","updated_at":"2021-01-13T19:06:29.832+05:30"}}
+
+13:36:30.037 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-13T19:06:29.832+05:30",
+    "name": "Wilford",
+    "created_at": "2021-01-13T19:06:29.832+05:30",
+    "id": 5277,
+    "email": "hershel.casper@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+13:36:30.064 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:36:30.183 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+13:38:13.262 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:38:13.284 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^Create User by Integrate Java Method$
+13:38:13.456 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:38:13.870 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "gender": "Male",
+  "name": "Rheba",
+  "email": "kira.abbott@gmail.com",
+  "status": "Active"
+}
+
+13:38:14.234 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public-api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
+1 > Connection: Keep-Alive
+1 > Content-Length: 82
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Rheba","email":"kira.abbott@gmail.com","status":"Active"}
+
+13:38:15.912 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1673.70
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 13 Jan 2021 13:38:15 GMT
+1 < ETag: W/"ca9e9804c7075182e348d3ac4d349099"
+1 < Expect-CT: enforce; max-age=3600
+1 < Location: https://gorest.co.in/public-api/users/5278
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 59c170c0-e20c-4efc-91e3-18133da500d3
+1 < X-Runtime: 0.021096
+1 < X-XSS-Protection: 1; mode=block
+{"code":201,"meta":null,"data":{"id":5278,"name":"Rheba","email":"kira.abbott@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-13T19:08:15.703+05:30","updated_at":"2021-01-13T19:08:15.703+05:30"}}
+
+13:38:15.916 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "code": 201,
+  "data": {
+    "gender": "Male",
+    "updated_at": "2021-01-13T19:08:15.703+05:30",
+    "name": "Rheba",
+    "created_at": "2021-01-13T19:08:15.703+05:30",
+    "id": 5278,
+    "email": "kira.abbott@gmail.com",
+    "status": "Active"
+  },
+  "meta": null
+}
+
+13:38:15.938 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:38:15.979 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Merlin
+13:38:15.985 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:38:15.985 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 5278
+13:38:15.987 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > PATCH https://gorest.co.in/public-api/users/5278
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 18
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"name":"newName"}
+
+13:38:17.466 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1478.90
+2 < 200
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Wed, 13 Jan 2021 13:38:17 GMT
+2 < ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 < Expect-CT: enforce; max-age=3600
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Server: nginx
+2 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Origin]
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Request-Id: ad549950-2032-47a6-b8eb-b4578cb24deb
+2 < X-Runtime: 0.002639
+2 < X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}
+
+13:38:17.476 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+13:38:17.585 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CreateUser_6.feature
+13:40:31.813 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:40:31.832 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 15 - ^Post \- Get and PUT Author$
+13:40:31.968 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:40:32.283 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Authors
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 61
+1 > Content-Type: application/json; charset=UTF-8; v=1.0
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":23,"idBook":123,"firstName":"Kerem","lastName":"Deniz"}
+
+13:40:32.942 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 655.41
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:40:32 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":23,"idBook":123,"firstName":"Kerem","lastName":"Deniz"}
+
+13:40:32.961 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 123
+13:40:32.971 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > GET https://fakerestapi.azurewebsites.net/api/v1/Authors/23
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: fakerestapi.azurewebsites.net
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+13:40:33.346 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 374.18
+2 < 200
+2 < Content-Type: application/json; charset=utf-8; v=1.0
+2 < Date: Wed, 13 Jan 2021 13:40:32 GMT
+2 < Server: Kestrel
+2 < Transfer-Encoding: chunked
+2 < api-supported-versions: 1.0
+{"id":23,"idBook":8,"firstName":"First Name 23","lastName":"Last Name 23"}
+
+13:40:33.347 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "First Name 23",
+  "lastName": "Last Name 23",
+  "idBook": 8,
+  "id": 23
+}
+
+13:40:33.351 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+3 > PUT https://fakerestapi.azurewebsites.net/api/v1/Authors/23
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 54
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: fakerestapi.azurewebsites.net
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":10,"idBook":10,"firstName":"EM","lastName":"BU"}
+
+13:40:33.717 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 366.01
+3 < 200
+3 < Content-Type: application/json; charset=utf-8; v=1.0
+3 < Date: Wed, 13 Jan 2021 13:40:33 GMT
+3 < Server: Kestrel
+3 < Transfer-Encoding: chunked
+3 < api-supported-versions: 1.0
+{"id":10,"idBook":10,"firstName":"EM","lastName":"BU"}
+
+13:40:33.724 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "firstName": "EM",
+  "lastName": "BU",
+  "idBook": 10,
+  "id": 10
+}
+
+13:40:33.726 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+4 > DELETE https://fakerestapi.azurewebsites.net/api/v1/Authors/23
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: fakerestapi.azurewebsites.net
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+13:40:34.138 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 410.95
+4 < 200
+4 < Content-Length: 0
+4 < Date: Wed, 13 Jan 2021 13:40:34 GMT
+4 < Server: Kestrel
+4 < api-supported-versions: 1.0
+
+13:40:34.230 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/UpdateUser_7.feature
+13:45:27.593 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:45:27.607 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:45:27.780 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:45:28.064 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://fakerestapi.azurewebsites.net/api/v1/Users/1
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+13:45:29.553 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1485.43
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:45:29 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"User 1","password":"Password1"}
+
+13:45:29.621 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "Password1",
+  "id": 1,
+  "userName": "User 1"
+}
+
+13:45:29.629 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "id": "#number",
+  "userName": "#string",
+  "password": "#string"
+}
+
+13:45:29.747 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/VerificationJsonFile_9.feature
+13:47:53.680 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:47:53.702 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^$
+13:47:53.707 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+13:47:53.708 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+13:47:53.823 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:47:54.123 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"13","userName":"edeniz","password":"1234"}
+
+13:47:54.773 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 647.08
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:47:53 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":13,"userName":"edeniz","password":"1234"}
+
+13:47:54.775 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "1234",
+  "id": 13,
+  "userName": "edeniz"
+}
+
+13:47:54.791 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:47:54.796 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"25","userName":"demrah","password":"2345"}
+
+13:47:55.191 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 394.59
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:47:55 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":25,"userName":"demrah","password":"2345"}
+
+13:47:55.192 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "2345",
+  "id": 25,
+  "userName": "demrah"
+}
+
+13:47:55.204 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:47:55.207 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"27","userName":"berdem","password":"3456"}
+
+13:47:55.626 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 418.96
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:47:55 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":27,"userName":"berdem","password":"3456"}
+
+13:47:55.627 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "3456",
+  "id": 27,
+  "userName": "berdem"
+}
+
+13:47:55.746 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+13:49:23.542 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:49:23.544 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:23.712 [pool-1-thread-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:49:23.931 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:23.932 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:23.933 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:23.933 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:23.933 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:24.184 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"1","userName":"<userName>","password":"<password>"}
+
+13:49:24.818 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 631.18
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:24 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"<userName>","password":"<password>"}
+
+13:49:24.819 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 1,
+  "userName": "<userName>"
+}
+
+13:49:24.828 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"2","userName":"<userName>","password":"<password>"}
+
+13:49:25.149 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 319.81
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:25 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":2,"userName":"<userName>","password":"<password>"}
+
+13:49:25.151 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 2,
+  "userName": "<userName>"
+}
+
+13:49:25.163 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"3","userName":"<userName>","password":"<password>"}
+
+13:49:25.553 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 388.02
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:25 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":3,"userName":"<userName>","password":"<password>"}
+
+13:49:25.553 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 3,
+  "userName": "<userName>"
+}
+
+13:49:25.564 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"4","userName":"<userName>","password":"<password>"}
+
+13:49:25.950 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 385.38
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:25 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":4,"userName":"<userName>","password":"<password>"}
+
+13:49:25.950 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 4,
+  "userName": "<userName>"
+}
+
+13:49:25.957 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"5","userName":"<userName>","password":"<password>"}
+
+13:49:26.348 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 388.45
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:25 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":5,"userName":"<userName>","password":"<password>"}
+
+13:49:26.349 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 5,
+  "userName": "<userName>"
+}
+
+13:49:26.459 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/ScenarioOutlineWithCSV_11.feature
+13:49:32.362 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:49:32.363 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:32.511 [pool-1-thread-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:49:32.729 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:32.732 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:32.733 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:32.734 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:32.734 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 8 - ^$
+13:49:33.012 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"1","userName":"<userName>","password":"<password>"}
+
+13:49:33.532 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 517.40
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:32 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":1,"userName":"<userName>","password":"<password>"}
+
+13:49:33.534 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 1,
+  "userName": "<userName>"
+}
+
+13:49:33.544 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"2","userName":"<userName>","password":"<password>"}
+
+13:49:33.903 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 356.74
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:33 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":2,"userName":"<userName>","password":"<password>"}
+
+13:49:33.903 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 2,
+  "userName": "<userName>"
+}
+
+13:49:33.910 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"3","userName":"<userName>","password":"<password>"}
+
+13:49:34.296 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 385.16
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:34 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":3,"userName":"<userName>","password":"<password>"}
+
+13:49:34.297 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 3,
+  "userName": "<userName>"
+}
+
+13:49:34.301 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"4","userName":"<userName>","password":"<password>"}
+
+13:49:34.654 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 352.07
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:34 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":4,"userName":"<userName>","password":"<password>"}
+
+13:49:34.655 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 4,
+  "userName": "<userName>"
+}
+
+13:49:34.661 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"5","userName":"<userName>","password":"<password>"}
+
+13:49:35.034 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 372.41
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Wed, 13 Jan 2021 13:49:34 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":5,"userName":"<userName>","password":"<password>"}
+
+13:49:35.035 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "<password>",
+  "id": 5,
+  "userName": "<userName>"
+}
+
+13:49:35.131 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/ScenarioOutlineWithCSV_11.feature
+13:51:36.102 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:51:36.134 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 7 - ^Second Scenario$
+13:51:36.310 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:51:36.341 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+13:51:36.445 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] /Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallScenarioFromAnother_12.feature
+13:51:36.577 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/CallScenarioFromAnother_12.feature

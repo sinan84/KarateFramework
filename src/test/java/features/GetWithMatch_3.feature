@@ -2,7 +2,7 @@ Feature: API test
 
   Background:
     * def baseUrl = 'https://fakerestapi.azurewebsites.net';
-    * header Accept = 'application/json';
+    * header Accept = 'application/json'
 
 #  GET method application
 #  Body:

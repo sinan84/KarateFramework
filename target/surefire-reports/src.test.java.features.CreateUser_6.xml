@@ -1,25 +1,32 @@
-<testsuite failures="1" name="src/test/java/features/CreateUser_6.feature" skipped="0" tests="1" time="3.506452">
-  <testcase classname="src.test.java.features.CreateUser_6" name="Update Body by PUT" time="3.506452">
-    <failure message="CreateUser_6.feature:83 - status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response: ">* def baseUrl = 'https://gorest.co.in'; ................................... passed
+<testsuite failures="0" name="src/test/java/features/CreateUser_6.feature" skipped="0" tests="1" time="3.984251">
+  <testcase classname="src.test.java.features.CreateUser_6" name="Create User by Integrate Java Method" time="3.984251">
+    <system-out>* def baseUrl = 'https://gorest.co.in'; ................................... passed
 * header Content-Type = 'application/json'; ............................... passed
 * header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0' . passed
+* def newUser = Java.type('utilities.DataGenerator').createUser() ......... passed
+* print newUser ........................................................... passed
 Given url baseUrl ......................................................... passed
-And path '/public-api/users/123' .......................................... passed
+And path '/public-api/users' .............................................. passed
+And request newUser ....................................................... passed
 And header Content-Type = 'application/json; charset=utf-8' ............... passed
 And header Accept = 'application/json' .................................... passed
-When method GET ........................................................... passed
+When method POST .......................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed
+And print response.data[0].name ........................................... passed
+* def oldName = response.name ............................................. passed
+* def newName = Java.type('utilities.DataGenerator').createName() ......... passed
+* print newName ........................................................... passed
 * def idNo = response.data.id ............................................. passed
-And print idNo ............................................................ passed
+* def codeNo = response.data.code ......................................... passed
+And print oldName ......................................................... passed
 Given url baseUrl ......................................................... passed
 And path '/public-api/users', idNo ........................................ passed
-And request ............................................................... passed
-And method PUT ............................................................ passed
-Then status 200 ........................................................... failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: CreateUser_6.feature:83 - status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response: 
-	at ✽.Then status 200 (CreateUser_6.feature:83)</failure>
+And print idNo ............................................................ passed
+And request {"name" : newName} ............................................ passed
+When method PATCH ......................................................... passed
+Then status 200 ........................................................... passed
+And print response.data.name .............................................. passed
+And match oldName != newName .............................................. passed</system-out>
   </testcase>
 </testsuite>

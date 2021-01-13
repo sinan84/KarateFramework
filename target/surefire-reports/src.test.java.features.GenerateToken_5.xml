@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/features/GenerateToken_5.feature" skipped="0" tests="1" time="1.249062">
-  <testcase classname="src.test.java.features.GenerateToken_5" name="Generate a Token" time="1.249062">
+<testsuite failures="0" name="src/test/java/features/GenerateToken_5.feature" skipped="0" tests="1" time="1.206594">
+  <testcase classname="src.test.java.features.GenerateToken_5" name="Generate a Token" time="1.206594">
     <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
 * header Content-Type = 'application/json' ................................ passed
 * header Accept = 'application/json' ...................................... passed
@@ -8,6 +8,6 @@ And request ............................................................... pass
 When method POST .......................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed
-* def impT = response.token ............................................... passed</system-out>
+* def token = response.token .............................................. passed</system-out>
   </testcase>
 </testsuite>

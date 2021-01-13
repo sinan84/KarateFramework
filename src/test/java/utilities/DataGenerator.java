@@ -15,6 +15,7 @@ public class DataGenerator {
         String lastName = faker.name().lastName();
         String gender = faker.demographic().sex();
         String email = faker.name().username() + "@gmail.com";
+//        String email = faker.internet().emailAddress();
         long phone = Long.parseLong(faker.numerify("#####"));
 
         Map<String, Object> newUser = new HashMap<>();

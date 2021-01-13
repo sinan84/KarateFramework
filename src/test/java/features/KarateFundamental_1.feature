@@ -1,8 +1,8 @@
 Feature: Stripe Create User Feature
 
   Scenario: Printing
-    Given print "Some words"
-    * print "My name is", "Karate Kid"
+    * print  "Some words"
+    * print 'My name is', "Karate Kid"
     * print 2+2
 
   Scenario: Variables
@@ -18,14 +18,16 @@ Feature: Stripe Create User Feature
     * print student.age
 
   Scenario: Json Object 2
-    * def student =
+    * def s =
     """
-    'firstName' = 'Meltem',
-    'lastName' = 'Bulut',
-    'age' = 5
+    {
+    "firstName" : "A",
+    "lastName" : "B",
+    "age" : 20
+    }
     """
-    * print student
-    * print student.firstName
+    * print s
+    * print s.firstName
 
   Scenario: Array Object
     * def students =

@@ -1,0 +1,16 @@
+<testsuite failures="0" name="src/test/java/features/GetWithMatch_3.feature" skipped="0" tests="1" time="1.310662">
+  <testcase classname="src.test.java.features.GetWithMatch_3" name="Assert Json Body" time="1.310662">
+    <system-out>* def baseUrl = 'https://fakerestapi.azurewebsites.net'; .................. passed
+* header Accept = 'application/json'; ..................................... passed
+Given url baseUrl ......................................................... passed
+And path '/api/v1/Users/10' ............................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match header Date == "#present" ....................................... passed
+And print response ........................................................ passed
+And match response.userName == "User 10" .................................. passed
+And match response == {"id" : 10, "userName": "User 10", "password": "Password10"} . passed
+* def expectedBody = ...................................................... passed
+And match response == expectedBody ........................................ passed</system-out>
+  </testcase>
+</testsuite>

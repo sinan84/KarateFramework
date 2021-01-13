@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 06:26:25 pm</div>
+                <div id="nav-date">2021-01-13 01:27:49 pm</div>
                         
       
                 <div class="nav-container">
@@ -67,7 +67,7 @@
                             <div class="scenario-tags"></div>
                             <span class="scenario-keyword">Scenario: [1:9]</span><span class="scenario-name">Generate a Token </span>
                         </div>
-                        <div class="scenario-time passed">ms: 1249</div>
+                        <div class="scenario-time passed">ms: 1207</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[1:9]bg">
@@ -88,15 +88,15 @@
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://restful-booker.herokuapp.com'</div>
                         </div>
-                        <div class="time-cell passed">8</div>
+                        <div class="time-cell passed">5</div>
                     </div>
-                    <div class="preformatted" data-parent="1">18:26:24.266 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">13:27:47.664 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
                     <div class="step-row" data-parent="[1:9]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* header Content-Type = 'application/json'</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">3</div>
                     </div>
                     <div class="step-row" data-parent="[1:9]bg">
                         <div class="step-container" id="3">
@@ -110,14 +110,14 @@
                             <div class="step-ref passed">4</div>
                             <div class="step-cell passed">Given path '/auth'</div>
                         </div>
-                        <div class="time-cell passed">6</div>
+                        <div class="time-cell passed">3</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="5">
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">And request</div>
                         </div>
-                        <div class="time-cell passed">61</div>
+                        <div class="time-cell passed">40</div>
                     </div>
                     <div class="preformatted" data-parent="5">{
 "username" : "admin",
@@ -128,9 +128,9 @@
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">When method POST</div>
                         </div>
-                        <div class="time-cell passed">1158</div>
+                        <div class="time-cell passed">1136</div>
                     </div>
-                    <div class="preformatted" data-parent="6">18:26:24.651 request:
+                    <div class="preformatted" data-parent="6">13:27:48.011 request:
 1 &gt; POST https://restful-booker.herokuapp.com/auth
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -141,17 +141,17 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
 {"username":"admin","password":"password123"}
 
-18:26:25.538 response time in milliseconds: 884.16
+13:27:48.873 response time in milliseconds: 860.28
 1 &lt; 200
 1 &lt; Connection: keep-alive
 1 &lt; Content-Length: 27
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 05 Jan 2021 18:26:25 GMT
-1 &lt; Etag: W/"1b-lfd43lC5Vokr2F1VIXNFIz3twHs"
+1 &lt; Date: Wed, 13 Jan 2021 13:27:48 GMT
+1 &lt; Etag: W/"1b-qBpFAwwQXhDqbB6DI4isOC5YZ+g"
 1 &lt; Server: Cowboy
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-{"token":"ac673b1b1829743"}</div>
+{"token":"d7e5095f50aaf54"}</div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
@@ -164,17 +164,17 @@
                             <div class="step-ref passed">8</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
-                        <div class="time-cell passed">0</div>
+                        <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="8">18:26:25.539 [print] {
-  "token": "ac673b1b1829743"
+                    <div class="preformatted" data-parent="8">13:27:48.882 [print] {
+  "token": "d7e5095f50aaf54"
 }</div>
                     <div class="step-row">
                         <div class="step-container" id="9">
                             <div class="step-ref passed">9</div>
-                            <div class="step-cell passed">* def impT = response.token</div>
+                            <div class="step-cell passed">* def token = response.token</div>
                         </div>
-                        <div class="time-cell passed">11</div>
+                        <div class="time-cell passed">17</div>
                     </div>
                 </div>
             </div>

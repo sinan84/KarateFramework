@@ -35,9 +35,9 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">0</div>
+                        <div class="bg-success" id="nav-pass">1</div>
                                     
-                        <div class="bg-danger" id="nav-fail">1</div>
+                        <div class="bg-danger" id="nav-fail">0</div>
                                   
                     </div>
                             
@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 03:04:08 pm</div>
+                <div id="nav-date">2021-01-13 01:38:17 pm</div>
                         
       
                 <div class="nav-container">
-                    <div class="nav-item failed">
-                        <a href="#[3:60]">[3:60] Update Body by PUT </a>
+                    <div class="nav-item passed">
+                        <a href="#[2:29]">[2:29] Create User by Integrate Java Method </a>
                     </div>
                 </div>
             </div>
@@ -62,95 +62,132 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CreateUser_6.feature</span><span class="feature-description">API test</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[3:60]">
+                    <div class="scenario-heading" id="[2:29]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [3:60]</span><span class="scenario-name">Update Body by PUT </span>
+                            <span class="scenario-keyword">Scenario: [2:29]</span><span class="scenario-name">Create User by Integrate Java Method </span>
                         </div>
-                        <div class="scenario-time failed">ms: 3506</div>
+                        <div class="scenario-time passed">ms: 3984</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[3:60]bg">
+                        <div class="step-container" id="[2:29]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[3:60]bg">
+                    <div class="step-row" data-parent="[2:29]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* def baseUrl = 'https://gorest.co.in';</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">11</div>
                     </div>
-                    <div class="preformatted" data-parent="1">15:04:04.420 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
-                    <div class="step-row" data-parent="[3:60]bg">
+                    <div class="preformatted" data-parent="1">13:38:13.456 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[2:29]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* header Content-Type = 'application/json';</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">10</div>
                     </div>
-                    <div class="step-row" data-parent="[3:60]bg">
+                    <div class="step-row" data-parent="[2:29]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-cell passed">* header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0'</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
                             <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* def newUser = Java.type('utilities.DataGenerator').createUser()</div>
+                        </div>
+                        <div class="time-cell passed">283</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#      * def newUser = jData.createUser()</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* print newUser</div>
+                        </div>
+                        <div class="time-cell passed">71</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">13:38:13.871 [print] {
+  "gender": "Male",
+  "name": "Rheba",
+  "email": "kira.abbott@gmail.com",
+  "status": "Active"
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
                             <div class="step-cell passed">Given url baseUrl</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="5">
-                            <div class="step-ref passed">5</div>
-                            <div class="step-cell passed">And path '/public-api/users/123'</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="6">
-                            <div class="step-ref passed">6</div>
-                            <div class="step-cell passed">And header Content-Type = 'application/json; charset=utf-8'</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
-                            <div class="step-cell passed">And header Accept = 'application/json'</div>
+                            <div class="step-cell passed">And path '/public-api/users'</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell passed">4</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="8">
                             <div class="step-ref passed">8</div>
-                            <div class="step-cell passed">When method GET</div>
+                            <div class="step-cell passed">And request newUser</div>
                         </div>
-                        <div class="time-cell passed">1960</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="8">15:04:04.660 request:
-1 &gt; GET https://gorest.co.in/public-api/users/123
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">And header Content-Type = 'application/json; charset=utf-8'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">And header Accept = 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">When method POST</div>
+                        </div>
+                        <div class="time-cell passed">2026</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">13:38:14.235 request:
+1 &gt; POST https://gorest.co.in/public-api/users
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Authorization: Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Type: application/json; charset=utf-8
+1 &gt; Content-Length: 82
+1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: gorest.co.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"gender":"Male","name":"Rheba","email":"kira.abbott@gmail.com","status":"Active"}
 
-15:04:06.391 response time in milliseconds: 1725.26
+13:38:15.912 response time in milliseconds: 1673.70
 1 &lt; 200
 1 &lt; Cache-Control: max-age=0, private, must-revalidate
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 05 Jan 2021 15:04:06 GMT
-1 &lt; ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"
+1 &lt; Date: Wed, 13 Jan 2021 13:38:15 GMT
+1 &lt; ETag: W/"ca9e9804c7075182e348d3ac4d349099"
 1 &lt; Expect-CT: enforce; max-age=3600
+1 &lt; Location: https://gorest.co.in/public-api/users/5278
 1 &lt; Referrer-Policy: strict-origin-when-cross-origin
 1 &lt; Server: nginx
 1 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
@@ -160,118 +197,185 @@
 1 &lt; X-Download-Options: noopen
 1 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
 1 &lt; X-Permitted-Cross-Domain-Policies: none
-1 &lt; X-Request-Id: e365765d-ff46-4a00-8e76-815fe72d8d48
-1 &lt; X-Runtime: 0.002464
+1 &lt; X-Request-Id: 59c170c0-e20c-4efc-91e3-18133da500d3
+1 &lt; X-Runtime: 0.021096
 1 &lt; X-XSS-Protection: 1; mode=block
-{"code":404,"meta":null,"data":{"message":"Resource not found"}}</div>
+{"code":201,"meta":null,"data":{"id":5278,"name":"Rheba","email":"kira.abbott@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-13T19:08:15.703+05:30","updated_at":"2021-01-13T19:08:15.703+05:30"}}</div>
                     <div class="step-row">
-                        <div class="step-container" id="9">
-                            <div class="step-ref passed">9</div>
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
                             <div class="step-cell passed">Then status 200</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="10">
-                            <div class="step-ref passed">10</div>
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
-                        <div class="time-cell passed">12</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="10">15:04:06.432 [print] {
-  "code": 404,
+                    <div class="preformatted" data-parent="13">13:38:15.916 [print] {
+  "code": 201,
   "data": {
-    "message": "Resource not found"
+    "gender": "Male",
+    "updated_at": "2021-01-13T19:08:15.703+05:30",
+    "name": "Rheba",
+    "created_at": "2021-01-13T19:08:15.703+05:30",
+    "id": 5278,
+    "email": "kira.abbott@gmail.com",
+    "status": "Active"
   },
   "meta": null
 }</div>
                     <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">And print response.data[0].name</div>
+                        </div>
+                        <div class="time-cell passed">22</div>
+                    </div>
+                    <div class="preformatted" data-parent="14">13:38:15.938 [print]</div>
+                    <div class="step-row">
                         <div class="step-container">
                             <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    UPDATE</div>
+                            <div class="step-cell comment">#     Update name</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="11">
-                            <div class="step-ref passed">11</div>
-                            <div class="step-cell passed">* def idNo = response.data.id</div>
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
+                            <div class="step-cell passed">* def oldName = response.name</div>
                         </div>
-                        <div class="time-cell passed">11</div>
+                        <div class="time-cell passed">3</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="12">
-                            <div class="step-ref passed">12</div>
-                            <div class="step-cell passed">And print idNo</div>
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
+                            <div class="step-cell passed">* def newName = Java.type('utilities.DataGenerator').createName()</div>
+                        </div>
+                        <div class="time-cell passed">36</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">* print newName</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="12">15:04:06.443 [print]</div>
+                    <div class="preformatted" data-parent="17">13:38:15.979 [print] Merlin</div>
                     <div class="step-row">
-                        <div class="step-container" id="13">
-                            <div class="step-ref passed">13</div>
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
+                            <div class="step-cell passed">* def idNo = response.data.id</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
+                            <div class="step-cell passed">* def codeNo = response.data.code</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="20">
+                            <div class="step-ref passed">20</div>
+                            <div class="step-cell passed">And print oldName</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="20">13:38:15.985 [print]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="21">
+                            <div class="step-ref passed">21</div>
                             <div class="step-cell passed">Given url baseUrl</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="14">
-                            <div class="step-ref passed">14</div>
+                        <div class="step-container" id="22">
+                            <div class="step-ref passed">22</div>
                             <div class="step-cell passed">And path '/public-api/users', idNo</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="15">
-                            <div class="step-ref passed">15</div>
-                            <div class="step-cell passed">And request</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="15">{
-    "name":"Meh Gok",
-    "gender":"Male",
-    "email":"meh@gmail.com",
-    "status":"Active"
-}</div>
                     <div class="step-row">
-                        <div class="step-container" id="16">
-                            <div class="step-ref passed">16</div>
-                            <div class="step-cell passed">And method PUT</div>
+                        <div class="step-container" id="23">
+                            <div class="step-ref passed">23</div>
+                            <div class="step-cell passed">And print idNo</div>
                         </div>
-                        <div class="time-cell passed">1500</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="16">15:04:06.451 request:
-2 &gt; PUT https://gorest.co.in/public-api/users
+                    <div class="preformatted" data-parent="23">13:38:15.985 [print] 5278</div>
+                    <div class="step-row">
+                        <div class="step-container" id="24">
+                            <div class="step-ref passed">24</div>
+                            <div class="step-cell passed">And request {"name" : newName}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="25">
+                            <div class="step-ref passed">25</div>
+                            <div class="step-cell passed">When method PATCH</div>
+                        </div>
+                        <div class="time-cell passed">1481</div>
+                    </div>
+                    <div class="preformatted" data-parent="25">13:38:15.987 request:
+2 &gt; PATCH https://gorest.co.in/public-api/users/5278
 2 &gt; Accept-Encoding: gzip,deflate
 2 &gt; Connection: Keep-Alive
-2 &gt; Content-Length: 76
+2 &gt; Content-Length: 18
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Host: gorest.co.in
 2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"name":"Meh Gok","gender":"Male","email":"meh@gmail.com","status":"Active"}
+{"name":"newName"}
 
-15:04:07.946 response time in milliseconds: 1494.57
-2 &lt; 404
+13:38:17.466 response time in milliseconds: 1478.90
+2 &lt; 200
+2 &lt; Cache-Control: max-age=0, private, must-revalidate
 2 &lt; Connection: keep-alive
-2 &lt; Content-Length: 0
-2 &lt; Content-Type: text/html; charset=UTF-8
-2 &lt; Date: Tue, 05 Jan 2021 15:04:07 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 13 Jan 2021 13:38:17 GMT
+2 &lt; ETag: W/"65ab5ef0fb80a32b1723c5368d8edb14"
+2 &lt; Expect-CT: enforce; max-age=3600
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
 2 &lt; Server: nginx
 2 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
-2 &lt; Vary: Origin
-2 &lt; X-Frame-Options: sameorigin
-2 &lt; X-Request-Id: 5622c674-5932-489b-ac48-bcad8a1a3298
-2 &lt; X-Runtime: 0.001599</div>
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: [Accept-Encoding, Origin]
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Frame-Options: [SAMEORIGIN, sameorigin]
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; X-Request-Id: ad549950-2032-47a6-b8eb-b4578cb24deb
+2 &lt; X-Runtime: 0.002639
+2 &lt; X-XSS-Protection: 1; mode=block
+{"code":401,"meta":null,"data":{"message":"Authentication failed"}}</div>
                     <div class="step-row">
-                        <div class="step-container" id="17">
-                            <div class="step-ref failed">17</div>
-                            <div class="step-cell failed">Then status 200</div>
+                        <div class="step-container" id="26">
+                            <div class="step-ref passed">26</div>
+                            <div class="step-cell passed">Then status 200</div>
                         </div>
-                        <div class="time-cell failed">0</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="17">15:04:07.947 status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response:
-CreateUser_6.feature:83 - status code was: 404, expected: 200, response time: 1495, url: https://gorest.co.in/public-api/users, response: </div>
+                    <div class="step-row">
+                        <div class="step-container" id="27">
+                            <div class="step-ref passed">27</div>
+                            <div class="step-cell passed">And print response.data.name</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="preformatted" data-parent="27">13:38:17.476 [print]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="28">
+                            <div class="step-ref passed">28</div>
+                            <div class="step-cell passed">And match oldName != newName</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
                 </div>
             </div>
                 

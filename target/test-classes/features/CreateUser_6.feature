@@ -27,35 +27,52 @@ Feature: API test
 #    *******************************
 
     Scenario: Create User by Integrate Java Method
-      * def jData = Java.type('utilities.DataGenerator')
-      * def newUser = jData.createUser()
+      * def newUser = Java.type('utilities.DataGenerator').createUser()
+
+#      * def newUser = jData.createUser()
+
       * print newUser
+
       Given url baseUrl
       And path '/public-api/users'
+
       And request newUser
+
       And header Content-Type = 'application/json; charset=utf-8'
       And header Accept = 'application/json'
+
       When method POST
       Then status 200
       And print response
+
+      And print response.data[0].name
+
 #     Update name
-      * def nameUpdate = response.name
-      * def jData = Java.type('utilities.DataGenerator')
-      * def newName = jData.createName()
-      * def nameUpdate = newName
+      * def oldName = response.name
+
+      * def newName = Java.type('utilities.DataGenerator').createName()
+
+      * print newName
       * def idNo = response.data.id
       * def codeNo = response.data.code
-      And print nameUpdate
+
+      And print oldName
+
       Given url baseUrl
       And path '/public-api/users', idNo
+
       And print idNo
-      And request {"name" : nameUpdate}
+
+      And request {"name" : newName}
+
       When method PATCH
       Then status 200
       And print response.data.name
+      And match oldName != newName
 
 #      *********************************
 #    Update name
+
 
   Scenario: Update Body by PUT
     Given url baseUrl

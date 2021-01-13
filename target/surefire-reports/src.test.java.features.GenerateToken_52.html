@@ -35,9 +35,9 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">0</div>
+                        <div class="bg-success" id="nav-pass">1</div>
                                     
-                        <div class="bg-danger" id="nav-fail">1</div>
+                        <div class="bg-danger" id="nav-fail">0</div>
                                   
                     </div>
                             
@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-05 06:35:13 pm</div>
+                <div id="nav-date">2021-01-13 01:20:38 pm</div>
                         
       
                 <div class="nav-container">
-                    <div class="nav-item failed">
-                        <a href="#[1:22]">[1:22] </a>
+                    <div class="nav-item passed">
+                        <a href="#[1:15]">[1:15] </a>
                     </div>
                 </div>
             </div>
@@ -62,152 +62,231 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/GenerateToken_52.feature</span><span class="feature-description">Generate token inside one feature and call it by different feature</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:22]">
+                    <div class="scenario-heading" id="[1:15]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [1:22]</span><span class="scenario-name"></span>
+                            <span class="scenario-keyword">Scenario: [1:15]</span><span class="scenario-name"></span>
                         </div>
-                        <div class="scenario-time failed">ms: 19</div>
+                        <div class="scenario-time passed">ms: 2010</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:22]bg">
+                        <div class="step-container" id="[1:15]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://restful-booker.herokuapp.com'</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="1">18:35:13.625 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="preformatted" data-parent="1">13:20:36.493 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('GenerateToken_5.feature')</div>
+                            <div class="step-cell comment">#    * def generateToken = call read('GenerateToken_5.feature')</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:22]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('features/GenerateToken_5.feature')</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:22]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: GenerateToken_5.feature')</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:22]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: features/GenerateToken_5.feature')</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment">#    or</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
-                            <div class="step-cell failed">* def generateToken = call read ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                            <div class="step-cell passed">* def generateToken = call read('GenerateToken_51.feature') {username : 'admin', password : 'password123'}</div>
                         </div>
-                        <div class="time-cell failed">14</div>
+                        <div class="time-cell passed">1250</div>
                     </div>
-                    <div class="preformatted" data-parent="2">-unknown-:13 - evaluation (js) failed: ('GenerateToken_51.feature'){username : 'admin', password : 'password123'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {
-('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
-                            ^ in &lt;eval&gt; at line number 1 at column number 28
-stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)</div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
+                        <div class="step-container" id="2.1">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">/Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/GenerateToken_51.feature</div>
+                        </div>
+                        <div class="time-cell passed">1117</div>
+                    </div>
+                    <div class="callarg-container" data-parent="2.1">
+                        <div class="step-ref"> </div>
+                        <div class="preformatted">{
+  "username": "admin",
+  "password": "password123"
+}
+</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell comment">#    we can write directly URL</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:22]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:22]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment">#    * def generateToken = call read ('classpath: features/GenerateToken_51.feature'){username : 'admin', password : 'password123'}</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
-                            <div class="step-cell skipped">* def accessToken = generateToken.impT</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* url 'https://restful-booker.herokuapp.com'</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="step-row" data-parent="[1:22]bg">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
-                            <div class="step-cell skipped">* print accessToken</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* header Content-Type = 'application/json'</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">3</div>
                     </div>
-                    <div class="step-row">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="5">
-                            <div class="step-ref skipped">5</div>
-                            <div class="step-cell skipped">And path "booking/"</div>
+                            <div class="step-ref bg-step">5</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* header Accept = 'application/json'</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="6">
-                            <div class="step-ref skipped">6</div>
-                            <div class="step-cell skipped">And path 5</div>
+                            <div class="step-ref bg-step">6</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Given path '/auth'</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">3</div>
                     </div>
-                    <div class="step-row">
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="7">
-                            <div class="step-ref skipped">7</div>
-                            <div class="step-cell skipped">And header Content-Type = "application/json"</div>
+                            <div class="step-ref bg-step">7</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And request</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">16</div>
                     </div>
-                    <div class="step-row">
+                    <div class="preformatted" data-parent="7">{
+"username" : "#(username)",
+"password" : "#(password)"
+}</div>
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="8">
-                            <div class="step-ref skipped">8</div>
-                            <div class="step-cell skipped">And header Accept = "application/json"</div>
+                            <div class="step-ref bg-step">8</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">When method POST</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">1083</div>
                     </div>
-                    <div class="step-row">
+                    <div class="preformatted" data-parent="8">13:20:36.912 request:
+1 &gt; POST https://restful-booker.herokuapp.com/auth
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 45
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"username":"admin","password":"password123"}
+
+13:20:37.767 response time in milliseconds: 852.74
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 27
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 13 Jan 2021 13:20:37 GMT
+1 &lt; Etag: W/"1b-jYxzPtNOh2fxUUQU9NtJoNFafos"
+1 &lt; Server: Cowboy
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+{"token":"ae5f287b4194151"}</div>
+                    <div class="step-row" data-parent="[1:15]bg">
                         <div class="step-container" id="9">
-                            <div class="step-ref skipped">9</div>
-                            <div class="step-cell skipped">And header Cookie = "token=" + accessToken</div>
+                            <div class="step-ref bg-step">9</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">Then status 200</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:15]bg">
+                        <div class="step-container" id="10">
+                            <div class="step-ref bg-step">10</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">And print response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="10">13:20:37.768 [print] {
+  "token": "ae5f287b4194151"
+}</div>
+                    <div class="step-row" data-parent="[1:15]bg">
+                        <div class="step-container" id="11">
+                            <div class="step-ref bg-step">11</div>
+                            <div class="step-indent"> </div>
+                            <div class="step-cell passed">* def token = response.token</div>
+                        </div>
+                        <div class="time-cell passed">9</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:15]bg">
+                        <div class="step-container" id="12">
+                            <div class="step-ref bg-step">12</div>
+                            <div class="step-cell passed">* def accessToken = generateToken.token</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:15]bg">
+                        <div class="step-container" id="13">
+                            <div class="step-ref bg-step">13</div>
+                            <div class="step-cell passed">* print accessToken</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="13">13:20:37.784 [print] ae5f287b4194151</div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">And path "booking/"</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="10">
-                            <div class="step-ref skipped">10</div>
-                            <div class="step-cell skipped">And request</div>
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
+                            <div class="step-cell passed">And path 5</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="preformatted" data-parent="10">{
+                    <div class="step-row">
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
+                            <div class="step-cell passed">And header Content-Type = "application/json"</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">And header Accept = "application/json"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
+                            <div class="step-cell passed">And header Cookie = "token=" + accessToken</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
+                            <div class="step-cell passed">And request</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="19">{
 "firstname" : "James",
 "lastname" : "Brown",
 "totalprice" : 111,
@@ -219,26 +298,60 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 "additionalneeds" : "Breakfast"
 }</div>
                     <div class="step-row">
-                        <div class="step-container" id="11">
-                            <div class="step-ref skipped">11</div>
-                            <div class="step-cell skipped">When method PUT</div>
+                        <div class="step-container" id="20">
+                            <div class="step-ref passed">20</div>
+                            <div class="step-cell passed">When method PUT</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">737</div>
+                    </div>
+                    <div class="preformatted" data-parent="20">13:20:37.797 request:
+1 &gt; PUT https://restful-booker.herokuapp.com/booking/5
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 170
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Cookie: token=ae5f287b4194151
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+13:20:38.533 response time in milliseconds: 735.09
+1 &lt; 200
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 170
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 13 Jan 2021 13:20:38 GMT
+1 &lt; Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 &lt; Server: Cowboy
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="21">
+                            <div class="step-ref passed">21</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="12">
-                            <div class="step-ref skipped">12</div>
-                            <div class="step-cell skipped">Then status 200</div>
+                        <div class="step-container" id="22">
+                            <div class="step-ref passed">22</div>
+                            <div class="step-cell passed">And print response</div>
                         </div>
-                        <div class="time-cell skipped">0</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row">
-                        <div class="step-container" id="13">
-                            <div class="step-ref skipped">13</div>
-                            <div class="step-cell skipped">And print response</div>
-                        </div>
-                        <div class="time-cell skipped">0</div>
-                    </div>
+                    <div class="preformatted" data-parent="22">13:20:38.533 [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
+}</div>
                 </div>
             </div>
                 
