@@ -1,68 +1,79 @@
-13:51:36.310 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-13:51:36.341 [print]
-13:51:36.445 [print] /Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallScenarioFromAnother_12.feature
-stapi.azurewebsites.net
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":"1","userName":"<userName>","password":"<password>"}
-
-13:49:33.533 response time in milliseconds: 517.40
-1 < 200
-1 < Content-Type: application/json; charset=utf-8; v=1.0
-1 < Date: Wed, 13 Jan 2021 13:49:32 GMT
-1 < Server: Kestrel
-1 < Transfer-Encoding: chunked
-1 < api-supported-versions: 1.0
-{"id":1,"userName":"<userName>","password":"<password>"}
-
-13:49:33.534 [print] {
-  "password": "<password>",
-  "id": 1,
-  "userName": "<userName>"
+23:04:22.602 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:04:22.635 [print] This is from same feature
+23:04:22.750 [print] 60.0
+23:04:22.769 [print] 60.0
+__arg": null,
+  "total": 60.0,
+  "__loop": -1,
+  "age2": 20,
+  "age1": 40
 }
 
-13:49:33.545 request:
-1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+rg": null,
+  "__loop": -1,
+  "age": 20
+}
+
+REAM, value: java.io.FileInputStream@6df45024]
+e: INPUT_STREAM, value: java.io.FileInputStream@c53585f]
+
+1.0.7)
+{"username":"admin","password":"password123"}
+
+17:25:31.681 response time in milliseconds: 901.92
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 14 Jan 2021 17:25:31 GMT
+1 < Etag: W/"1b-egV6jnASJiNminooSXxHpFI162g"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"79446de48dfcfab"}
+
+17:25:31.682 [print] {
+  "token": "79446de48dfcfab"
+}
+
+17:25:31.700 [print] 79446de48dfcfab
+17:25:31.713 request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 58
+1 > Content-Length: 170
 1 > Content-Type: application/json; charset=UTF-8
-1 > Host: fakerestapi.azurewebsites.net
+1 > Cookie: token=79446de48dfcfab
+1 > Host: restful-booker.herokuapp.com
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":"2","userName":"<userName>","password":"<password>"}
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
 
-13:49:33.903 response time in milliseconds: 356.74
+17:25:32.392 response time in milliseconds: 677.91
 1 < 200
-1 < Content-Type: application/json; charset=utf-8; v=1.0
-1 < Date: Wed, 13 Jan 2021 13:49:33 GMT
-1 < Server: Kestrel
-1 < Transfer-Encoding: chunked
-1 < api-supported-versions: 1.0
-{"id":2,"userName":"<userName>","password":"<password>"}
+1 < Connection: keep-alive
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 14 Jan 2021 17:25:32 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
 
-13:49:33.903 [print] {
-  "password": "<password>",
-  "id": 2,
-  "userName": "<userName>"
+17:25:32.393 [print] {
+  "firstname": "James",
+  "additionalneeds": "Breakfast",
+  "bookingdates": {
+    "checkin": "2018-01-01",
+    "checkout": "2019-01-01"
+  },
+  "totalprice": 111,
+  "depositpaid": true,
+  "lastname": "Brown"
 }
 
-13:49:33.910 request:
-1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
-1 > Accept: application/json
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Content-Length: 58
-1 > Content-Type: application/json; charset=UTF-8
-1 > Host: fakerestapi.azurewebsites.net
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":"3","userName":"<userName>","password":"<password>"}
-
-13:49:34.296 response time in milliseconds: 385.16
-1 < 200
-1 < Content-Type: application/json; charset=utf-8; v=1.0
-1 < Date: Wed, 13 Jan 2021 13:49:34 GMT
-1 < Server: Kestrel
-1 < Transfer-Encoding: chunked
+er-Encoding: chunked
 1 < api-supported-versions: 1.0
 {"id":3,"userName":"<userName>","password":"<password>"}
 

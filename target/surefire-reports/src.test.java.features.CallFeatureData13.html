@@ -18,7 +18,7 @@
     <script src="res/bootstrap.min.js" type="text/javascript"></script>
     <script src="res/karate-report.js" type="text/javascript"></script>
     
-        <title>src.test.java.features.CallScenarioFromAnother_12</title>
+        <title>src.test.java.features.CallFeatureData13</title>
           
     </head>
       
@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-14 05:40:00 pm</div>
+                <div id="nav-date">2021-01-14 11:04:22 pm</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[2:8]">[2:8] Second Scenario </a>
+                        <a href="#[3:15]">[3:15] From same feature </a>
                     </div>
                 </div>
             </div>
@@ -59,37 +59,38 @@
             <div id="content">
                       
                 <div class="page-heading alert alert-primary">
-                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CallScenarioFromAnother_12.feature</span><span class="feature-description">Call output of one scenario by different scenario</span>
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CallFeatureData13.feature</span><span class="feature-description">Call data from different feature</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[2:8]">
+                    <div class="scenario-heading" id="[3:15]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">Second Scenario </span>
+                            <span class="scenario-keyword">Scenario: [3:15]</span><span class="scenario-name">From same feature </span>
                         </div>
-                        <div class="scenario-time passed">ms: 169</div>
+                        <div class="scenario-time passed">ms: 138</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
                             <div class="step-ref passed">1</div>
-                            <div class="step-cell passed">* def num2 = 3</div>
+                            <div class="step-cell passed">* print 'This is from same feature'</div>
                         </div>
-                        <div class="time-cell passed">6</div>
+                        <div class="time-cell passed">9</div>
                     </div>
-                    <div class="preformatted" data-parent="1">17:40:00.345 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">23:04:22.602 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:04:22.635 [print] This is from same feature</div>
                     <div class="step-row">
                         <div class="step-container" id="2">
                             <div class="step-ref passed">2</div>
-                            <div class="step-cell passed">* def num3 = call read('CallFeatureData13.feature@tag1')</div>
+                            <div class="step-cell passed">* def cFeature = call read('CallFeatureData13.feature@tag10')</div>
                         </div>
-                        <div class="time-cell passed">149</div>
+                        <div class="time-cell passed">111</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="2.1">
                             <div class="step-ref passed">&gt;&gt;</div>
                             <div class="step-cell passed">/Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallFeatureData13.feature</div>
                         </div>
-                        <div class="time-cell passed">38</div>
+                        <div class="time-cell passed">21</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="3">
@@ -97,7 +98,7 @@
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">* def age1 = 40</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
@@ -105,7 +106,7 @@
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">* def age2 = 20</div>
                         </div>
-                        <div class="time-cell passed">7</div>
+                        <div class="time-cell passed">3</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="5">
@@ -113,7 +114,7 @@
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">* def total = age1 + age2</div>
                         </div>
-                        <div class="time-cell passed">19</div>
+                        <div class="time-cell passed">12</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="6">
@@ -121,17 +122,31 @@
                             <div class="step-indent"> </div>
                             <div class="step-cell passed">* print total</div>
                         </div>
-                        <div class="time-cell passed">2</div>
+                        <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="6">17:40:00.521 [print] 60.0</div>
+                    <div class="preformatted" data-parent="6">23:04:22.750 [print] 60.0</div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
-                            <div class="step-cell passed">* print num2 + num3</div>
+                            <div class="step-cell passed">* def moveD = cFeature</div>
                         </div>
-                        <div class="time-cell passed">14</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="7">17:40:00.536 [print] 3com.intuit.karate.ScriptObjectMap@4a476c39</div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">* def total = 5 + moveD</div>
+                        </div>
+                        <div class="time-cell passed">11</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">* print cFeature.total</div>
+                        </div>
+                        <div class="time-cell passed">7</div>
+                    </div>
+                    <div class="preformatted" data-parent="9">23:04:22.769 [print] 60.0</div>
                 </div>
             </div>
                 

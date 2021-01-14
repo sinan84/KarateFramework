@@ -6,6 +6,7 @@ Feature: API test
     * header Content-Type = 'application/json'
     * header Accept = 'application/json'
 
+    @tag1
     Scenario: Generate a Token
       Given path '/auth'
       And request

@@ -7,7 +7,7 @@ Feature: Generate token inside one feature and call it by different feature
 
 #    or
 
-    * def generateToken = call read('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
+#    * def generateToken = call read('GenerateToken_51.feature'){username : 'admin', password : 'password123'}
 
     * def accessToken = generateToken.token
     * print accessToken

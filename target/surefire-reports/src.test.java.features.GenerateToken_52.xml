@@ -1,7 +1,7 @@
-<testsuite failures="0" name="src/test/java/features/GenerateToken_52.feature" skipped="0" tests="1" time="2.010037">
-  <testcase classname="src.test.java.features.GenerateToken_52" name="1" time="2.010037">
+<testsuite failures="0" name="src/test/java/features/GenerateToken_52.feature" skipped="0" tests="1" time="1.986059">
+  <testcase classname="src.test.java.features.GenerateToken_52" name="1" time="1.986059">
     <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
-* def generateToken = call read('GenerateToken_51.feature') {username : 'admin', password : 'password123'} . passed
+* def generateToken = call read('GenerateToken_5.feature') ................ passed
 * def accessToken = generateToken.token ................................... passed
 * print accessToken ....................................................... passed
 And path "booking/" ....................................................... passed

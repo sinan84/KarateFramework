@@ -5,6 +5,7 @@ Feature: Assertion by using match word
     * match name == 'Emrah Bulut'
     * match name != 'Emrah Bult'
 
+    @tag1
   Scenario: more matching example
     * def employee =
     """

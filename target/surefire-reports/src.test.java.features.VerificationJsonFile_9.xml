@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/features/VerificationJsonFile_9.feature" skipped="0" tests="1" time="1.828533">
-  <testcase classname="src.test.java.features.VerificationJsonFile_9" name="1" time="1.828533">
+<testsuite failures="0" name="src/test/java/features/VerificationJsonFile_9.feature" skipped="0" tests="1" time="0.869962">
+  <testcase classname="src.test.java.features.VerificationJsonFile_9" name="1" time="0.869962">
     <system-out>* url 'https://fakerestapi.azurewebsites.net' ............................. passed
 * header Content-Type = 'application/json' ................................ passed
 * header Accept = 'application/json' ...................................... passed

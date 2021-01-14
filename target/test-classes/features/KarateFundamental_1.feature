@@ -5,6 +5,7 @@ Feature: Stripe Create User Feature
     * print 'My name is', "Karate Kid"
     * print 2+2
 
+    @tag5
   Scenario: Variables
     * def name = 'Emrah'
     * print 'My name is ' + name
