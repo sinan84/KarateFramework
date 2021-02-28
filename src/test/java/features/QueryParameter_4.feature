@@ -14,10 +14,10 @@ Feature: API test
     And match header Content-Type == 'application/json; charset=utf-8'
     And print response
 #    After each running, the below match might be updated
-    And match response.data[*].name contains 'Samsung'
-    And match response.data[*].email contains 'Samsung@gmail.com'
-    And match response.data[*].gender contains 'Female'
-    And match response.data[0].name == 'Samsung'
+    And match response.data[*].name contains 'Vedanga Mehrotra'
+    And match response.data[*].email contains 'prem_ii_naik@lynch.org'
+    And match response.data[*].gender contains 'Male'
+    And match response.data[0].name == 'Vedanga Mehrotra'
     And match each response.data[*].id == '#number'
 
 #    {
@@ -46,10 +46,10 @@ Feature: API test
   Scenario: More than one Query parameter
     Given path '/public-api/users'
 #    After each running, the below match might be updated
-    And param name = 'Arya Dubashi'
-    And param id = 16
+#    And param name = 'Arya Dubashi'
+#    And param id = 16
 #    or
-#    And params {name = 'Arya Dubashi', id = 1}
+    * params {name : 'Arya Dubashi', id : 16}
     When method GET
     Then status 200
     And match header Content-Type == 'application/json; charset=utf-8'

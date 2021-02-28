@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/features/Fundamental-2.feature" skipped="0" tests="1" time="0.006919">
+  <testcase classname="src.test.java.features.Fundamental-2" name="Variable definition and print" time="0.006919">
+    <system-out>* def name = 'Emrah Bulut' ................................................ passed
+* def number = 5 .......................................................... passed
+* print name .............................................................. passed
+* print number ............................................................ passed</system-out>
+  </testcase>
+</testsuite>

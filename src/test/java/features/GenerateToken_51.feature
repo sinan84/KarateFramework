@@ -19,4 +19,5 @@ Feature: API test
       Then status 200
       And print response
       * def token = response.token
+
 #      Go to Target -> surefire-reports -> open .html on browser to get report

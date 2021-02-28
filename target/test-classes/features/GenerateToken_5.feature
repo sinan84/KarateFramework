@@ -6,7 +6,7 @@ Feature: API test
     * header Content-Type = 'application/json'
     * header Accept = 'application/json'
 
-    @tag1
+    @tag3
     Scenario: Generate a Token
       Given path '/auth'
       And request
@@ -19,5 +19,8 @@ Feature: API test
       When method POST
       Then status 200
       And print response
-      * def token = response.token
+      * def door = response.token
+      * print door
 #      Go to Target -> surefire-reports -> open .html on browser to get report
+
+  Scenario:

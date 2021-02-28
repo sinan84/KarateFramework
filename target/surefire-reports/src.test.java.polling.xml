@@ -1,0 +1,21 @@
+<testsuite failures="1" name="src/test/java/polling.feature" skipped="0" tests="1" time="0.029948">
+  <testcase classname="src.test.java.polling" name="using the karate retry syntax" time="0.029948">
+    <failure message="-unknown-:6 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: &quot;demoBaseUrl&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">Given url demoBaseUrl ..................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:6 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: "demoBaseUrl" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)
+	at ✽.Given url demoBaseUrl (-unknown-:6)
+
+And path 'greeting', 'reset' .............................................. skipped
+When method get ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response == { counter: 0 } ...................................... skipped
+* def waitUntil = ......................................................... skipped
+* configure retry = { count: 5, interval: 0 } ............................. skipped
+Given url demoBaseUrl ..................................................... skipped
+And path 'greeting' ....................................................... skipped
+And retry until responseStatus == 200 &amp;&amp; response.id &gt; 3 .................. skipped
+When method get ........................................................... skipped</failure>
+  </testcase>
+</testsuite>

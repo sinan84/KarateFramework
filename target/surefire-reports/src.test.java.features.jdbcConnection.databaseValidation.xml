@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/features/jdbcConnection/databaseValidation.feature" skipped="0" tests="1" time="0.86402">
+  <testcase classname="src.test.java.features.jdbcConnection.databaseValidation" name="Data valitation" time="0.86402">
+    <system-out>* def config = { username: 'finspire_user', password: 'beniYakmaKendini357YakHerseyiYak!!!!', url: 'jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true', driverClassName: 'org.mariadb.jdbc.Driver' } . passed
+* def DbUtils = Java.type('features.jdbcConnection.DbUtils') .............. passed
+* def db = new DbUtils(config) ............................................ passed
+* def verCode = db.readRows("Select * from `security-manager`.`user` u where verification_code = '861024'") . passed
+* print verCode ........................................................... passed
+* def vc1 = verCode[0].verification_code .................................. passed
+* print vc1 ............................................................... passed</system-out>
+  </testcase>
+</testsuite>

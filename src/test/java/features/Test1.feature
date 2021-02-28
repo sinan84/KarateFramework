@@ -1,7 +1,7 @@
 Feature: Updating bookings
+
   @test6
   Scenario: The user updates his/her booking
-
     Given url "https://restful-booker.herokuapp.com/"
     And path "auth"
     And header Content-Type = "application/json"
@@ -17,7 +17,7 @@ Feature: Updating bookings
     Then status 200
     And print response.token
     And def tokenreceived = response.token
-
+# Update
     Given url "https://restful-booker.herokuapp.com/"
     And path "booking/"
     And path 5

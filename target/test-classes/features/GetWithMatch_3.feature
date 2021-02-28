@@ -1,7 +1,7 @@
 Feature: API test
 
   Background:
-    * def baseUrl = 'https://fakerestapi.azurewebsites.net';
+    * def aaa = 'https://fakerestapi.azurewebsites.net';
     * header Accept = 'application/json'
 
 #  GET method application
@@ -14,8 +14,8 @@ Feature: API test
 #  }
 
   Scenario: Get Method and Verify Header
-    Given url baseUrl
-    And path 'api/v1/Activities/10'
+    * url aaa
+    * path 'api/v1/Activities/10'
     When method get
     Then status 200
     And match header Content-Type == 'application/json; charset=utf-8; v=1.0'
@@ -35,7 +35,8 @@ Feature: API test
 
     Scenario: Assert Json Body
       Given url baseUrl
-      And path '/api/v1/Users/10'
+      And path 'api/v1/Users'
+      And path '10'
       When method get
       Then status 200
       And match header Date == "#present"
