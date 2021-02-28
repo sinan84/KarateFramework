@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-14 05:40:00 pm</div>
+                <div id="nav-date">2021-02-19 03:03:57 pm</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[2:8]">[2:8] Second Scenario </a>
+                        <a href="#[2:18]">[2:18] Second Scenario </a>
                     </div>
                 </div>
             </div>
@@ -62,76 +62,45 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/CallScenarioFromAnother_12.feature</span><span class="feature-description">Call output of one scenario by different scenario</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[2:8]">
+                    <div class="scenario-heading" id="[2:18]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">Second Scenario </span>
+                            <span class="scenario-keyword">Scenario: [2:18]</span><span class="scenario-name">Second Scenario </span>
                         </div>
-                        <div class="scenario-time passed">ms: 169</div>
+                        <div class="scenario-time passed">ms: 142</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="1">
                             <div class="step-ref passed">1</div>
-                            <div class="step-cell passed">* def num2 = 3</div>
+                            <div class="step-cell passed">* print 'This is second one'</div>
                         </div>
                         <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="1">17:40:00.345 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="preformatted" data-parent="1">15:03:56.631 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:03:56.674 [print] This is second one</div>
                     <div class="step-row">
                         <div class="step-container" id="2">
                             <div class="step-ref passed">2</div>
-                            <div class="step-cell passed">* def num3 = call read('CallFeatureData13.feature@tag1')</div>
+                            <div class="step-cell passed">* def firstSc = call read('CallScenarioFromAnother_12.feature@tag3')</div>
                         </div>
-                        <div class="time-cell passed">149</div>
+                        <div class="time-cell passed">136</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="2.1">
                             <div class="step-ref passed">&gt;&gt;</div>
-                            <div class="step-cell passed">/Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallFeatureData13.feature</div>
+                            <div class="step-cell passed">/Users/emrahbulut/Desktop/Karate/EMavenKarateTestScenario/src/test/java/features/CallScenarioFromAnother_12.feature</div>
                         </div>
-                        <div class="time-cell passed">38</div>
+                        <div class="time-cell passed">8</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="3">
                             <div class="step-ref passed">3</div>
                             <div class="step-indent"> </div>
-                            <div class="step-cell passed">* def age1 = 40</div>
+                            <div class="step-cell passed">* print 'This is first scenario'</div>
                         </div>
-                        <div class="time-cell passed">10</div>
+                        <div class="time-cell passed">8</div>
                     </div>
-                    <div class="step-row">
-                        <div class="step-container" id="4">
-                            <div class="step-ref passed">4</div>
-                            <div class="step-indent"> </div>
-                            <div class="step-cell passed">* def age2 = 20</div>
-                        </div>
-                        <div class="time-cell passed">7</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="5">
-                            <div class="step-ref passed">5</div>
-                            <div class="step-indent"> </div>
-                            <div class="step-cell passed">* def total = age1 + age2</div>
-                        </div>
-                        <div class="time-cell passed">19</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="6">
-                            <div class="step-ref passed">6</div>
-                            <div class="step-indent"> </div>
-                            <div class="step-cell passed">* print total</div>
-                        </div>
-                        <div class="time-cell passed">2</div>
-                    </div>
-                    <div class="preformatted" data-parent="6">17:40:00.521 [print] 60.0</div>
-                    <div class="step-row">
-                        <div class="step-container" id="7">
-                            <div class="step-ref passed">7</div>
-                            <div class="step-cell passed">* print num2 + num3</div>
-                        </div>
-                        <div class="time-cell passed">14</div>
-                    </div>
-                    <div class="preformatted" data-parent="7">17:40:00.536 [print] 3com.intuit.karate.ScriptObjectMap@4a476c39</div>
+                    <div class="preformatted" data-parent="3">15:03:56.811 [print] This is first scenario</div>
                 </div>
             </div>
                 

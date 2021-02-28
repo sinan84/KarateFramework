@@ -1,9 +1,8 @@
-<testsuite failures="0" name="src/test/java/features/CallFeatureData13.feature" skipped="0" tests="1" time="0.13798">
-  <testcase classname="src.test.java.features.CallFeatureData13" name="From same feature" time="0.13798">
-    <system-out>* print 'This is from same feature' ....................................... passed
-* def cFeature = call read('CallFeatureData13.feature@tag10') ............. passed
-* def moveD = cFeature .................................................... passed
-* def total = 5 + moveD ................................................... passed
-* print cFeature.total .................................................... passed</system-out>
+<testsuite failures="0" name="src/test/java/features/CallFeatureData13.feature" skipped="0" tests="1" time="0.132322">
+  <testcase classname="src.test.java.features.CallFeatureData13" name="Call one scenario from another one" time="0.132322">
+    <system-out>* print 'This is from same scenario' ...................................... passed
+* def cFeature = call read('Fundamental-1.feature@tag1') .................. passed
+* def ttl = 5 + cFeature.age .............................................. passed
+* print ttl ............................................................... passed</system-out>
   </testcase>
 </testsuite>

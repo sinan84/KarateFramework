@@ -1,32 +1,27 @@
-<testsuite failures="0" name="src/test/java/features/CreateUser_6.feature" skipped="0" tests="1" time="3.984251">
-  <testcase classname="src.test.java.features.CreateUser_6" name="Create User by Integrate Java Method" time="3.984251">
-    <system-out>* def baseUrl = 'https://gorest.co.in'; ................................... passed
+<testsuite failures="1" name="src/test/java/features/CreateUser_6.feature" skipped="0" tests="1" time="2.194344">
+  <testcase classname="src.test.java.features.CreateUser_6" name="Update Body by PUT" time="2.194344">
+    <failure message="CreateUser_6.feature:89 - evaluation (js) failed: code, javax.script.ScriptException: ReferenceError: &quot;code&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">* def baseUrl = 'https://gorest.co.in'; ................................... passed
 * header Content-Type = 'application/json'; ............................... passed
 * header Authorization = 'Bearer 1e2943a10aaff82a9f04e8a3f9fcab3d6e13560d177f59f843b7a91ef51b47f0' . passed
-* def newUser = Java.type('utilities.DataGenerator').createUser() ......... passed
-* print newUser ........................................................... passed
 Given url baseUrl ......................................................... passed
-And path '/public-api/users' .............................................. passed
-And request newUser ....................................................... passed
+And path '/public-api/users/123' .......................................... passed
 And header Content-Type = 'application/json; charset=utf-8' ............... passed
 And header Accept = 'application/json' .................................... passed
-When method POST .......................................................... passed
+When method GET ........................................................... passed
 Then status 200 ........................................................... passed
 And print response ........................................................ passed
-And print response.data[0].name ........................................... passed
-* def oldName = response.name ............................................. passed
-* def newName = Java.type('utilities.DataGenerator').createName() ......... passed
-* print newName ........................................................... passed
-* def idNo = response.data.id ............................................. passed
-* def codeNo = response.data.code ......................................... passed
-And print oldName ......................................................... passed
-Given url baseUrl ......................................................... passed
-And path '/public-api/users', idNo ........................................ passed
+* def idNo = response.data.code ........................................... passed
 And print idNo ............................................................ passed
-And request {"name" : newName} ............................................ passed
-When method PATCH ......................................................... passed
-Then status 200 ........................................................... passed
-And print response.data.name .............................................. passed
-And match oldName != newName .............................................. passed</system-out>
+Given url baseUrl ......................................................... passed
+And path '/public-api/users', code ........................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: CreateUser_6.feature:89 - evaluation (js) failed: code, javax.script.ScriptException: ReferenceError: "code" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)
+	at ✽.And path '/public-api/users', code (CreateUser_6.feature:89)
+
+And request ............................................................... skipped
+And method PUT ............................................................ skipped
+Then status 200 ........................................................... skipped</failure>
   </testcase>
 </testsuite>

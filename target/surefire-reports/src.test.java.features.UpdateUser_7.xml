@@ -1,5 +1,5 @@
-<testsuite failures="0" name="src/test/java/features/UpdateUser_7.feature" skipped="0" tests="1" time="2.13913">
-  <testcase classname="src.test.java.features.UpdateUser_7" name="Post - Get and PUT Author" time="2.13913">
+<testsuite failures="0" name="src/test/java/features/UpdateUser_7.feature" skipped="0" tests="1" time="2.182089">
+  <testcase classname="src.test.java.features.UpdateUser_7" name="Post and PUT Author" time="2.182089">
     <system-out>* def baseUrl = 'https://fakerestapi.azurewebsites.net'; .................. passed
 * header Content-Type = 'application/json; charset=utf-8; v=1.0'; ......... passed
 * header Accept = 'application/json' ...................................... passed
@@ -8,27 +8,16 @@ And path '/api/v1/Authors' ................................................ pass
 And request ............................................................... passed
 When method POST .......................................................... passed
 Then status 200 ........................................................... passed
-Then match response == "#object" .......................................... passed
-Then match response.firstName == 'Kerem' .................................. passed
-And print response.idBook ................................................. passed
-* def authorId = response.id .............................................. passed
-* def authorIdBook = response.idBook ...................................... passed
-Given url baseUrl ......................................................... passed
-And path '/api/v1/Authors/' + authorId .................................... passed
-When method GET ........................................................... passed
-Then status 200 ........................................................... passed
 And print response ........................................................ passed
+And print response.id ..................................................... passed
+* def idNum = response.id ................................................. passed
 Given url baseUrl ......................................................... passed
-And path '/api/v1/Authors/', authorId ..................................... passed
+And path '/api/v1/Authors', idNum ......................................... passed
+* def jData = Java.type('utilities.DataGenerator') ........................ passed
+* def newUser = jData.createName() ........................................ passed
 And request ............................................................... passed
-When method PUT ........................................................... passed
-Then status 200 ........................................................... passed
-Then match response.firstName == 'EM' ..................................... passed
-Then match response.lastName == 'BU' ...................................... passed
-Then print response ....................................................... passed
-Given url baseUrl ......................................................... passed
-And path '/api/v1/Authors/' + authorId .................................... passed
-When method DELETE ........................................................ passed
-Then status 200 ........................................................... passed</system-out>
+And method PUT ............................................................ passed
+And status 200 ............................................................ passed
+And print response ........................................................ passed</system-out>
   </testcase>
 </testsuite>

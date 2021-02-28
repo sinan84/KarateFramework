@@ -14,15 +14,16 @@ Feature: API test
     And request
     """
     {
-      "name":"Mehtap Gok",
+      "name":"Meryem",
       "gender":"Female",
-      "email":"mehtapgok@gmail.com",
+      "email":"meryem@gmail.com",
       "status":"Active"
     }
     """
     When method POST
     Then status 200
     And print response
+    * match response.data[0].field == "email"
 
 #    *******************************
 
@@ -44,7 +45,6 @@ Feature: API test
       When method POST
       Then status 200
       And print response
-
       And print response.data[0].name
 
 #     Update name
@@ -83,17 +83,17 @@ Feature: API test
     Then status 200
     And print response
 #    UPDATE
-    * def idNo = response.data.id
+    * def idNo = response.data.code
     And print idNo
     Given url baseUrl
-    And path '/public-api/users', idNo
+    And path '/public-api/users', code
     And request
     """
     {
-        "name":"Meh Gok",
-        "gender":"Male",
-        "email":"meh@gmail.com",
-        "status":"Active"
+      "data": {
+        "message": "Resource not found"
+      },
+      "meta": null
     }
     """
     And method PUT

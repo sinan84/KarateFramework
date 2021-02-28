@@ -1,8 +1,0 @@
-<testsuite failures="0" name="src/test/java/features/KarateFundamental_1.feature" skipped="0" tests="1" time="0.033881">
-  <testcase classname="src.test.java.features.KarateFundamental_1" name="Variables" time="0.033881">
-    <system-out>* def name = 'Emrah' ...................................................... passed
-* print 'My name is ' + name .............................................. passed
-* def age = 20 ............................................................ passed
-* print name, 'is', age, 'years old' ...................................... passed</system-out>
-  </testcase>
-</testsuite>

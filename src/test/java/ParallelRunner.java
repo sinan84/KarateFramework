@@ -13,17 +13,24 @@ import java.util.List;
 import static org.junit.Assert.assertTrue;
 
 public class ParallelRunner {
+//   We need to add the below dependency;
+//    <dependency>
+//            <groupId>net.masterthought</groupId>
+//            <artifactId>cucumber-reporting</artifactId>
+//            <version>3.8.0</version>
+//            <scope>test</scope>
+//     </dependency>
+
     @Test
     public void testParallel() {
-        //Results results = Runner.parallel(getClass(), 5);
-        Results results = Runner.path("classpath:features").tags("~@ignore").parallel(5);
+        Results results = Runner.path("classpath:ParallelTestResults.feature").tags("~@ignore").parallel(5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);
     }
 
     public static void generateReport(String karateOutputPath) {
         Collection<File> jsonFiles = FileUtils.listFiles(new File(karateOutputPath), new String[] {"json"}, true);
-        List<String> jsonPaths = new ArrayList(jsonFiles.size());
+        List<String> jsonPaths = new ArrayList<String>(jsonFiles.size());
         jsonFiles.forEach(file -> jsonPaths.add(file.getAbsolutePath()));
         Configuration config = new Configuration(new File("target"), "demo");
         ReportBuilder reportBuilder = new ReportBuilder(jsonPaths, config);

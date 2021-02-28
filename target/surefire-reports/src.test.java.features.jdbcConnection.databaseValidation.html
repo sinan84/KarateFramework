@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.features.jdbcConnection.databaseValidation</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">0</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2021-02-25 12:34:19 pm</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:25]">[1:25] Data valitation </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/jdbcConnection/databaseValidation.feature</span><span class="feature-description">JDBC connection and Database validation</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:25]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:25]</span><span class="scenario-name">Data valitation </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 864</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[1:25]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[1:25]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell passed">* def config = { username: 'finspire_user', password: 'beniYakmaKendini357YakHerseyiYak!!!!', url: 'jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true', driverClassName: 'org.mariadb.jdbc.Driver' }</div>
+                        </div>
+                        <div class="time-cell passed">44</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">12:34:18.539 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[1:25]bg">
+                        <div class="step-container" id="2">
+                            <div class="step-ref bg-step">2</div>
+                            <div class="step-cell passed">* def DbUtils = Java.type('features.jdbcConnection.DbUtils')</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="step-row" data-parent="[1:25]bg">
+                        <div class="step-container" id="3">
+                            <div class="step-ref bg-step">3</div>
+                            <div class="step-cell passed">* def db = new DbUtils(config)</div>
+                        </div>
+                        <div class="time-cell passed">62</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">* def verCode = db.readRows("Select * from `security-manager`.`user` u where verification_code = '861024'")</div>
+                        </div>
+                        <div class="time-cell passed">728</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">* print verCode</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="preformatted" data-parent="5">12:34:19.405 [print] [
+  {
+    "id": 7,
+    "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
+    "email": "Eldon94@yopmail.com",
+    "name": null,
+    "surname": null,
+    "full_name": null,
+    "type": "CUSTOMER",
+    "password": null,
+    "password_status": null,
+    "passcode": null,
+    "reset_token": null,
+    "reset_token_expired_at": null,
+    "number_of_tries": 0,
+    "expired_at": null,
+    "last_used_at": null,
+    "created_at": 2021-01-20 17:00:26.0,
+    "updated_at": 2021-01-20 17:00:26.0,
+    "verification_code": "861024",
+    "sms_code": null,
+    "verification_code_expired_at": 2021-01-21 17:00:26.0,
+    "sms_code_expired_at": null,
+    "phone": null
+  }
+]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">* def vc1 = verCode[0].verification_code</div>
+                        </div>
+                        <div class="time-cell passed">19</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">* print vc1</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="7">12:34:19.424 [print] 861024</div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

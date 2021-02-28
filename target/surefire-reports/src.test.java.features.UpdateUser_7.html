@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-01-13 01:40:34 pm</div>
+                <div id="nav-date">2021-02-19 02:46:17 pm</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[1:15]">[1:15] Post - Get and PUT Author </a>
+                        <a href="#[2:68]">[2:68] Post and PUT Author </a>
                     </div>
                 </div>
             </div>
@@ -62,48 +62,41 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/features/UpdateUser_7.feature</span><span class="feature-description">API test</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:15]">
+                    <div class="scenario-heading" id="[2:68]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [1:15]</span><span class="scenario-name">Post - Get and PUT Author </span>
+                            <span class="scenario-keyword">Scenario: [2:68]</span><span class="scenario-name">Post and PUT Author </span>
                         </div>
-                        <div class="scenario-time passed">ms: 2139</div>
+                        <div class="scenario-time passed">ms: 2182</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:15]bg">
+                        <div class="step-container" id="[2:68]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:15]bg">
+                    <div class="step-row" data-parent="[2:68]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* def baseUrl = 'https://fakerestapi.azurewebsites.net';</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">11</div>
                     </div>
-                    <div class="preformatted" data-parent="1">13:40:31.969 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
-                    <div class="step-row" data-parent="[1:15]bg">
+                    <div class="preformatted" data-parent="1">14:46:15.407 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+                    <div class="step-row" data-parent="[2:68]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* header Content-Type = 'application/json; charset=utf-8; v=1.0';</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="step-row" data-parent="[1:15]bg">
+                    <div class="step-row" data-parent="[2:68]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-cell passed">* header Accept = 'application/json'</div>
                         </div>
-                        <div class="time-cell passed">4</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container">
-                            <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    POST</div>
-                        </div>
-                        <div class="time-cell comment"></div>
+                        <div class="time-cell passed">13</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
@@ -124,40 +117,40 @@
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">And request</div>
                         </div>
-                        <div class="time-cell passed">56</div>
+                        <div class="time-cell passed">267</div>
                     </div>
                     <div class="preformatted" data-parent="6">{
-  "id": 23,
-  "idBook": 123,
-  "firstName": "Kerem",
-  "lastName": "Deniz"
+  "id": 10,
+  "idBook": 10,
+  "firstName": newUser,
+  "lastName": "BU"
 }</div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
                             <div class="step-cell passed">When method POST</div>
                         </div>
-                        <div class="time-cell passed">866</div>
+                        <div class="time-cell passed">1416</div>
                     </div>
-                    <div class="preformatted" data-parent="7">13:40:32.284 request:
+                    <div class="preformatted" data-parent="7">14:46:16.314 request:
 1 &gt; POST https://fakerestapi.azurewebsites.net/api/v1/Authors
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 61
+1 &gt; Content-Length: 59
 1 &gt; Content-Type: application/json; charset=UTF-8; v=1.0
 1 &gt; Host: fakerestapi.azurewebsites.net
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":23,"idBook":123,"firstName":"Kerem","lastName":"Deniz"}
+{"id":10,"idBook":10,"firstName":"newUser","lastName":"BU"}
 
-13:40:32.942 response time in milliseconds: 655.41
+14:46:17.166 response time in milliseconds: 849.47
 1 &lt; 200
 1 &lt; Content-Type: application/json; charset=utf-8; v=1.0
-1 &lt; Date: Wed, 13 Jan 2021 13:40:32 GMT
+1 &lt; Date: Fri, 19 Feb 2021 14:46:16 GMT
 1 &lt; Server: Kestrel
 1 &lt; Transfer-Encoding: chunked
 1 &lt; api-supported-versions: 1.0
-{"id":23,"idBook":123,"firstName":"Kerem","lastName":"Deniz"}</div>
+{"id":10,"idBook":10,"firstName":"newUser","lastName":"BU"}</div>
                     <div class="step-row">
                         <div class="step-container" id="8">
                             <div class="step-ref passed">8</div>
@@ -168,243 +161,138 @@
                     <div class="step-row">
                         <div class="step-container" id="9">
                             <div class="step-ref passed">9</div>
-                            <div class="step-cell passed">Then match response == "#object"</div>
-                        </div>
-                        <div class="time-cell passed">4</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="10">
-                            <div class="step-ref passed">10</div>
-                            <div class="step-cell passed">Then match response.firstName == 'Kerem'</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="11">
-                            <div class="step-ref passed">11</div>
-                            <div class="step-cell passed">And print response.idBook</div>
-                        </div>
-                        <div class="time-cell passed">10</div>
-                    </div>
-                    <div class="preformatted" data-parent="11">13:40:32.961 [print] 123</div>
-                    <div class="step-row">
-                        <div class="step-container" id="12">
-                            <div class="step-ref passed">12</div>
-                            <div class="step-cell passed">* def authorId = response.id</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="13">
-                            <div class="step-ref passed">13</div>
-                            <div class="step-cell passed">* def authorIdBook = response.idBook</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container">
-                            <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    GET</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="14">
-                            <div class="step-ref passed">14</div>
-                            <div class="step-cell passed">Given url baseUrl</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="15">
-                            <div class="step-ref passed">15</div>
-                            <div class="step-cell passed">And path '/api/v1/Authors/' + authorId</div>
-                        </div>
-                        <div class="time-cell passed">4</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="16">
-                            <div class="step-ref passed">16</div>
-                            <div class="step-cell passed">When method GET</div>
-                        </div>
-                        <div class="time-cell passed">376</div>
-                    </div>
-                    <div class="preformatted" data-parent="16">13:40:32.971 request:
-2 &gt; GET https://fakerestapi.azurewebsites.net/api/v1/Authors/23
-2 &gt; Accept-Encoding: gzip,deflate
-2 &gt; Connection: Keep-Alive
-2 &gt; Host: fakerestapi.azurewebsites.net
-2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-
-13:40:33.346 response time in milliseconds: 374.18
-2 &lt; 200
-2 &lt; Content-Type: application/json; charset=utf-8; v=1.0
-2 &lt; Date: Wed, 13 Jan 2021 13:40:32 GMT
-2 &lt; Server: Kestrel
-2 &lt; Transfer-Encoding: chunked
-2 &lt; api-supported-versions: 1.0
-{"id":23,"idBook":8,"firstName":"First Name 23","lastName":"Last Name 23"}</div>
-                    <div class="step-row">
-                        <div class="step-container" id="17">
-                            <div class="step-ref passed">17</div>
-                            <div class="step-cell passed">Then status 200</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="18">
-                            <div class="step-ref passed">18</div>
                             <div class="step-cell passed">And print response</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="18">13:40:33.347 [print] {
-  "firstName": "First Name 23",
-  "lastName": "Last Name 23",
-  "idBook": 8,
-  "id": 23
-}</div>
-                    <div class="step-row">
-                        <div class="step-container">
-                            <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    PUT - UPDATE</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="19">
-                            <div class="step-ref passed">19</div>
-                            <div class="step-cell passed">Given url baseUrl</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="20">
-                            <div class="step-ref passed">20</div>
-                            <div class="step-cell passed">And path '/api/v1/Authors/', authorId</div>
-                        </div>
-                        <div class="time-cell passed">2</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="21">
-                            <div class="step-ref passed">21</div>
-                            <div class="step-cell passed">And request</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="preformatted" data-parent="21">{
-  "id": 10,
-  "idBook": 10,
-  "firstName": "EM",
-  "lastName": "BU"
-}</div>
-                    <div class="step-row">
-                        <div class="step-container" id="22">
-                            <div class="step-ref passed">22</div>
-                            <div class="step-cell passed">When method PUT</div>
-                        </div>
-                        <div class="time-cell passed">368</div>
-                    </div>
-                    <div class="preformatted" data-parent="22">13:40:33.351 request:
-3 &gt; PUT https://fakerestapi.azurewebsites.net/api/v1/Authors/23
-3 &gt; Accept-Encoding: gzip,deflate
-3 &gt; Connection: Keep-Alive
-3 &gt; Content-Length: 54
-3 &gt; Content-Type: application/json; charset=UTF-8
-3 &gt; Host: fakerestapi.azurewebsites.net
-3 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":10,"idBook":10,"firstName":"EM","lastName":"BU"}
-
-13:40:33.718 response time in milliseconds: 366.01
-3 &lt; 200
-3 &lt; Content-Type: application/json; charset=utf-8; v=1.0
-3 &lt; Date: Wed, 13 Jan 2021 13:40:33 GMT
-3 &lt; Server: Kestrel
-3 &lt; Transfer-Encoding: chunked
-3 &lt; api-supported-versions: 1.0
-{"id":10,"idBook":10,"firstName":"EM","lastName":"BU"}</div>
-                    <div class="step-row">
-                        <div class="step-container" id="23">
-                            <div class="step-ref passed">23</div>
-                            <div class="step-cell passed">Then status 200</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="24">
-                            <div class="step-ref passed">24</div>
-                            <div class="step-cell passed">Then match response.firstName == 'EM'</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="25">
-                            <div class="step-ref passed">25</div>
-                            <div class="step-cell passed">Then match response.lastName == 'BU'</div>
-                        </div>
-                        <div class="time-cell passed">3</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="26">
-                            <div class="step-ref passed">26</div>
-                            <div class="step-cell passed">Then print response</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="preformatted" data-parent="26">13:40:33.725 [print] {
-  "firstName": "EM",
+                    <div class="preformatted" data-parent="9">14:46:17.168 [print] {
+  "firstName": "newUser",
   "lastName": "BU",
   "idBook": 10,
   "id": 10
 }</div>
                     <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">And print response.id</div>
+                        </div>
+                        <div class="time-cell passed">10</div>
+                    </div>
+                    <div class="preformatted" data-parent="10">14:46:17.178 [print] 10</div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">* def idNum = response.id</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
                         <div class="step-container">
                             <div class="step-ref passed"></div>
-                            <div class="step-cell comment">#    DELETE</div>
+                            <div class="step-cell comment">#    UPDATE</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="27">
-                            <div class="step-ref passed">27</div>
+                        <div class="step-container" id="12">
+                            <div class="step-ref passed">12</div>
                             <div class="step-cell passed">Given url baseUrl</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="28">
-                            <div class="step-ref passed">28</div>
-                            <div class="step-cell passed">And path '/api/v1/Authors/' + authorId</div>
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#    How to put idNum to the below path?</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref passed">13</div>
+                            <div class="step-cell passed">And path '/api/v1/Authors', idNum</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="29">
-                            <div class="step-ref passed">29</div>
-                            <div class="step-cell passed">When method DELETE</div>
+                        <div class="step-container" id="14">
+                            <div class="step-ref passed">14</div>
+                            <div class="step-cell passed">* def jData = Java.type('utilities.DataGenerator')</div>
                         </div>
-                        <div class="time-cell passed">413</div>
+                        <div class="time-cell passed">7</div>
                     </div>
-                    <div class="preformatted" data-parent="29">13:40:33.726 request:
-4 &gt; DELETE https://fakerestapi.azurewebsites.net/api/v1/Authors/23
-4 &gt; Accept-Encoding: gzip,deflate
-4 &gt; Connection: Keep-Alive
-4 &gt; Host: fakerestapi.azurewebsites.net
-4 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+                    <div class="step-row">
+                        <div class="step-container" id="15">
+                            <div class="step-ref passed">15</div>
+                            <div class="step-cell passed">* def newUser = jData.createName()</div>
+                        </div>
+                        <div class="time-cell passed">129</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment">#    How to put newUser to the firstName of request?</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="16">
+                            <div class="step-ref passed">16</div>
+                            <div class="step-cell passed">And request</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="16">{
+  "id": 30,
+  "idBook": 30,
+  "firstName": "Eylul",
+  "lastName": "Kasim"
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="17">
+                            <div class="step-ref passed">17</div>
+                            <div class="step-cell passed">And method PUT</div>
+                        </div>
+                        <div class="time-cell passed">315</div>
+                    </div>
+                    <div class="preformatted" data-parent="17">14:46:17.318 request:
+2 &gt; PUT https://fakerestapi.azurewebsites.net/api/v1/Authors/10
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Content-Length: 60
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Host: fakerestapi.azurewebsites.net
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":30,"idBook":30,"firstName":"Eylul","lastName":"Kasim"}
 
-13:40:34.138 response time in milliseconds: 410.95
-4 &lt; 200
-4 &lt; Content-Length: 0
-4 &lt; Date: Wed, 13 Jan 2021 13:40:34 GMT
-4 &lt; Server: Kestrel
-4 &lt; api-supported-versions: 1.0</div>
+14:46:17.631 response time in milliseconds: 312.31
+2 &lt; 200
+2 &lt; Content-Type: application/json; charset=utf-8; v=1.0
+2 &lt; Date: Fri, 19 Feb 2021 14:46:16 GMT
+2 &lt; Server: Kestrel
+2 &lt; Transfer-Encoding: chunked
+2 &lt; api-supported-versions: 1.0
+{"id":30,"idBook":30,"firstName":"Eylul","lastName":"Kasim"}</div>
                     <div class="step-row">
-                        <div class="step-container" id="30">
-                            <div class="step-ref passed">30</div>
-                            <div class="step-cell passed">Then status 200</div>
+                        <div class="step-container" id="18">
+                            <div class="step-ref passed">18</div>
+                            <div class="step-cell passed">And status 200</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
+                    <div class="step-row">
+                        <div class="step-container" id="19">
+                            <div class="step-ref passed">19</div>
+                            <div class="step-cell passed">And print response</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="19">14:46:17.632 [print] {
+  "firstName": "Eylul",
+  "lastName": "Kasim",
+  "idBook": 30,
+  "id": 30
+}</div>
                 </div>
             </div>
                 

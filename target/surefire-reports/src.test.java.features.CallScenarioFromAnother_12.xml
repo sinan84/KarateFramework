@@ -1,7 +1,6 @@
-<testsuite failures="0" name="src/test/java/features/CallScenarioFromAnother_12.feature" skipped="0" tests="1" time="0.168874">
-  <testcase classname="src.test.java.features.CallScenarioFromAnother_12" name="Second Scenario" time="0.168874">
-    <system-out>* def num2 = 3 ............................................................ passed
-* def num3 = call read('CallFeatureData13.feature@tag1') .................. passed
-* print num2 + num3 ....................................................... passed</system-out>
+<testsuite failures="0" name="src/test/java/features/CallScenarioFromAnother_12.feature" skipped="0" tests="1" time="0.141641">
+  <testcase classname="src.test.java.features.CallScenarioFromAnother_12" name="Second Scenario" time="0.141641">
+    <system-out>* print 'This is second one' .............................................. passed
+* def firstSc = call read('CallScenarioFromAnother_12.feature@tag3') ...... passed</system-out>
   </testcase>
 </testsuite>

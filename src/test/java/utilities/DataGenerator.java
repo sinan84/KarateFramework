@@ -19,6 +19,7 @@ public class DataGenerator {
         long phone = Long.parseLong(faker.numerify("#####"));
 
         Map<String, Object> newUser = new HashMap<>();
+
         newUser.put("name", name);
         newUser.put("gender", gender);
         newUser.put("email", email);
