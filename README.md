@@ -6,13 +6,14 @@ Test Scenarios are prepared by **Emrah Bulut**
 
 QA Test Automation Engineer
 bltemrah@gmail.com
+https://www.linkedin.com/in/emrah-bulut-66802453/
 
-### Build Tool
+#### Build Tool
 ```bash
 Maven
 ```
 
-### Dependency
+#### Dependency
 ```bash
         <dependency>
             <groupId>com.intuit.karate</groupId>
@@ -29,8 +30,13 @@ Maven
         </dependency>
 ```
 
-• Features: src > test > java > Features
+#### Features
+```bash
+src > test > java > Features
+```
 
-System Requirements: Java 8+ SDK
+#### System Requirements
 
-https://www.linkedin.com/in/emrah-bulut-66802453/
+Java 8+ SDK
+
+
