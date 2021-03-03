@@ -44,7 +44,7 @@ src > test > java > features
 Java 8 + SDK
 
 #### Test Scenario
-1. I particulary created a scenario to show how we can use Karate Framewrok features.
+1. I particulary created scenarios to show how we can use Karate Framewrok features.
 2. There are two more packages names data and utilites.
 3. In the utilities package, there are different java class for the database connection, data generator and so on.
 4. Since there are more than one scenarios in some features, there is Parallel runner to execute in parallel.
