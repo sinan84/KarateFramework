@@ -2,10 +2,14 @@
 
 ## Instructions
 
-Test Scenarios are prepared by 
+Test Scenarios are prepared by;
+
 **Emrah Bulut**
+
 **QA Test Automation Engineer**
+
 **bltemrah@gmail.com**
+
 **https://www.linkedin.com/in/emrah-bulut-66802453/**
 
 #### Build Tool
