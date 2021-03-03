@@ -1,6 +1,6 @@
 # Karate Framework Testing Exercise
 
-Instructions
+## Instructions
 
 Test Scenarios Prepared by Emrah Bulut,
 
