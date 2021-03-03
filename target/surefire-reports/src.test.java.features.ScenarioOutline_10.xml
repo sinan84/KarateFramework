@@ -1,0 +1,110 @@
+<testsuite failures="3" name="src/test/java/features/ScenarioOutline_10.feature" skipped="0" tests="3" time="0.07806">
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="1" time="0.073024">
+    <failure message="ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)">* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="2" time="0.002724">
+    <failure message="ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)">* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.features.ScenarioOutline_10" name="3" time="0.002312">
+    <failure message="ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)">* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped
+* url 'https://fakerestapi.azurewebsites.net' ............................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path "/api/v1/Users" ................................................ passed
+And request ............................................................... passed
+* def faker = Java.type('com.finspire.utilities.DataGenerator') ........... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)
+	at ✽.* def faker = Java.type('com.finspire.utilities.DataGenerator') (ScenarioOutline_10.feature:18)
+
+* def createID = faker.createId ........................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped
+Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"} . skipped</failure>
+  </testcase>
+</testsuite>

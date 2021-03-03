@@ -8298,3 +8298,585 @@ Forbidden
 
 12:34:19.424 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 861024
 12:34:19.587 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+14:55:22.083 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:55:22.099 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+14:55:22.239 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:55:22.393 [ForkJoinPool-1-worker-3] INFO  features.jdbcConnection.DbUtils - init jdbc template: jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true
+14:55:23.287 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  {
+    "id": 7,
+    "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
+    "email": "Eldon94@yopmail.com",
+    "name": null,
+    "surname": null,
+    "full_name": null,
+    "type": "CUSTOMER",
+    "password": null,
+    "password_status": null,
+    "passcode": null,
+    "reset_token": null,
+    "reset_token_expired_at": null,
+    "number_of_tries": 0,
+    "expired_at": null,
+    "last_used_at": null,
+    "created_at": 2021-01-20 17:00:26.0,
+    "updated_at": 2021-01-20 17:00:26.0,
+    "verification_code": "861024",
+    "sms_code": null,
+    "verification_code_expired_at": 2021-01-21 17:00:26.0,
+    "sms_code_expired_at": null,
+    "phone": null
+  }
+]
+
+14:55:23.314 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 861024
+14:55:23.451 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+14:56:48.791 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:56:48.804 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+14:56:48.919 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:56:49.151 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+14:57:41.507 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:57:41.518 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+14:57:41.617 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:57:41.839 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+14:58:00.121 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:58:00.138 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+14:58:00.223 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:58:00.454 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+14:58:38.621 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:58:38.639 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+14:58:38.754 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:58:38.899 [ForkJoinPool-1-worker-3] INFO  features.jdbcConnection.DbUtils - init jdbc template: jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true
+14:58:39.692 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  {
+    "id": 7,
+    "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
+    "email": "Eldon94@yopmail.com",
+    "name": null,
+    "surname": null,
+    "full_name": null,
+    "type": "CUSTOMER",
+    "password": null,
+    "password_status": null,
+    "passcode": null,
+    "reset_token": null,
+    "reset_token_expired_at": null,
+    "number_of_tries": 0,
+    "expired_at": null,
+    "last_used_at": null,
+    "created_at": 2021-01-20 17:00:26.0,
+    "updated_at": 2021-01-20 17:00:26.0,
+    "verification_code": "861024",
+    "sms_code": null,
+    "verification_code_expired_at": 2021-01-21 17:00:26.0,
+    "sms_code_expired_at": null,
+    "phone": null
+  }
+]
+
+14:58:39.718 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 861024
+14:58:39.820 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+13:58:41.179 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:58:41.216 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+13:58:41.440 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:58:41.708 [ForkJoinPool-1-worker-3] INFO  features.jdbcConnection.DbUtils - init jdbc template: jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true
+13:58:42.650 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  {
+    "id": 7,
+    "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
+    "email": "Eldon94@yopmail.com",
+    "name": null,
+    "surname": null,
+    "full_name": null,
+    "type": "CUSTOMER",
+    "password": null,
+    "password_status": null,
+    "passcode": null,
+    "reset_token": null,
+    "reset_token_expired_at": null,
+    "number_of_tries": 0,
+    "expired_at": null,
+    "last_used_at": null,
+    "created_at": 2021-01-20 17:00:26.0,
+    "updated_at": 2021-01-20 17:00:26.0,
+    "verification_code": "861024",
+    "sms_code": null,
+    "verification_code_expired_at": 2021-01-21 17:00:26.0,
+    "sms_code_expired_at": null,
+    "phone": null
+  }
+]
+
+13:58:42.720 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 861024
+13:58:42.983 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature
+10:49:35.547 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:49:35.564 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 31 - ^$
+10:49:35.567 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 32 - ^$
+10:49:35.567 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+10:49:35.653 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:35.759 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:35.772 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:35.937 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:49:57.888 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:49:57.903 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:49:57.906 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:49:57.906 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:49:57.979 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:58.082 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:58.092 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:49:58.240 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:50:15.504 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:50:15.522 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:50:15.527 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:50:15.528 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:50:15.624 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:15.975 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"32","userName":"edeniz","password":"1234"}
+
+10:50:16.724 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 747.05
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 02 Mar 2021 10:50:16 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":32,"userName":"edeniz","password":"1234"}
+
+10:50:16.725 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "1234",
+  "id": 32,
+  "userName": "edeniz"
+}
+
+10:50:16.736 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:16.740 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"25","userName":"demrah","password":"2345"}
+
+10:50:17.136 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 395.37
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 02 Mar 2021 10:50:16 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":25,"userName":"demrah","password":"2345"}
+
+10:50:17.137 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "2345",
+  "id": 25,
+  "userName": "demrah"
+}
+
+10:50:17.147 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:17.150 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"27","userName":"berdem","password":"3456"}
+
+10:50:17.530 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 379.35
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 02 Mar 2021 10:50:16 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":27,"userName":"berdem","password":"3456"}
+
+10:50:17.531 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "password": "3456",
+  "id": 27,
+  "userName": "berdem"
+}
+
+10:50:17.612 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:50:33.374 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:50:33.390 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:50:33.394 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:50:33.394 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:50:33.482 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:33.587 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:33.611 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:33.765 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:50:59.474 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:50:59.497 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:50:59.501 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:50:59.502 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:50:59.612 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:59.740 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:59.763 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:59.906 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:51:14.393 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:51:14.422 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:51:14.428 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:51:14.428 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:51:14.541 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:14.620 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:14.672 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:14.812 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:51:42.090 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:51:42.108 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:51:42.112 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:51:42.113 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:51:42.220 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:42.301 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:42.340 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:42.516 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:51:49.607 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:51:49.624 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:51:49.629 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:51:49.629 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:51:49.708 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:49.775 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:49.808 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:51:49.950 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:52:43.576 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:52:43.596 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:52:43.599 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:52:43.599 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:52:43.689 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:52:43.785 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:52:43.796 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:52:43.957 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:53:38.894 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:53:38.916 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:53:38.920 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:53:38.920 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:53:39.022 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:53:39.103 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:53:39.162 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:53:39.299 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:54:25.482 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:54:25.499 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:54:25.502 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:54:25.503 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:54:25.588 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:25.691 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:25.717 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:25.879 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:54:49.110 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:54:49.141 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 26 - ^$
+10:54:49.151 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 27 - ^$
+10:54:49.152 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:54:49.299 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:49.433 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:49.452 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:54:49.610 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:55:28.220 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:55:28.242 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:55:28.246 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^$
+10:55:28.246 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 30 - ^$
+10:55:28.327 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:28.470 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:28.493 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:28.645 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:55:36.999 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:55:37.020 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 28 - ^$
+10:55:37.024 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 29 - ^$
+10:55:37.025 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 30 - ^$
+10:55:37.141 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:37.331 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:37.363 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:55:37.497 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+10:59:07.940 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:59:07.960 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 31 - ^$
+10:59:07.964 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 32 - ^$
+10:59:07.964 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+10:59:08.037 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:59:08.141 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:59:08.165 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:59:08.319 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:12:34.421 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:12:34.439 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:12:34.443 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:12:34.444 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:12:34.534 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:12:34.698 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:12:34.731 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:12:34.864 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:13:10.796 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:13:10.816 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:13:10.820 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:13:10.820 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:13:10.901 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:11.080 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:11.117 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:11.254 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:13:51.723 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:13:51.744 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:13:51.747 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:13:51.748 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:13:51.860 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:52.040 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:52.071 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:13:52.213 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:14:19.230 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:14:19.252 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:14:19.258 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:14:19.258 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:14:19.352 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:14:19.506 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:14:19.519 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:14:19.669 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:15:23.744 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:15:23.759 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:15:23.762 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:15:23.763 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:15:23.846 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:15:24.004 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:15:24.032 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:15:24.172 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:19:38.402 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:19:38.422 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:19:38.425 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:19:38.426 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:19:38.536 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:19:38.712 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:19:38.747 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:19:38.895 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:20:03.525 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:20:03.542 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:20:03.546 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:20:03.547 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:20:03.622 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:20:03.782 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:20:03.794 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:20:03.922 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:21:05.145 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:21:05.164 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:21:05.169 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:21:05.169 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:21:05.262 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:21:05.429 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:21:05.454 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:21:05.580 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+11:54:08.454 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:54:08.479 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^$
+11:54:08.485 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 34 - ^$
+11:54:08.485 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 35 - ^$
+11:54:08.608 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:54:08.725 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:54:08.749 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:54:08.918 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/ScenarioOutline_10.feature
+12:17:10.155 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:17:10.190 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 31 - ^Match contains only$
+12:17:10.283 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:17:10.460 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:17:55.454 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:17:55.493 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 31 - ^Match contains only$
+12:17:55.594 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:17:55.661 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.code, actual: [1,2,3], expected: [2,3], reason: actual and expected arrays are not the same size - 3:2
+12:17:55.786 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:28:05.252 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:28:05.286 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Contains any$
+12:28:05.397 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:28:05.464 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:28:05.606 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:30:00.024 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:30:00.061 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^Contains any$
+12:30:00.171 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:30:00.278 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:30:00.369 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:35:08.729 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:35:08.765 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 41 - ^contains matching2$
+12:35:08.876 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:35:08.945 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:35:09.062 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:35:19.496 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:35:19.534 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 41 - ^contains matching2$
+12:35:19.635 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:35:19.714 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:35:19.721 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[*], actual: [{"first_name":"TJ","salary":24001,"active":true},{"first_name":"Steven","salary":2100,"active":false}], expected: [{first_name=TJ, salary=2100, active=true}], reason: actual value does not contain any expected
+12:35:19.839 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:35:40.690 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:35:40.733 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 41 - ^contains matching2$
+12:35:40.850 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:35:40.933 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:35:41.042 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:36:20.287 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:36:20.319 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 41 - ^contains matching2$
+12:36:20.396 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:36:20.459 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+12:36:20.465 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[*], actual: [{"first_name":"TJ","salary":24001,"active":true},{"first_name":"Steven","salary":2100,"active":false}], expected: [{first_name=TJ, salary=24005, active=true}], reason: actual value does not contain any expected
+12:36:20.580 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:46:11.733 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:46:11.749 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^Match each$
+12:46:11.847 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:46:12.058 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:46:35.386 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:46:35.401 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^Match each$
+12:46:35.490 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:46:35.662 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:46:41.157 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:46:41.175 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^Match each$
+12:46:41.284 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:46:41.352 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[2].bar, actual: 'kkk', expected: '#number', reason: not a number
+12:46:41.476 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:46:49.988 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:46:50.003 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 33 - ^Match each$
+12:46:50.082 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:46:50.257 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Match-2.feature
+12:47:17.802 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:47:17.838 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 66 - ^Match each2$
+12:47:17.955 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:47:18.155 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:57:43.254 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:59:42.587 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:59:42.620 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 86 - ^Contains \.\.  \(\'\.\.\/LoanAccountManager\/Get\-AllCurrency\.feature\@wip\'\)$
+12:59:42.723 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:59:42.904 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+12:59:51.907 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+12:59:51.966 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 86 - ^Contains \.\.  \(\'\.\.\/LoanAccountManager\/Get\-AllCurrency\.feature\@wip\'\)$
+12:59:52.115 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+12:59:52.193 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.name, actual: 'Billie', expected: ["Billie","Bob","Wild"], reason: actual value is not list-like
+12:59:52.309 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:00:01.810 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:00:01.843 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 86 - ^Contains \.\.  \(\'\.\.\/LoanAccountManager\/Get\-AllCurrency\.feature\@wip\'\)$
+13:00:01.931 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:00:02.142 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:05:06.333 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:05:06.513 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.602 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.618 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.630 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:06.642 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.647 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:06.663 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.710 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.736 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.759 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.775 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.791 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.805 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:06.889 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:07.042 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:05:28.406 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:05:28.551 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.663 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.671 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.696 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:28.717 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.720 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:28.742 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.815 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.845 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.870 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.892 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.912 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:28.931 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:29.021 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:29.151 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:05:55.642 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:05:55.766 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.837 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.854 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.872 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:55.884 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.885 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:05:55.891 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.932 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.944 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.958 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.977 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.985 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:55.991 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:56.077 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:05:56.209 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:06:02.360 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:06:02.491 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.576 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.584 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.595 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:06:02.616 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.618 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:06:02.624 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.685 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.717 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.740 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.759 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.774 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.790 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.861 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:06:02.988 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:07:26.083 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:07:26.233 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.329 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.349 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.367 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:07:26.379 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.382 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:07:26.399 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.442 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.465 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.486 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.503 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.519 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.538 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.628 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:07:26.757 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:08:01.341 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:08:01.480 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.587 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.605 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.627 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:08:01.648 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.654 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:08:01.666 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.714 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.734 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.753 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.769 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.783 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.794 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:01.891 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:08:02.017 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:09:08.365 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:09:08.402 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 119 - ^recurse nested json$
+13:09:08.539 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:08.721 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:09:15.406 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:09:15.539 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.645 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.659 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.682 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:09:15.700 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.704 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2
+13:09:15.719 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.782 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.809 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.832 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.853 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.868 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.884 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.959 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:16.089 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+13:13:39.924 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:13:40.003 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 134 - ^Match each for same payload$
+13:13:40.151 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:13:40.394 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/New/Contains-3.feature
+17:06:04.027 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+17:06:04.049 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Data valitation$
+17:06:04.208 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+17:06:04.343 [ForkJoinPool-1-worker-3] INFO  features.jdbcConnection.DbUtils - init jdbc template: jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true
+17:06:34.617 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/features/jdbcConnection/databaseValidation.feature

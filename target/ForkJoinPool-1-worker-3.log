@@ -1,98 +1,63 @@
-12:34:18.539 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-12:34:19.405 [print] [
-  {
-    "id": 7,
-    "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
-    "email": "Eldon94@yopmail.com",
-    "name": null,
-    "surname": null,
-    "full_name": null,
-    "type": "CUSTOMER",
-    "password": null,
-    "password_status": null,
-    "passcode": null,
-    "reset_token": null,
-    "reset_token_expired_at": null,
-    "number_of_tries": 0,
-    "expired_at": null,
-    "last_used_at": null,
-    "created_at": 2021-01-20 17:00:26.0,
-    "updated_at": 2021-01-20 17:00:26.0,
-    "verification_code": "861024",
-    "sms_code": null,
-    "verification_code_expired_at": 2021-01-21 17:00:26.0,
-    "sms_code_expired_at": null,
-    "phone": null
-  }
-]
+17:06:04.209 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.645 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.659 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.683 [print] 2
+13:09:15.701 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.705 [print] 2
+13:09:15.719 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.783 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.810 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.833 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.853 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.868 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.884 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:09:15.960 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+ient/4.5.12 (Java/11.0.7)
+{"id":"25","userName":"demrah","password":"2345"}
 
-12:34:19.424 [print] 861024
-": 7,
-  "user_key": "28e4f670-1499-4830-9cb9-a2814a3edf28",
-  "email": "Eldon94@yopmail.com",
-  "name": null,
-  "surname": null,
-  "full_name": null,
-  "type": "CUSTOMER",
-  "password": null,
-  "password_status": null,
-  "passcode": null,
-  "reset_token": null,
-  "reset_token_expired_at": null,
-  "number_of_tries": 0,
-  "expired_at": null,
-  "last_used_at": null,
-  "created_at": 2021-01-20 17:00:26.0,
-  "updated_at": 2021-01-20 17:00:26.0,
-  "verification_code": "861024",
-  "sms_code": null,
-  "verification_code_expired_at": 2021-01-21 17:00:26.0,
-  "sms_code_expired_at": null,
-  "phone": null
-}
-
-ons: 1.0
-{"id":2,"userName":"<userName>","password":"<password>"}
-
-19:35:33.560 [print] {
-  "password": "<password>",
-  "id": 2,
-  "userName": "<userName>"
-}
-
-19:35:33.577 request:
-1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
-1 > Accept: application/json
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Content-Length: 58
-1 > Content-Type: application/json; charset=UTF-8
-1 > Host: fakerestapi.azurewebsites.net
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
-{"id":"3","userName":"<userName>","password":"<password>"}
-
-19:35:34.024 response time in milliseconds: 446.08
+10:50:17.137 response time in milliseconds: 395.37
 1 < 200
 1 < Content-Type: application/json; charset=utf-8; v=1.0
-1 < Date: Sun, 21 Feb 2021 19:35:33 GMT
+1 < Date: Tue, 02 Mar 2021 10:50:16 GMT
 1 < Server: Kestrel
 1 < Transfer-Encoding: chunked
 1 < api-supported-versions: 1.0
-{"id":3,"userName":"<userName>","password":"<password>"}
+{"id":25,"userName":"demrah","password":"2345"}
 
-19:35:34.026 [print] {
-  "password": "<password>",
-  "id": 3,
-  "userName": "<userName>"
+10:50:17.138 [print] {
+  "password": "2345",
+  "id": 25,
+  "userName": "demrah"
 }
 
-19:35:34.046 request:
+10:50:17.147 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+10:50:17.150 request:
 1 > POST https://fakerestapi.azurewebsites.net/api/v1/Users
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 58
+1 > Content-Length: 49
 1 > Content-Type: application/json; charset=UTF-8
+1 > Host: fakerestapi.azurewebsites.net
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"27","userName":"berdem","password":"3456"}
+
+10:50:17.531 response time in milliseconds: 379.35
+1 < 200
+1 < Content-Type: application/json; charset=utf-8; v=1.0
+1 < Date: Tue, 02 Mar 2021 10:50:16 GMT
+1 < Server: Kestrel
+1 < Transfer-Encoding: chunked
+1 < api-supported-versions: 1.0
+{"id":27,"userName":"berdem","password":"3456"}
+
+10:50:17.532 [print] {
+  "password": "3456",
+  "id": 27,
+  "userName": "berdem"
+}
+
+n; charset=UTF-8
 1 > Host: fakerestapi.azurewebsites.net
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
 {"id":"4","userName":"<userName>","password":"<password>"}

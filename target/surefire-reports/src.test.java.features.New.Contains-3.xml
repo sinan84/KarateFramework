@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/features/New/Contains-3.feature" skipped="0" tests="1" time="0.119128">
+  <testcase classname="src.test.java.features.New.Contains-3" name="Match each for same payload" time="0.119128">
+    <system-out>Given def json = .......................................................... passed
+Then match each json.hotels contains { totalPrice: '#? _ == _$.roomInformation[0].roomPrice' } . passed
+Then match each json.hotels contains { totalPrice: '#(_$.roomInformation[0].roomPrice)' } . passed</system-out>
+  </testcase>
+</testsuite>

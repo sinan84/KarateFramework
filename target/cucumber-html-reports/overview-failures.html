@@ -76,7 +76,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demo</td>
-            <td>24 Feb 2021, 12:25</td>
+            <td>03 Mar 2021, 10:45</td>
     </tr>
   </tbody>
 </table>
@@ -116,7 +116,7 @@ $(document).ready(function() {
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_src-test-java-features-CreateUser_6-feature.html">src/test/java/features/CreateUser_6.feature</a>
+      <a href="report-feature_src-test-java-features-ScenarioOutline_10-feature_3.html">src/test/java/features/ScenarioOutline_10.feature</a>
     </div>
   
   
@@ -124,14 +124,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">2s 182ms</span>
+  <span class="lead-duration duration">066ms</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
 <div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Update Body by PUT</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name"></span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -159,6 +159,756 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;/api/v1/Users&quot;</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+  
+  <span class="lead-duration duration">054ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: 'createID',
+  &quot;userName&quot;: 'edeniz',
+  &quot;password&quot;: '1234'
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">*</span>
+  <span class="name">def faker = Java.type('com.finspire.utilities.DataGenerator')</span>
+  
+  <span class="lead-duration duration">008ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def createID = faker.createId</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response == {&quot;id&quot; : &quot;#number&quot;, &quot;userName&quot; : &quot;#string&quot;,&quot;password&quot; : &quot;#string&quot;}</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-java-features-ScenarioOutline_10-feature_3.html">src/test/java/features/ScenarioOutline_10.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">001ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-5" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-6">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;/api/v1/Users&quot;</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: '25',
+  &quot;userName&quot;: 'demrah',
+  &quot;password&quot;: '2345'
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">*</span>
+  <span class="name">def faker = Java.type('com.finspire.utilities.DataGenerator')</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def createID = faker.createId</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response == {&quot;id&quot; : &quot;#number&quot;, &quot;userName&quot; : &quot;#string&quot;,&quot;password&quot; : &quot;#string&quot;}</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-java-features-ScenarioOutline_10-feature_3.html">src/test/java/features/ScenarioOutline_10.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">001ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-9">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-9" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-10">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-10" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path &quot;/api/v1/Users&quot;</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: '27',
+  &quot;userName&quot;: 'berdem',
+  &quot;password&quot;: '3456'
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">*</span>
+  <span class="name">def faker = Java.type('com.finspire.utilities.DataGenerator')</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
+          <a>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: ScenarioOutline_10.feature:18 - evaluation (js) failed: Java.type('com.finspire.utilities.DataGenerator'), java.lang.RuntimeException: java.lang.ClassNotFoundException: com.finspire.utilities.DataGenerator
+stack trace: jdk.scripting.nashorn/jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:531)</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def createID = faker.createId</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">match response == {&quot;id&quot; : &quot;#number&quot;, &quot;userName&quot; : &quot;#string&quot;,&quot;password&quot; : &quot;#string&quot;}</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-java-features-CreateUser_6-feature_4.html">src/test/java/features/CreateUser_6.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">2s 182ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Update Body by PUT</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-14">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-14" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -260,10 +1010,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
           <a>Doc string</a>
       </div>
-      <div id="msg-3" class="collapse collapsable-details">
+      <div id="msg-15" class="collapse collapsable-details">
         <pre>14:40:40.780 request:
 1 &gt; GET https://gorest.co.in/public-api/users/123
 1 &gt; Accept: application/json
@@ -342,10 +1092,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
           <a>Doc string</a>
       </div>
-      <div id="msg-4" class="collapse collapsable-details">
+      <div id="msg-16" class="collapse collapsable-details">
         <pre>14:40:42.639 [print] {
   &quot;code&quot;: 404,
   &quot;data&quot;: {
@@ -400,10 +1150,10 @@ $(document).ready(function() {
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
           <a>Doc string</a>
       </div>
-      <div id="msg-5" class="collapse collapsable-details">
+      <div id="msg-17" class="collapse collapsable-details">
         <pre>14:40:42.648 [print]</pre>
       </div>
     </div>
@@ -449,10 +1199,10 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-18">
           <a>com.intuit.karate.exception.KarateException: CreateUser_6.feature:89 - evaluation (js) failed: code, javax.script.ScriptException: ReferenceError: &quot;code&quot; is not defined in &lt;eval&gt; at line number 1</a>
       </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
+      <div id="msg-18" class="collapse collapsable-details  in ">
         <pre>com.intuit.karate.exception.KarateException: CreateUser_6.feature:89 - evaluation (js) failed: code, javax.script.ScriptException: ReferenceError: &quot;code&quot; is not defined in &lt;eval&gt; at line number 1
 stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)</pre>
       </div>
@@ -485,10 +1235,10 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
           <a>Doc string</a>
       </div>
-      <div id="msg-7" class="collapse collapsable-details">
+      <div id="msg-19" class="collapse collapsable-details">
         <pre>{
   &quot;data&quot;: {
     &quot;message&quot;: &quot;Resource not found&quot;
@@ -559,7 +1309,7 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_src-test-java-features-jdbcConnection-databaseValidation-feature_2.html">src/test/java/features/jdbcConnection/databaseValidation.feature</a>
+      <a href="report-feature_src-test-java-features-jdbcConnection-databaseValidation-feature_6.html">src/test/java/features/jdbcConnection/databaseValidation.feature</a>
     </div>
   
   
@@ -567,14 +1317,14 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
   </div>
 
   
-  <span class="lead-duration duration">1s 552ms</span>
+  <span class="lead-duration duration">30s 156ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-8">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-20">
     
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Insert rows</span>
+  <span class="name">Data valitation</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -583,13 +1333,13 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
   </span>
   <div class="description indention"></div>
 
-  <div id="element-8" class="collapse collapsable-details  in ">
+  <div id="element-20" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-21">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -601,14 +1351,14 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 
   </div>
 
-  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-21" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief failed">
   <span class="keyword indention">*</span>
-  <span class="name">def write = db.insertRows('INSERT INTO `loan-account-manager`.currency c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;&quot;, &quot;2021-03-20&quot;)')</span>
+  <span class="name">def verCode = db.readRows(&quot;Select * from `security-manager`.`user` u where verification_code = '861024'&quot;)</span>
   
-  <span class="lead-duration duration">1s 552ms</span>
+  <span class="lead-duration duration">30s 156ms</span>
 
   </div>
 
@@ -616,12 +1366,12 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>com.intuit.karate.exception.KarateException: databaseValidation.feature:30 - evaluation (js) failed: db.insertRows('INSERT INTO `loan-account-manager`.currency c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;&quot;, &quot;2021-03-20&quot;)'), org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [INSERT INTO `loan-account-manager`.currency c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;&quot;, &quot;2021-03-20&quot;)]; nested exception is java.sql.BatchUpdateException: (conn=166391) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;...' at line 1</a>
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-22">
+          <a>com.intuit.karate.exception.KarateException: databaseValidation.feature:26 - evaluation (js) failed: db.readRows(&quot;Select * from `security-manager`.`user` u where verification_code = '861024'&quot;), org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=maria.test.finspire.tech)(port=3306)(type=master) : Socket fail to connect to host:maria.test.finspire.tech, port:3306. connect timed out</a>
       </div>
-      <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: databaseValidation.feature:30 - evaluation (js) failed: db.insertRows('INSERT INTO `loan-account-manager`.currency c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;&quot;, &quot;2021-03-20&quot;)'), org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [INSERT INTO `loan-account-manager`.currency c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;&quot;, &quot;2021-03-20&quot;)]; nested exception is java.sql.BatchUpdateException: (conn=166391) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'c (currencyName, currency, symbol, effectiveDate) values (&quot;Pound&quot;, &quot;GBP&quot;, &quot;&pound;...' at line 1
-stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)</pre>
+      <div id="msg-22" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: databaseValidation.feature:26 - evaluation (js) failed: db.readRows(&quot;Select * from `security-manager`.`user` u where verification_code = '861024'&quot;), org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=maria.test.finspire.tech)(port=3306)(type=master) : Socket fail to connect to host:maria.test.finspire.tech, port:3306. connect timed out
+stack trace: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)</pre>
       </div>
     </div>
   </div>
@@ -639,7 +1389,7 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
         
 <div class="brief skipped">
   <span class="keyword indention">*</span>
-  <span class="name">def currency = db.Rows(&quot;SELECT * from `loan-account-manager`.currency c&quot;)</span>
+  <span class="name">print verCode</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -660,7 +1410,28 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
         
 <div class="brief skipped">
   <span class="keyword indention">*</span>
-  <span class="name">print currency</span>
+  <span class="name">def vc1 = verCode[0].verification_code</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">print vc1</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -690,7 +1461,7 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_src-test-java-polling-feature_6.html">src/test/java/polling.feature</a>
+      <a href="report-feature_src-test-java-polling-feature_10.html">src/test/java/polling.feature</a>
     </div>
   
   
@@ -701,7 +1472,7 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
   <span class="lead-duration duration">029ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-23">
     
 <div class="brief failed">
   <span class="keyword indention">Background</span>
@@ -714,13 +1485,13 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details  in ">
+  <div id="element-23" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-12">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-24">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -732,7 +1503,7 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-24" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief failed">
@@ -747,10 +1518,10 @@ stack trace: org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-13">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-25">
           <a>com.intuit.karate.exception.KarateException: -unknown-:6 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: &quot;demoBaseUrl&quot; is not defined in &lt;eval&gt; at line number 1</a>
       </div>
-      <div id="msg-13" class="collapse collapsable-details  in ">
+      <div id="msg-25" class="collapse collapsable-details  in ">
         <pre>com.intuit.karate.exception.KarateException: -unknown-:6 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: &quot;demoBaseUrl&quot; is not defined in &lt;eval&gt; at line number 1
 stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)</pre>
       </div>
@@ -762,10 +1533,10 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
           <a>Doc string</a>
       </div>
-      <div id="msg-14" class="collapse collapsable-details">
+      <div id="msg-26" class="collapse collapsable-details">
         <pre>21:18:16.958 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
       </div>
     </div>
@@ -877,10 +1648,10 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-27">
           <a>Doc string</a>
       </div>
-      <div id="msg-15" class="collapse collapsable-details">
+      <div id="msg-27" class="collapse collapsable-details">
         <pre>function(x) {
   while (true) {
     var result = karate.call('get.feature');
@@ -917,7 +1688,7 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 <div class="element">
       <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_src-test-java-polling-feature_6.html">src/test/java/polling.feature</a>
+      <a href="report-feature_src-test-java-polling-feature_10.html">src/test/java/polling.feature</a>
     </div>
   
   
@@ -928,7 +1699,7 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
   <span class="lead-duration duration">000ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-28">
     
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
@@ -941,13 +1712,13 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
   </span>
   <div class="description indention"></div>
 
-  <div id="element-16" class="collapse collapsable-details  in ">
+  <div id="element-28" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-17">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-29">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -959,7 +1730,7 @@ stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine
 
   </div>
 
-  <div id="steps-17" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-29" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief skipped">
