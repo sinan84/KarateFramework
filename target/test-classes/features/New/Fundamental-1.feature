@@ -2,24 +2,21 @@ Feature: Stripe Create User Feature
 
   Scenario: Printing
     * print  "Some words"
-    * print 'My name is', "Karate Kid"
+    * print 'My name is',"Karate Kid"
     * print 2+2
 
-  @tag1
   Scenario: Variables
     * def name = 'Emrah'
     * print 'My name is ' + name
     * def age = 20
     * print name, 'is', age, 'years old'
 
-  @Test
   Scenario: Difficult parameters: json object
     * def student = {'name' : 'Emrah', 'age' : 40}
     * print student
     * print student.name
     * print student.age
 
-  @Test
   Scenario: Json Object 2
     * def s =
     """

@@ -15,13 +15,22 @@ Feature: API test
       "password": '<password>'
     }
     """
+    * def faker = Java.type('com.finspire.utilities.DataGenerator')
+    * def createID = faker.createId
+
+#    * def faker = read('../utilities/DataGenerator.js')
+#    * def createID = read('../utilities/DataGenerator/createId()')
+#  read('../callarray/kittens.json')
+#    * def someValue = read('some-js-code.js')
+
     When method POST
     Then status 200
     And print response
     Then match response == {"id" : "#number", "userName" : "#string","password" : "#string"}
 
     Examples:
-      | id | userName | password |
-      | 13 | edeniz   | 1234     |
-      | 25 | demrah   | 2345     |
-      | 27 | berdem   | 3456     |
+      | id       | userName | password |
+      | createID | edeniz   | 1234     |
+      | 25       | demrah   | 2345     |
+      | 27       | berdem   | 3456     |
+

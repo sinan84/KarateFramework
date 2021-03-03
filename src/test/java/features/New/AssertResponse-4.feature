@@ -33,15 +33,15 @@ Feature: API test
 #  "password": "Password10"
 #}
 
-    Scenario: Assert Json Body
-      Given url baseUrl
-      And path 'api/v1/Users'
-      And path '10'
-      When method get
-      Then status 200
-      And match header Date == "#present"
-      And print response
-      And match response.userName == "User 10"
+  Scenario: Assert Json Body
+    Given url baseUrl
+    And path 'api/v1/Users'
+    And path '10'
+    When method get
+    Then status 200
+    And match header Date == "#present"
+    And print response
+    And match response.userName == "User 10"
 #    directly assert Json body
     And match response == {"id" : 10, "userName": "User 10", "password": "Password10"}
 #  assert Json body after creating variable

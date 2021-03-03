@@ -38,4 +38,13 @@ public class DataGenerator {
 
     }
 
+    public static String createId() {
+
+        Faker faker = new Faker();
+        String id = faker.idNumber().valid();
+        return id;
+
+    }
+
+
 }

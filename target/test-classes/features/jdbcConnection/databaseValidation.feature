@@ -13,8 +13,8 @@
 
 Feature: JDBC connection and Database validation
 
-#  for jdbc connection;
-#  https://github.com/intuit/karate/blob/master/karate-demo/src/main/java/com/intuit/karate/demo/util/DbUtils.java
+#   for jdbc connection;
+#   https://github.com/intuit/karate/blob/master/karate-demo/src/test/java/demo/dogs/dogs.feature
 
   Background:
     * def config = { username: 'finspire_user', password: 'beniYakmaKendini357YakHerseyiYak!!!!', url: 'jdbc:mariadb://maria.test.finspire.tech:3306/security-manager?createDatabaseIfNotExist=true', driverClassName: 'org.mariadb.jdbc.Driver' }

@@ -1,0 +1,6 @@
+<testsuite failures="0" name="src/test/java/features/New/Match-2.feature" skipped="0" tests="1" time="0.036092">
+  <testcase classname="src.test.java.features.New.Match-2" name="Match each" time="0.036092">
+    <system-out>* def data = { sample: [{ bar: 1, baz: 'a' }, { bar: 2, baz: 'b' }, { bar: 3, baz: 'c' }]} . passed
+* match each data.sample == { bar: '#number', baz: '#string' } ............ passed</system-out>
+  </testcase>
+</testsuite>

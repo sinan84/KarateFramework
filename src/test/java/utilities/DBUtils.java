@@ -1,4 +1,7 @@
-package utilities;
+package com.finspire.utilities;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -6,27 +9,72 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+/**
+ *
+ * @author pthomas3
+ * from;
+ * https://github.com/intuit/karate/blob/master/karate-demo/src/main/java/com/intuit/karate/demo/util/DbUtils.java
+ */
+
 public class DBUtils {
 
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
 
+    public static final Logger logger = LoggerFactory.getLogger(DBUtils.class);
+
+    public final JdbcTemplate jdbc;
+
+    public DBUtils(Map<String, Object> config) {
+        String url = (String) config.get("url");
+        String username = (String) config.get("username");
+        String password = (String) config.get("password");
+        String driver = (String) config.get("driverClassName");
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName(driver);
+        dataSource.setUrl(url);
+        dataSource.setUsername(username);
+        dataSource.setPassword(password);
+        jdbc = new JdbcTemplate(dataSource);
+        logger.info("init jdbc template: {}", url);
+    }
+
+    public Object readValue(String query) {
+        return jdbc.queryForObject(query, Object.class);
+    }
+
+    public Map<String, Object> readRow(String query) {
+
+        return jdbc.queryForMap(query);
+    }
+
+    public List<Map<String, Object>> readRows(String query) {
+
+        return jdbc.queryForList(query);
+    }
+
+    public void insertRows(final String sql) {
+        System.out.println("cld");
+        jdbc.batchUpdate(new String[]{sql});
+    }
+
     /**
-     * Create a jdbc connection using the url, username, password
-     *
+     * @param db Create a jdbc connection using the url, username, password
      */
-    public static void createConnection() {
-        String url = "jdbc:postgresql://room-reservation-qa2.cxvqfpt4mc2y.us-east-1.rds.amazonaws.com:5432/room_reservation_qa2";
-        String username = "qa_user";
-        String password = "Cybertek11!";
+    public static void createConnection(String db) {
+        String url = "jdbc:mariadb://maria.test.finspire.tech:3306/" + db;
+        String username = "finspire_user";
+        String password = "beniYakmaKendini357YakHerseyiYak!!!!";
         try {
             connection = DriverManager.getConnection(url, username, password);
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
     }
 
     /**
@@ -43,57 +91,56 @@ public class DBUtils {
             if (connection != null) {
                 connection.close();
             }
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return returns a single cell value. If the results in multiple rows and/or
-     *         columns of data, only first column of the first row will be returned.
-     *         The rest of the data will be ignored
+     * columns of data, only first column of the first row will be returned.
+     * The rest of the data will be ignored
      */
-    public static Object getCellValue(String query) {
-        return getQueryResultList(query).get(0).get(0);
+    public static Object getCellValue(String query, String db) {
+        createConnection(db);
+        return getQueryResultList(query, db).get(0).get(0);
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return returns a list of Strings which represent a row of data. If the query
-     *         results in multiple rows and/or columns of data, only first row will
-     *         be returned. The rest of the data will be ignored
+     * results in multiple rows and/or columns of data, only first row will
+     * be returned. The rest of the data will be ignored
      */
-    public static List<Object> getRowList(String query) {
-        return getQueryResultList(query).get(0);
+    public static List<Object> getRowList(String query, String db) {
+        createConnection(db);
+        return getQueryResultList(query, db).get(0);
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return returns a map which represent a row of data where key is the column
-     *         name. If the query results in multiple rows and/or columns of data,
-     *         only first row will be returned. The rest of the data will be ignored
+     * name. If the query results in multiple rows and/or columns of data,
+     * only first row will be returned. The rest of the data will be ignored
      */
-    public static Map<String, Object> getRowMap(String query) {
-        createConnection();
-        Map<String,Object> map = getQueryResultMap(query).get(0);
-        destroyConnection();
+    public static Map<String, Object> getRowMap(String query, String db) {
+        createConnection(db);
+        Map<String, Object> map = getQueryResultMap(query, db).get(0);
         return map;
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return returns query result in a list of lists where outer list represents
-     *         collection of rows and inner lists represent a single row
+     * collection of rows and inner lists represent a single row
      */
-    public static List<List<Object>> getQueryResultList(String query) {
-        executeQuery(query);
+    public static List<List<Object>> getQueryResultList(String query, String db) {
+        executeQuery(query, db);
         List<List<Object>> rowList = new ArrayList<>();
         ResultSetMetaData rsmd;
 
@@ -104,27 +151,23 @@ public class DBUtils {
                 for (int i = 1; i <= rsmd.getColumnCount(); i++) {
                     row.add(resultSet.getObject(i));
                 }
-
                 rowList.add(row);
-
             }
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
         return rowList;
-
     }
 
     /**
-     *
      * @param query
      * @param column
+     * @param db
      * @return list of values of a single column from the result set
      */
-    public static List<Object> getColumnData(String query, String column) {
-        executeQuery(query);
+    public static List<Object> getColumnData(String query, String column, String db) {
+        executeQuery(query, db);
         List<Object> rowList = new ArrayList<>();
         ResultSetMetaData rsmd;
 
@@ -137,54 +180,44 @@ public class DBUtils {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
         return rowList;
-
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return returns query result in a list of maps where the list represents
-     *         collection of rows and a map represents represent a single row with
-     *         key being the column name
+     * collection of rows and a map represents represent a single row with
+     * key being the column name
      */
-    public static List<Map<String, Object>> getQueryResultMap(String query) {
-        executeQuery(query);
+    public static List<Map<String, Object>> getQueryResultMap(String query, String db) {
+        executeQuery(query, db);
         List<Map<String, Object>> rowList = new ArrayList<>();
         ResultSetMetaData rsmd;
 
         try {
             rsmd = resultSet.getMetaData();
-
             while (resultSet.next()) {
-
                 Map<String, Object> colNameValueMap = new HashMap<>();
-
                 for (int i = 1; i <= rsmd.getColumnCount(); i++) {
-
                     colNameValueMap.put(rsmd.getColumnName(i), resultSet.getObject(i));
                 }
-
                 rowList.add(colNameValueMap);
-
             }
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
         return rowList;
-
     }
 
     /**
-     *
      * @param query
+     * @param db
      * @return List of columns returned in result set
      */
-    public static List<String> getColumnNames(String query) {
-        executeQuery(query);
+    public static List<String> getColumnNames(String query, String db) {
+        executeQuery(query, db);
         List<String> columns = new ArrayList<>();
         ResultSetMetaData rsmd;
 
@@ -195,17 +228,15 @@ public class DBUtils {
             for (int i = 1; i <= columnCount; i++) {
                 columns.add(rsmd.getColumnName(i));
             }
-
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
         return columns;
-
     }
 
-    private static void executeQuery(String query) {
+    private static void executeQuery(String query, String db) {
+        createConnection(db);
         try {
             statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         } catch (SQLException e) {
@@ -228,5 +259,6 @@ public class DBUtils {
         return rowCount;
 
     }
+
 
 }
