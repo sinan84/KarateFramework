@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Test Scenarios Prepared by Emrah Bulut
+Test Scenarios Prepared by [Emrah Bulut]
 
 QA Test Automation Engineer
 bltemrah@gmail.com
