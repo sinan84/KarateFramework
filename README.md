@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Test Scenarios Prepared by Emrah Bulut,
+Test Scenarios Prepared by Emrah Bulut
 
 QA Test Automation Engineer
 bltemrah@gmail.com
@@ -10,7 +10,7 @@ bltemrah@gmail.com
 • Build Tool: Maven
 
 Dependency:
-
+```bash
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-apache</artifactId>
@@ -24,6 +24,7 @@ Dependency:
             <version>0.9.6</version>
             <scope>test</scope>
         </dependency>
+```
 
 • Features: src > test > java > Features
 
