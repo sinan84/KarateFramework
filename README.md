@@ -1,4 +1,4 @@
-# header Karate Framework Testing Exercise
+# Karate Framework Testing Exercise
 
 Instructions
 
