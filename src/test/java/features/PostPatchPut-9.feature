@@ -27,48 +27,48 @@ Feature: API test
 
 #    *******************************
 
-    Scenario: Create User by Integrate Java Method
-      * def newUser = Java.type('utilities.DataGenerator').createUser()
+  Scenario: Create User by Integrate Java Method
+    * def newUser = Java.type('utilities.DataGenerator').createUser()
 
 #      * def newUser = jData.createUser()
 
-      * print newUser
+    * print newUser
 
-      Given url baseUrl
-      And path '/public-api/users'
+    Given url baseUrl
+    And path '/public-api/users'
 
-      And request newUser
+    And request newUser
 
-      And header Content-Type = 'application/json; charset=utf-8'
-      And header Accept = 'application/json'
+    And header Content-Type = 'application/json; charset=utf-8'
+    And header Accept = 'application/json'
 
-      When method POST
-      Then status 200
-      And print response
-      And print response.data[0].name
+    When method POST
+    Then status 200
+    And print response
+    And print response.data[0].name
 
 #     Update name
-      * def oldName = response.name
+    * def oldName = response.name
 
-      * def newName = Java.type('utilities.DataGenerator').createName()
+    * def newName = Java.type('utilities.DataGenerator').createName()
 
-      * print newName
-      * def idNo = response.data.id
-      * def codeNo = response.data.code
+    * print newName
+    * def idNo = response.data.id
+    * def codeNo = response.data.code
 
-      And print oldName
+    And print oldName
 
-      Given url baseUrl
-      And path '/public-api/users', idNo
+    Given url baseUrl
+    And path '/public-api/users', idNo
 
-      And print idNo
+    And print idNo
 
-      And request {"name" : newName}
+    And request {"name" : newName}
 
-      When method PATCH
-      Then status 200
-      And print response.data.name
-      And match oldName != newName
+    When method PATCH
+    Then status 200
+    And print response.data.name
+    And match oldName != newName
 
 #      *********************************
 #    Update name
