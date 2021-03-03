@@ -2,11 +2,11 @@
 
 ## Instructions
 
-Test Scenarios are prepared by **Emrah Bulut**
-
-QA Test Automation Engineer
-bltemrah@gmail.com
-https://www.linkedin.com/in/emrah-bulut-66802453/
+Test Scenarios are prepared by 
+**Emrah Bulut**
+**QA Test Automation Engineer**
+**bltemrah@gmail.com**
+**https://www.linkedin.com/in/emrah-bulut-66802453/**
 
 #### Build Tool
 ```bash
@@ -32,11 +32,11 @@ Maven
 
 #### Features
 ```bash
-src > test > java > Features
+src > test > java > features
 ```
 
 #### System Requirements
 
-Java 8+ SDK
+Java 8 + SDK
 
 
