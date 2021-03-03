@@ -2,14 +2,17 @@
 
 ## Instructions
 
-Test Scenarios Prepared by **Emrah Bulut**
+Test Scenarios are prepared by **Emrah Bulut**
 
 QA Test Automation Engineer
 bltemrah@gmail.com
 
-• Build Tool: Maven
+### Build Tool
+```bash
+Maven
+```
 
-Dependency:
+### Dependency
 ```bash
         <dependency>
             <groupId>com.intuit.karate</groupId>
