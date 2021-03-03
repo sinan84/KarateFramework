@@ -7,7 +7,7 @@ Test Scenarios are prepared by **Emrah Bulut**
 QA Test Automation Engineer
 bltemrah@gmail.com
 
-### Build Tool
+### Build Tool
 ```bash
 Maven
 ```
